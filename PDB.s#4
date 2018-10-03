@@ -12383,8 +12383,8 @@ Source: www.kingbright.com</description>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
@@ -12396,8 +12396,8 @@ Source: www.kingbright.com</description>
 <part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
@@ -12412,9 +12412,7 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="R7" gate="G$1" x="-58.42" y="43.18" rot="R270"/>
 <instance part="C8" gate="G$1" x="-55.88" y="55.88" rot="R90"/>
-<instance part="GND" gate="GND" x="-50.8" y="53.34" smashed="yes">
-<attribute name="VALUE" x="-52.705" y="50.165" size="1.778" layer="96"/>
-</instance>
+<instance part="GND" gate="GND" x="-50.8" y="53.34" smashed="yes"/>
 <instance part="VDD_IN" gate="G$1" x="96.52" y="86.36"/>
 <instance part="ADD2_OUT" gate="G$1" x="-48.26" y="25.4"/>
 <instance part="SUPPLY19" gate="G$1" x="-58.42" y="63.5"/>
@@ -12426,9 +12424,7 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="R8" gate="G$1" x="-27.94" y="43.18" rot="R270"/>
 <instance part="C9" gate="G$1" x="-25.4" y="55.88" rot="R90"/>
-<instance part="GND1" gate="GND" x="-20.32" y="53.34" smashed="yes">
-<attribute name="VALUE" x="-22.225" y="50.165" size="1.778" layer="96"/>
-</instance>
+<instance part="GND1" gate="GND" x="-20.32" y="53.34" smashed="yes"/>
 <instance part="ADD2_OUT1" gate="G$1" x="-17.78" y="25.4"/>
 <instance part="SUPPLY11" gate="G$1" x="-27.94" y="63.5"/>
 <instance part="SUPPLY28" gate="GND" x="-27.94" y="0" smashed="yes">
@@ -12439,9 +12435,7 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="R9" gate="G$1" x="10.16" y="40.64" rot="R270"/>
 <instance part="C10" gate="G$1" x="12.7" y="60.96" rot="R90"/>
-<instance part="GND2" gate="GND" x="17.78" y="58.42" smashed="yes">
-<attribute name="VALUE" x="15.875" y="55.245" size="1.778" layer="96"/>
-</instance>
+<instance part="GND2" gate="GND" x="17.78" y="58.42" smashed="yes"/>
 <instance part="ADD2_OUT2" gate="G$1" x="20.32" y="25.4"/>
 <instance part="SUPPLY29" gate="G$1" x="10.16" y="68.58"/>
 <instance part="SUPPLY30" gate="GND" x="10.16" y="0" smashed="yes">
@@ -12500,9 +12494,7 @@ Source: www.kingbright.com</description>
 <instance part="SUPPLY13" gate="GND" x="91.44" y="-15.24" smashed="yes"/>
 <instance part="SUPPLY14" gate="GND" x="127" y="-15.24" smashed="yes"/>
 <instance part="D1" gate="G$1" x="12.7" y="50.8" rot="R180"/>
-<instance part="GND8" gate="GND" x="17.78" y="48.26" smashed="yes">
-<attribute name="VALUE" x="15.875" y="45.085" size="1.778" layer="96"/>
-</instance>
+<instance part="GND8" gate="GND" x="17.78" y="48.26" smashed="yes"/>
 <instance part="D2" gate="G$1" x="10.16" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.255" y="23.114" size="1.778" layer="95" rot="R90"/>
 </instance>
