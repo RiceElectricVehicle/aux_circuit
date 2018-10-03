@@ -12506,13 +12506,13 @@ Source: www.kingbright.com</description>
 <instance part="S5" gate="1" x="55.88" y="-33.02" rot="R270"/>
 <instance part="S6" gate="1" x="91.44" y="-33.02" rot="R270"/>
 <instance part="S7" gate="1" x="139.7" y="-33.02" rot="R270"/>
-<instance part="S8" gate="1" x="190.5" y="-33.02" rot="R270"/>
+<instance part="S8" gate="1" x="185.42" y="-33.02" rot="R270"/>
 <instance part="SUPPLY7" gate="G$1" x="132.08" y="-33.02"/>
 <instance part="SUPPLY5" gate="G$1" x="-93.98" y="-30.48"/>
 <instance part="SUPPLY6" gate="G$1" x="-55.88" y="-33.02"/>
 <instance part="SUPPLY15" gate="G$1" x="-15.24" y="-33.02"/>
 <instance part="SUPPLY18" gate="G$1" x="83.82" y="-33.02"/>
-<instance part="SUPPLY20" gate="G$1" x="182.88" y="-33.02"/>
+<instance part="SUPPLY20" gate="G$1" x="177.8" y="-33.02"/>
 <instance part="R12" gate="G$1" x="-71.12" y="5.08"/>
 <instance part="R13" gate="G$1" x="-43.18" y="5.08"/>
 <instance part="R14" gate="G$1" x="-5.08" y="5.08"/>
@@ -12772,7 +12772,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="S8" gate="1" pin="P"/>
-<wire x1="185.42" y1="-35.56" x2="182.88" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-35.56" x2="177.8" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="G$1" pin="VDD"/>
 </segment>
 </net>
@@ -12995,8 +12995,8 @@ Source: www.kingbright.com</description>
 <net name="H8" class="0">
 <segment>
 <pinref part="S8" gate="1" pin="O"/>
-<wire x1="195.58" y1="-33.02" x2="198.12" y2="-33.02" width="0.1524" layer="91"/>
-<label x="200.66" y="-33.02" size="1.778" layer="95" xref="yes"/>
+<wire x1="190.5" y1="-33.02" x2="193.04" y2="-33.02" width="0.1524" layer="91"/>
+<label x="195.58" y="-33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
