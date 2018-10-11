@@ -1191,6 +1191,20 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <wire x1="15.24" y1="-22.86" x2="15.24" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="BRAKE_SENSOR"/>
+<wire x1="93.98" y1="-38.1" x2="116.84" y2="-38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="V_OUT-"/>
+<wire x1="91.44" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="20.32" x2="93.98" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND_IN"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
