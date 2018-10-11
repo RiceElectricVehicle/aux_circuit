@@ -15143,6 +15143,15 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="-83.82" y1="129.54" x2="99.06" y2="129.54" width="0.6096" layer="94"/>
 <wire x1="99.06" y1="129.54" x2="99.06" y2="121.92" width="0.6096" layer="94"/>
 <text x="-7.62" y="121.92" size="5.08" layer="94">555 Timer</text>
+<text x="185.42" y="116.84" size="5.08" layer="94">12V IN</text>
+<text x="116.84" y="116.84" size="5.08" layer="94">BRAKE_SNS</text>
+<wire x1="-83.82" y1="-22.86" x2="-83.82" y2="-25.4" width="0.6096" layer="94"/>
+<wire x1="-83.82" y1="-25.4" x2="-83.82" y2="-50.8" width="0.6096" layer="94"/>
+<wire x1="-83.82" y1="-50.8" x2="233.68" y2="-50.8" width="0.6096" layer="94"/>
+<wire x1="233.68" y1="-50.8" x2="233.68" y2="-20.32" width="0.6096" layer="94"/>
+<wire x1="233.68" y1="-20.32" x2="-83.82" y2="-20.32" width="0.6096" layer="94"/>
+<wire x1="-83.82" y1="-20.32" x2="-83.82" y2="-25.4" width="0.6096" layer="94"/>
+<text x="58.42" y="-48.26" size="5.08" layer="94">Switches</text>
 </plain>
 <instances>
 <instance part="ADD2" gate="G$1" x="-60.96" y="7.62" smashed="yes">
@@ -15151,7 +15160,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="R7" gate="G$1" x="-58.42" y="43.18" rot="R270"/>
 <instance part="C8" gate="G$1" x="-55.88" y="55.88" rot="R90"/>
 <instance part="GND" gate="GND" x="-50.8" y="53.34" smashed="yes"/>
-<instance part="VDD_IN" gate="G$1" x="180.34" y="88.9"/>
+<instance part="VDD_IN" gate="G$1" x="203.2" y="99.06"/>
 <instance part="ADD2_OUT" gate="G$1" x="-48.26" y="25.4"/>
 <instance part="SUPPLY19" gate="G$1" x="-58.42" y="63.5"/>
 <instance part="SUPPLY26" gate="GND" x="-58.42" y="0" smashed="yes">
@@ -15240,7 +15249,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="GND6" gate="GND" x="22.86" y="86.36"/>
 <instance part="C1" gate="G$1" x="5.08" y="99.06"/>
 <instance part="R10" gate="G$1" x="48.26" y="93.98" rot="R270"/>
-<instance part="ADD2_SWITCH" gate="1" x="-66.04" y="-30.48" rot="R270"/>
+<instance part="ADD2_SWITCH" gate="1" x="-66.04" y="-33.02" rot="R270"/>
 <instance part="ADD1_SWITCH" gate="1" x="-30.48" y="-33.02" rot="R270"/>
 <instance part="WIPER_SWITCH" gate="1" x="12.7" y="-33.02" rot="R270"/>
 <instance part="HAZ_L_SWITCH" gate="1" x="53.34" y="-33.02" rot="R270"/>
@@ -15248,7 +15257,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="BRAKE_SNS_OVR" gate="1" x="124.46" y="-33.02" rot="R270"/>
 <instance part="REARLIGHTS" gate="1" x="205.74" y="-33.02" rot="R270"/>
 <instance part="SUPPLY7" gate="G$1" x="198.12" y="-33.02"/>
-<instance part="SUPPLY5" gate="G$1" x="-73.66" y="-30.48"/>
+<instance part="SUPPLY5" gate="G$1" x="-73.66" y="-33.02"/>
 <instance part="SUPPLY6" gate="G$1" x="-38.1" y="-33.02"/>
 <instance part="SUPPLY15" gate="G$1" x="5.08" y="-33.02"/>
 <instance part="SUPPLY18" gate="G$1" x="116.84" y="-33.02"/>
@@ -15290,7 +15299,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="SUPPLY22" gate="GND" x="205.74" y="-15.24" smashed="yes"/>
 <instance part="HEADLIGHTS" gate="1" x="165.1" y="-33.02" rot="R270"/>
 <instance part="SUPPLY16" gate="G$1" x="157.48" y="-33.02"/>
-<instance part="VDD_IN1" gate="G$1" x="134.62" y="88.9"/>
+<instance part="VDD_IN1" gate="G$1" x="144.78" y="99.06"/>
 <instance part="C2" gate="G$1" x="15.24" y="93.98"/>
 <instance part="R22" gate="G$1" x="63.5" y="111.76"/>
 <instance part="C3" gate="G$1" x="53.34" y="86.36"/>
@@ -15303,8 +15312,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="VDD_IN" gate="G$1" pin="GND"/>
-<wire x1="170.18" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<label x="165.1" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="193.04" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
+<label x="187.96" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="GND" gate="GND" pin="GND"/>
@@ -15404,8 +15413,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </segment>
 <segment>
 <pinref part="VDD_IN1" gate="G$1" pin="GND"/>
-<wire x1="124.46" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
-<label x="114.3" y="83.82" size="1.778" layer="95"/>
+<wire x1="134.62" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="124.46" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -15415,14 +15424,14 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <segment>
 <pinref part="R11" gate="G$1" pin="E"/>
 <wire x1="63.5" y1="88.9" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
-<label x="63.5" y="86.36" size="1.778" layer="95"/>
+<label x="63.5" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">
 <segment>
 <pinref part="VDD_IN" gate="G$1" pin="V+"/>
-<wire x1="170.18" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
-<label x="165.1" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="193.04" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
+<label x="187.96" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SUPPLY31" gate="G$1" pin="VDD"/>
@@ -15463,7 +15472,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </segment>
 <segment>
 <pinref part="ADD2_SWITCH" gate="1" pin="P"/>
-<wire x1="-71.12" y1="-33.02" x2="-73.66" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="-35.56" x2="-73.66" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
@@ -15583,8 +15592,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </segment>
 <segment>
 <pinref part="VDD_IN1" gate="G$1" pin="V+"/>
-<wire x1="124.46" y1="93.98" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
-<label x="114.3" y="93.98" size="1.778" layer="95"/>
+<wire x1="134.62" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
+<label x="124.46" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="H3" class="0">
@@ -15638,8 +15647,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <net name="H6" class="0">
 <segment>
 <pinref part="ADD2_SWITCH" gate="1" pin="O"/>
-<wire x1="-60.96" y1="-30.48" x2="-58.42" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-58.42" y="-30.48" size="1.778" layer="95" xref="yes"/>
+<wire x1="-60.96" y1="-33.02" x2="-58.42" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-58.42" y="-33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
