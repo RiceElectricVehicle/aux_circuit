@@ -1024,10 +1024,14 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <plain>
 <text x="-83.82" y="66.04" size="1.778" layer="91">AUX PDB</text>
 <text x="-50.8" y="114.3" size="1.778" layer="91">48V- 12V Switching Regulator</text>
-<text x="-154.94" y="40.64" size="1.778" layer="91">Horn</text>
 <text x="-76.2" y="86.36" size="1.778" layer="91">E-Stop Driver</text>
 <text x="-53.34" y="86.36" size="1.778" layer="91">E-Stop Exterior</text>
 <text x="-106.68" y="152.4" size="1.778" layer="91">MOM Push Button</text>
+<text x="-134.62" y="38.1" size="1.778" layer="91">Wiper Motor</text>
+<text x="-104.14" y="17.78" size="1.778" layer="91">Light Array</text>
+<text x="-157.48" y="40.64" size="1.778" layer="91">Horn</text>
+<text x="-154.94" y="99.06" size="1.778" layer="91">48V</text>
+<text x="-106.68" y="124.46" size="1.778" layer="91">48V Contactor</text>
 </plain>
 <instances>
 <instance part="U$4" gate="G$1" x="-35.56" y="104.14" smashed="yes">
@@ -1035,19 +1039,20 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 </instance>
 <instance part="U$5" gate="G$1" x="-78.74" y="58.42"/>
 <instance part="E_STOP" gate="BEF1" x="-68.58" y="78.74" smashed="yes" rot="R90"/>
-<instance part="G1" gate="1" x="-147.32" y="99.06" rot="R90"/>
+<instance part="G1" gate="1" x="-147.32" y="99.06" smashed="yes" rot="R90"/>
 <instance part="K1" gate="K$1" x="-99.06" y="111.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="-91.186" y="119.38" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="-111.252" y="124.46" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SP1" gate="G$1" x="-149.86" y="33.02" rot="R90"/>
+<instance part="SP1" gate="G$1" x="-149.86" y="33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="-156.21" y="29.21" size="1.778" layer="95" rot="R90"/>
+</instance>
 <instance part="S1" gate="BEF1" x="-99.06" y="144.78" rot="R270"/>
 <instance part="E_STOP1" gate="BEF1" x="-45.72" y="81.28" smashed="yes" rot="R90"/>
-<instance part="DZ1" gate="-1" x="-114.3" y="33.02"/>
-<instance part="DZ1" gate="-2" x="-104.14" y="33.02"/>
-<instance part="DZ1" gate="-3" x="-93.98" y="33.02"/>
-<instance part="DZ1" gate="-4" x="-83.82" y="33.02"/>
-<instance part="M1" gate="G$1" x="-137.16" y="33.02"/>
+<instance part="DZ1" gate="-1" x="-114.3" y="33.02" smashed="yes"/>
+<instance part="DZ1" gate="-2" x="-104.14" y="33.02" smashed="yes"/>
+<instance part="DZ1" gate="-3" x="-93.98" y="33.02" smashed="yes"/>
+<instance part="DZ1" gate="-4" x="-83.82" y="33.02" smashed="yes"/>
+<instance part="M1" gate="G$1" x="-137.16" y="33.02" smashed="yes"/>
 </instances>
 <busses>
 </busses>
