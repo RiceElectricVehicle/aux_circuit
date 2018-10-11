@@ -1152,7 +1152,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <wire x1="0" y1="55.88" x2="-68.58" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="PDB_GND" class="0">
 <segment>
 <wire x1="-88.9" y1="55.88" x2="-91.44" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-91.44" y1="55.88" x2="-91.44" y2="50.8" width="0.1524" layer="91"/>
@@ -1181,6 +1181,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <pinref part="DZ1" gate="-4" pin="C"/>
 <wire x1="-83.82" y1="27.94" x2="-83.82" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-83.82" y="22.86"/>
+<label x="-66.04" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
