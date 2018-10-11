@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12690,9 +12690,8 @@ Source: http://www.mew-europe.com/.. en_ds_61210_0002.pdf</description>
 </parts>
 <sheets>
 <sheet>
-<description>Add a trim pot to adjust the blinking rate</description>
+<description>Make a dock for the microcontroller</description>
 <plain>
-<text x="50.8" y="86.36" size="1.778" layer="94">consider adding a trim pot in series with the resistor to fine tune the blinking rate </text>
 </plain>
 <instances>
 <instance part="ADD2" gate="G$1" x="-60.96" y="7.62">
@@ -12837,7 +12836,7 @@ Source: http://www.mew-europe.com/.. en_ds_61210_0002.pdf</description>
 <attribute name="NAME" x="22.098" y="48.895" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="22.098" y="54.229" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND8" gate="GND" x="27.94" y="45.72"/>
+<instance part="GND8" gate="GND" x="25.4" y="48.26"/>
 <instance part="D2" gate="G$1" x="17.78" y="25.4" rot="R90">
 <attribute name="NAME" x="15.875" y="23.114" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -13081,7 +13080,7 @@ Source: http://www.mew-europe.com/.. en_ds_61210_0002.pdf</description>
 <segment>
 <pinref part="GND8" gate="GND" pin="GND"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="27.94" y1="48.26" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="GND"/>
