@@ -2075,28 +2075,24 @@ design rules under a new name.</description>
 <wire x1="25.215" y1="95.886" x2="25.215" y2="94.615" width="0" layer="19" extent="1-1"/>
 <wire x1="25.215" y1="97.155" x2="25.215" y2="95.886" width="0" layer="19" extent="1-1"/>
 <wire x1="21.07" y1="59.55" x2="38.1" y2="76.52" width="0" layer="19" extent="1-1"/>
-<wire x1="35.88" y1="43.18" x2="21.07" y2="59.55" width="0" layer="19" extent="1-1"/>
-<wire x1="35.88" y1="38.1" x2="35.88" y2="43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="41.91" y1="35.56" x2="35.88" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="46.99" y1="26.289" x2="41.91" y2="35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="54.34" y1="40.64" x2="41.91" y2="35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="53.48" y1="5.83" x2="46.99" y2="26.289" width="0" layer="19" extent="1-1"/>
-<wire x1="79.69" y1="21.59" x2="53.48" y2="5.83" width="0" layer="19" extent="1-1"/>
-<wire x1="88.715" y1="20.955" x2="79.69" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="88.715" y1="19.686" x2="88.715" y2="20.955" width="0" layer="19" extent="1-1"/>
-<wire x1="88.715" y1="18.415" x2="88.715" y2="19.686" width="0" layer="19" extent="1-1"/>
-<wire x1="96.52" y1="28.89" x2="88.715" y2="20.955" width="0" layer="19" extent="1-1"/>
-<wire x1="107.95" y1="27.94" x2="96.52" y2="28.89" width="0" layer="19" extent="1-1"/>
+<wire x1="35.88" y1="38.1" x2="41.91" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="35.88" y1="43.18" x2="35.88" y2="38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="113.35" y1="22.86" x2="107.95" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="121.735" y1="20.955" x2="113.35" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="121.735" y1="19.686" x2="121.735" y2="20.955" width="0" layer="19" extent="1-1"/>
 <wire x1="121.735" y1="18.415" x2="121.735" y2="19.686" width="0" layer="19" extent="1-1"/>
 <wire x1="128.27" y1="26.99" x2="121.735" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="96.52" y1="28.89" x2="107.95" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="88.715" y1="20.955" x2="96.52" y2="28.89" width="0" layer="19" extent="1-1"/>
+<wire x1="88.715" y1="19.686" x2="88.715" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="88.715" y1="18.415" x2="88.715" y2="19.686" width="0" layer="19" extent="1-1"/>
+<wire x1="79.69" y1="21.59" x2="88.715" y2="20.955" width="0" layer="19" extent="1-1"/>
 <wire x1="136.84" y1="17.78" x2="128.27" y2="26.99" width="0" layer="19" extent="1-1"/>
 <wire x1="143.325" y1="18.415" x2="136.84" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="143.325" y1="19.686" x2="143.325" y2="18.415" width="0" layer="19" extent="1-1"/>
 <wire x1="143.325" y1="20.955" x2="143.325" y2="19.686" width="0" layer="19" extent="1-1"/>
 <wire x1="143.51" y1="28.26" x2="143.325" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="54.34" y1="40.64" x2="41.91" y2="35.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD">
 <contactref element="VDD_IN" pad="RED"/>
