@@ -1027,14 +1027,14 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <sheet>
 <description>Add a trim pot to adjust the blinking rate</description>
 <plain>
-<text x="40.64" y="48.26" size="1.778" layer="91">48V- 12V Switching Regulator</text>
+<text x="50.8" y="50.8" size="1.778" layer="91">48V- 12V Switching Regulator</text>
 <text x="15.24" y="10.16" size="1.778" layer="91">E-Stop Driver</text>
 <text x="38.1" y="10.16" size="1.778" layer="91">E-Stop Exterior</text>
-<text x="-15.24" y="76.2" size="1.778" layer="91">MOM Push Button</text>
+<text x="-15.24" y="83.82" size="1.778" layer="91">MOM Push Button</text>
 <text x="25.4" y="-76.2" size="1.778" layer="91" rot="R180">Light Array</text>
 <text x="-63.5" y="22.86" size="1.778" layer="91">48V</text>
 <text x="-15.24" y="58.42" size="1.778" layer="91">48V Contactor</text>
-<text x="88.9" y="-12.7" size="1.778" layer="91" rot="R180">AUX PDB</text>
+<text x="76.2" y="-12.7" size="1.778" layer="91" rot="R180">AUX PDB</text>
 <text x="-15.24" y="-55.88" size="1.778" layer="91">Wiper Motor</text>
 <text x="-38.1" y="-53.34" size="1.778" layer="91">Horn</text>
 </plain>
@@ -1191,10 +1191,11 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <wire x1="15.24" y1="-22.86" x2="15.24" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="BRAKE_SENSOR" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="BRAKE_SENSOR"/>
 <wire x1="93.98" y1="-38.1" x2="116.84" y2="-38.1" width="0.1524" layer="91"/>
+<label x="116.84" y="-38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">

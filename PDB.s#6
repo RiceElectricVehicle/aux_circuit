@@ -15931,8 +15931,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
@@ -15962,8 +15960,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <sheet>
 <description>Make a dock for the microcontroller</description>
 <plain>
-<wire x1="-30.48" y1="78.74" x2="-30.48" y2="139.7" width="0.6096" layer="94"/>
-<wire x1="-30.48" y1="139.7" x2="88.9" y2="139.7" width="0.6096" layer="94"/>
+<wire x1="-30.48" y1="76.2" x2="-30.48" y2="139.7" width="0.6096" layer="94"/>
+<wire x1="-30.48" y1="139.7" x2="73.66" y2="139.7" width="0.6096" layer="94"/>
 <text x="-5.08" y="129.54" size="5.08" layer="94">555 Timer</text>
 <text x="185.42" y="116.84" size="5.08" layer="94">12V IN</text>
 <text x="116.84" y="116.84" size="5.08" layer="94">BRAKE_SNS</text>
@@ -15974,8 +15972,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="233.68" y1="-20.32" x2="-83.82" y2="-20.32" width="0.6096" layer="94"/>
 <wire x1="-83.82" y1="-20.32" x2="-83.82" y2="-22.86" width="0.6096" layer="94"/>
 <text x="58.42" y="-48.26" size="5.08" layer="94">Switches</text>
-<wire x1="-30.48" y1="78.74" x2="88.9" y2="78.74" width="0.6096" layer="94"/>
-<wire x1="88.9" y1="78.74" x2="88.9" y2="139.7" width="0.6096" layer="94"/>
+<wire x1="-30.48" y1="76.2" x2="73.66" y2="76.2" width="0.6096" layer="94"/>
+<wire x1="73.66" y1="76.2" x2="73.66" y2="139.7" width="0.6096" layer="94"/>
 </plain>
 <instances>
 <instance part="ADD2" gate="G$1" x="-60.96" y="7.62" smashed="yes">
@@ -16087,8 +16085,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="R12" gate="G$1" x="-71.12" y="5.08"/>
 <instance part="R13" gate="G$1" x="-43.18" y="5.08"/>
 <instance part="R14" gate="G$1" x="0" y="2.54"/>
-<instance part="R15" gate="G$1" x="48.26" y="5.08"/>
-<instance part="R16" gate="G$1" x="86.36" y="5.08"/>
 <instance part="R17" gate="G$1" x="121.92" y="5.08"/>
 <instance part="R18" gate="G$1" x="157.48" y="5.08"/>
 <instance part="R19" gate="G$1" x="200.66" y="5.08"/>
@@ -16425,9 +16421,12 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <label x="60.96" y="-33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="5.08" x2="38.1" y2="5.08" width="0.1524" layer="91"/>
 <label x="38.1" y="2.54" size="1.778" layer="95"/>
+<pinref part="HAZ_L" gate="G$1" pin="G"/>
+<wire x1="58.42" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<junction x="55.88" y="5.08"/>
+<wire x1="38.1" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="H5" class="0">
@@ -16449,9 +16448,12 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <label x="96.52" y="-33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="5.08" x2="78.74" y2="5.08" width="0.1524" layer="91"/>
 <label x="78.74" y="2.54" size="1.778" layer="95"/>
+<pinref part="HAZ_R" gate="G$1" pin="G"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
+<wire x1="96.52" y1="5.08" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="5.08" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
+<junction x="91.44" y="5.08"/>
 </segment>
 </net>
 <net name="H4" class="0">
@@ -16557,15 +16559,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="LED5" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="HAZ_R" gate="G$1" pin="G"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="96.52" y1="5.08" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
-<junction x="91.44" y="5.08"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="BRAKE" gate="G$1" pin="G"/>
@@ -16601,16 +16594,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="7.62" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="91"/>
 <junction x="7.62" y="2.54"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="HAZ_L" gate="G$1" pin="G"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<junction x="55.88" y="5.08"/>
-<wire x1="55.88" y1="5.08" x2="53.34" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">

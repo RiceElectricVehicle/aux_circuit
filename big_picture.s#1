@@ -1032,7 +1032,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <text x="38.1" y="10.16" size="1.778" layer="91">E-Stop Exterior</text>
 <text x="-15.24" y="83.82" size="1.778" layer="91">MOM Push Button</text>
 <text x="25.4" y="-76.2" size="1.778" layer="91" rot="R180">Light Array</text>
-<text x="-63.5" y="22.86" size="1.778" layer="91">48V</text>
+<text x="-66.04" y="30.48" size="1.778" layer="91">48V</text>
 <text x="-15.24" y="58.42" size="1.778" layer="91">48V Contactor</text>
 <text x="76.2" y="-12.7" size="1.778" layer="91" rot="R180">AUX PDB</text>
 <text x="-15.24" y="-55.88" size="1.778" layer="91">Wiper Motor</text>
