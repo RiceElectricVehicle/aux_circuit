@@ -15962,8 +15962,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <sheet>
 <description>Make a dock for the microcontroller</description>
 <plain>
-<wire x1="-30.48" y1="78.74" x2="-30.48" y2="139.7" width="0.6096" layer="94"/>
-<wire x1="-30.48" y1="139.7" x2="88.9" y2="139.7" width="0.6096" layer="94"/>
+<wire x1="-30.48" y1="76.2" x2="-30.48" y2="139.7" width="0.6096" layer="94"/>
+<wire x1="-30.48" y1="139.7" x2="73.66" y2="139.7" width="0.6096" layer="94"/>
 <text x="-5.08" y="129.54" size="5.08" layer="94">555 Timer</text>
 <text x="185.42" y="116.84" size="5.08" layer="94">12V IN</text>
 <text x="116.84" y="116.84" size="5.08" layer="94">BRAKE_SNS</text>
@@ -15974,8 +15974,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="233.68" y1="-20.32" x2="-83.82" y2="-20.32" width="0.6096" layer="94"/>
 <wire x1="-83.82" y1="-20.32" x2="-83.82" y2="-22.86" width="0.6096" layer="94"/>
 <text x="58.42" y="-48.26" size="5.08" layer="94">Switches</text>
-<wire x1="-30.48" y1="78.74" x2="88.9" y2="78.74" width="0.6096" layer="94"/>
-<wire x1="88.9" y1="78.74" x2="88.9" y2="139.7" width="0.6096" layer="94"/>
+<wire x1="-30.48" y1="76.2" x2="73.66" y2="76.2" width="0.6096" layer="94"/>
+<wire x1="73.66" y1="76.2" x2="73.66" y2="139.7" width="0.6096" layer="94"/>
 </plain>
 <instances>
 <instance part="ADD2" gate="G$1" x="-60.96" y="7.62" smashed="yes">
