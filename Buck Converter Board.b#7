@@ -78,6 +78,10 @@
 <wire x1="135.87" y1="35.56" x2="135.87" y2="75.87" width="0" layer="20"/>
 <wire x1="135.87" y1="75.87" x2="15.24" y2="75.87" width="0" layer="20"/>
 <wire x1="15.24" y1="75.87" x2="15.24" y2="35.56" width="0" layer="20"/>
+<text x="25.4" y="66.04" size="1.778" layer="25" rot="R180">48V IN</text>
+<text x="44.45" y="71.12" size="1.778" layer="25" rot="R180">48V, 10A Fuse</text>
+<text x="128.27" y="72.39" size="1.778" layer="25" rot="R180">12V OUT</text>
+<text x="128.27" y="40.64" size="1.778" layer="25" rot="R180">12V OUT</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1497,8 +1501,8 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="119.38" y="59.69">
-<attribute name="SPICEPREFIX" value="C" x="119.38" y="59.69" size="1.778" layer="27" display="off"/>
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="116.84" y="58.42">
+<attribute name="SPICEPREFIX" value="C" x="116.84" y="58.42" size="1.778" layer="27" display="off"/>
 </element>
 <element name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" package="FUSE_HOLDER_5X20MM" package3d_urn="urn:adsk.eagle:package:14079/1" value="FUSEBLANK_5X20MM" x="36.83" y="49.53" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="36.83" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1509,7 +1513,7 @@ design rules under a new name.</description>
 </element>
 <element name="J1" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="16.51" y="54.61" rot="R90"/>
 <element name="J2" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="123.19" y="73.66"/>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="" x="116.84" y="53.34"/>
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="" x="118.11" y="53.34"/>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="45.72" y="62.23" rot="R270">
 <attribute name="SPICEPREFIX" value="C" x="45.72" y="62.23" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -1543,8 +1547,8 @@ design rules under a new name.</description>
 <contactref element="J2" pad="BLACK"/>
 <contactref element="J3" pad="BLACK"/>
 <contactref element="U$1" pad="V_OUT-"/>
-<wire x1="120.33" y1="59.69" x2="119.24" y2="66.56" width="0" layer="19" extent="1-1"/>
-<wire x1="127.14" y1="45.2" x2="120.33" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="117.79" y1="58.42" x2="119.24" y2="66.56" width="0" layer="19" extent="1-1"/>
+<wire x1="127.14" y1="45.2" x2="117.79" y2="58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="104.14" y1="48.26" x2="127.14" y2="45.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_OUT">
@@ -1553,10 +1557,10 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="V_OUT+"/>
 <contactref element="C1" pad="1"/>
 <contactref element="D1" pad="C"/>
-<wire x1="118.43" y1="59.69" x2="127.14" y2="66.56" width="0" layer="19" extent="1-1"/>
-<wire x1="114.64" y1="53.34" x2="118.43" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="119.24" y1="45.2" x2="114.64" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="104.14" y1="63.5" x2="114.64" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="115.89" y1="58.42" x2="127.14" y2="66.56" width="0" layer="19" extent="1-1"/>
+<wire x1="115.91" y1="53.34" x2="115.89" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="119.24" y1="45.2" x2="115.91" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="104.14" y1="63.5" x2="115.91" y2="53.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="D1" pad="A"/>
