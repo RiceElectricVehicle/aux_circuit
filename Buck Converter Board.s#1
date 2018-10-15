@@ -7528,12 +7528,6 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <junction x="127" y="66.04"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="127" y1="45.72" x2="127" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="OGND" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -7548,6 +7542,10 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <junction x="142.24" y="45.72"/>
 <pinref part="U$1" gate="G$1" pin="V_OUT-"/>
 <label x="114.3" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="127" y1="45.72" x2="127" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

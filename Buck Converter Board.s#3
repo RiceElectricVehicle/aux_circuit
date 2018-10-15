@@ -7468,15 +7468,16 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="VBATT" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="V+"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="45.72" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<label x="12.7" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="V_BATT_FUSED" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
@@ -7484,9 +7485,10 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <wire x1="45.72" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
 <junction x="45.72" y="63.5"/>
 <pinref part="U$1" gate="G$1" pin="V+"/>
+<label x="38.1" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="BGND" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="0" y1="45.72" x2="0" y2="55.88" width="0.1524" layer="91"/>
@@ -7500,9 +7502,10 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <junction x="45.72" y="55.88"/>
 <pinref part="U$1" gate="G$1" pin="V-"/>
 <pinref part="U$1" gate="G$1" pin="ON/OFF"/>
+<label x="2.54" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="OGND" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="50.8" x2="114.3" y2="45.72" width="0.1524" layer="91"/>

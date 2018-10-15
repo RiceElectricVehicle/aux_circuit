@@ -1513,12 +1513,12 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="36.83" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J1" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="16.51" y="54.61" rot="R90"/>
-<element name="J2" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="123.19" y="73.66"/>
+<element name="J2" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="119.38" y="73.66"/>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="" x="118.11" y="53.34"/>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="45.72" y="62.23" rot="R270">
 <attribute name="SPICEPREFIX" value="C" x="45.72" y="62.23" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J3" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="123.19" y="38.1" rot="R180"/>
+<element name="J3" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="119.38" y="38.1" rot="R180"/>
 <element name="U$1" library="REV Aux Circuit" package="DOSA1/8" value="UEE150W" x="49.53" y="44.45"/>
 </elements>
 <signals>
@@ -1532,19 +1532,19 @@ design rules under a new name.</description>
 <contactref element="F1" pad="2"/>
 <contactref element="C2" pad="1"/>
 <contactref element="U$1" pad="V+"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="30.48" y="62.23" curve="-90"/>
-<vertex x="36.83" y="68.58"/>
-<vertex x="39.37" y="68.58"/>
-<vertex x="50.8" y="68.58" curve="-90"/>
+<vertex x="38.1" y="69.85"/>
+<vertex x="40.64" y="69.85"/>
+<vertex x="49.53" y="69.85" curve="-90"/>
 <vertex x="55.88" y="63.5"/>
 <vertex x="55.88" y="60.96" curve="-90"/>
-<vertex x="52.07" y="57.15"/>
-<vertex x="35.56" y="57.15" curve="-90"/>
+<vertex x="54.61" y="59.69"/>
+<vertex x="33.02" y="59.69" curve="-90"/>
 </polygon>
 </signal>
-<signal name="BGND">
-<polygon width="0.1524" layer="16">
+<signal name="BGND" airwireshidden="yes">
+<polygon width="0.1524" layer="16" isolate="0.254">
 <vertex x="55.88" y="43.18"/>
 <vertex x="55.88" y="59.69" curve="90"/>
 <vertex x="53.34" y="62.23"/>
@@ -1567,7 +1567,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="V_OUT+"/>
 <contactref element="C1" pad="1"/>
 <contactref element="D1" pad="C"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="100.33" y="48.5775"/>
 <vertex x="100.33" y="64.77" curve="-90"/>
 <vertex x="106.68" y="71.12"/>
@@ -1579,15 +1579,12 @@ design rules under a new name.</description>
 <vertex x="110.91333125" y="40.64" curve="-90"/>
 </polygon>
 </signal>
-<signal name="N$12">
-<contactref element="D1" pad="A"/>
-</signal>
-<signal name="OGND">
+<signal name="OGND" airwireshidden="yes">
 <contactref element="C1" pad="2"/>
 <contactref element="J2" pad="BLACK"/>
 <contactref element="J3" pad="BLACK"/>
 <contactref element="U$1" pad="V_OUT-"/>
-<polygon width="0.1524" layer="16">
+<polygon width="0.1524" layer="16" isolate="0.254">
 <vertex x="100.33" y="47.625"/>
 <vertex x="100.33" y="64.77" curve="-90"/>
 <vertex x="106.68" y="71.12"/>
@@ -1597,7 +1594,11 @@ design rules under a new name.</description>
 <vertex x="125.73" y="40.64"/>
 <vertex x="114.3" y="40.64" curve="-90"/>
 </polygon>
-<wire x1="119.24" y1="66.56" x2="117.79" y2="58.42" width="0" layer="19" extent="1-1"/>
+<contactref element="D1" pad="A"/>
+<wire x1="117.79" y1="58.42" x2="115.43" y2="66.56" width="0" layer="19" extent="1-1"/>
+<wire x1="120.31" y1="53.34" x2="117.79" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="123.33" y1="45.2" x2="120.31" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="104.14" y1="48.26" x2="120.31" y2="53.34" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
