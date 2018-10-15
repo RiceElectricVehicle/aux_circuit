@@ -1585,6 +1585,16 @@ design rules under a new name.</description>
 <wire x1="117.79" y1="58.42" x2="119.24" y2="66.56" width="0" layer="19" extent="1-1"/>
 <wire x1="127.14" y1="45.2" x2="117.79" y2="58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="104.14" y1="48.26" x2="117.79" y2="58.42" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1524" layer="16">
+<vertex x="100.33" y="43.18"/>
+<vertex x="100.33" y="64.77" curve="-90"/>
+<vertex x="106.68" y="71.12"/>
+<vertex x="124.46" y="71.12" curve="-90"/>
+<vertex x="132.08" y="63.5"/>
+<vertex x="132.08" y="45.72" curve="-90"/>
+<vertex x="127" y="40.64"/>
+<vertex x="105.41" y="40.64" curve="-90"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>

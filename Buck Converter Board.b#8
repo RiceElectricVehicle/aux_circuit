@@ -78,6 +78,10 @@
 <wire x1="135.87" y1="35.56" x2="135.87" y2="75.87" width="0" layer="20"/>
 <wire x1="135.87" y1="75.87" x2="15.24" y2="75.87" width="0" layer="20"/>
 <wire x1="15.24" y1="75.87" x2="15.24" y2="35.56" width="0" layer="20"/>
+<text x="25.4" y="66.04" size="1.778" layer="25" rot="R180">48V IN</text>
+<text x="44.45" y="71.12" size="1.778" layer="25" rot="R180">48V, 10A Fuse</text>
+<text x="128.27" y="72.39" size="1.778" layer="25" rot="R180">12V OUT</text>
+<text x="128.27" y="40.64" size="1.778" layer="25" rot="R180">12V OUT</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
