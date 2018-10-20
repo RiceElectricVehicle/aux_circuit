@@ -162,10 +162,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="11.43" y1="-10.16" x2="157.46" y2="-10.16" width="0" layer="20"/>
+<wire x1="-5.57" y1="-10.16" x2="157.46" y2="-10.16" width="0" layer="20"/>
 <wire x1="157.46" y1="-10.16" x2="157.46" y2="115.24" width="0" layer="20"/>
-<wire x1="157.46" y1="115.24" x2="11.43" y2="115.24" width="0" layer="20"/>
-<wire x1="11.43" y1="115.24" x2="11.43" y2="-10.16" width="0" layer="20"/>
+<wire x1="157.46" y1="115.24" x2="-5.57" y2="115.24" width="0" layer="20"/>
+<wire x1="-5.57" y1="115.24" x2="-5.57" y2="-10.16" width="0" layer="20"/>
 <text x="20.32" y="26.67" size="2.54" layer="25">DEBUG</text>
 <text x="38.1" y="17.78" size="3.81" layer="25">REVolution</text>
 <text x="45.72" y="7.62" size="1.778" layer="25">12V IN </text>
@@ -178,7 +178,10 @@
 <text x="119.38" y="7.62" size="1.778" layer="25" rot="R180">Wiper</text>
 <text x="147.32" y="7.62" size="1.778" layer="25" rot="R180">Add 1</text>
 <text x="72.39" y="46.99" size="1.4224" layer="25" rot="R180">Blinker Delay</text>
-<text x="174" y="91" size="1.778" layer="1">Make power traces thicker. </text>
+<text x="14" y="-7" size="1.778" layer="25">Make power traces thicker.
+~1.016mm
+
+Breakout brake signal. (in 4pin JST)</text>
 </plain>
 <libraries>
 <library name="nxp_60">
@@ -2579,6 +2582,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

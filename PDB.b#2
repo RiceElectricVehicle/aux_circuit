@@ -1687,6 +1687,31 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 </package3d>
 </packages3d>
 </library>
+<library name="testpad" urn="urn:adsk.eagle:library:385">
+<description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
+Cream on SMD OFF.&lt;br&gt;
+new: Attribute TP_SIGNAL_NAME&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="B1,27" urn="urn:adsk.eagle:footprint:27900/1" library_version="1">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<smd name="TP" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+<text x="-0.635" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="B1,27" urn="urn:adsk.eagle:package:27944/1" type="box" library_version="1">
+<description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="B1,27"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2132,6 +2157,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="40.64" y="33.02" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="39.37" y="30.48" size="1.27" layer="27"/>
 </element>
+<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="0.5" y="30" smashed="yes">
+<attribute name="NAME" x="-0.135" y="31.016" size="1.27" layer="25" ratio="10"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="0.5" y="30" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-0.135" y="29.238" size="0.0254" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">
@@ -2555,6 +2585,8 @@ design rules under a new name.</description>
 <wire x1="38.1" y1="43.18" x2="35.56" y2="45.72" width="0.1524" layer="16"/>
 <via x="35.56" y="45.72" extent="1-16" drill="0.35"/>
 <wire x1="35.56" y1="45.72" x2="35.56" y2="48.58" width="0.1524" layer="1"/>
+<contactref element="TP1" pad="TP"/>
+<wire x1="0.5" y1="30" x2="38.1" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TR/THR">
 <contactref element="C1" pad="1"/>

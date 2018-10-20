@@ -182,6 +182,7 @@
 ~1.016mm
 
 Breakout brake signal. (in 4pin JST)</text>
+<text x="14" y="-14" size="1.778" layer="25">add test points</text>
 </plain>
 <libraries>
 <library name="nxp_60">

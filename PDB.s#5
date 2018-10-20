@@ -15326,6 +15326,20 @@ NS Package M08A</description>
 <wire x1="160.02" y1="-35.56" x2="157.48" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="G$1" pin="VDD"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="-12.7" y1="106.68" x2="-12.7" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="81.28" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="0" y1="106.68" x2="0" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="0" y1="104.14" x2="2.54" y2="104.14" width="0.1524" layer="91"/>
+<label x="22.86" y="91.44" size="1.016" layer="95"/>
+<wire x1="22.86" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
+<junction x="27.94" y="93.98"/>
+<pinref part="IC1" gate="A" pin="R"/>
+<pinref part="IC1" gate="A" pin="V+"/>
+</segment>
 </net>
 <net name="N$8" class="0">
 <segment>
@@ -15492,22 +15506,6 @@ NS Package M08A</description>
 <wire x1="-76.2" y1="5.08" x2="-78.74" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="5.08" x2="-81.28" y2="5.08" width="0.1524" layer="91"/>
 <label x="-81.28" y="2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="V+" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="-12.7" y1="106.68" x2="-12.7" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="81.28" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="0" y1="106.68" x2="0" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="0" y1="104.14" x2="2.54" y2="104.14" width="0.1524" layer="91"/>
-<label x="22.86" y="91.44" size="1.016" layer="95"/>
-<wire x1="22.86" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<junction x="27.94" y="93.98"/>
-<pinref part="IC1" gate="A" pin="R"/>
-<pinref part="IC1" gate="A" pin="V+"/>
 </segment>
 </net>
 <net name="DIS" class="0">
