@@ -16052,8 +16052,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="73.66" y1="76.2" x2="73.66" y2="139.7" width="0.6096" layer="94"/>
 </plain>
 <instances>
-<instance part="ADD2" gate="G$1" x="-60.96" y="7.62">
+<instance part="ADD2" gate="G$1" x="-60.96" y="7.62" smashed="yes">
 <attribute name="NAME" x="-62.23" y="12.7" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="-72.39" y="10.16" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="R7" gate="G$1" x="-58.42" y="43.18" rot="R270">
 <attribute name="NAME" x="-56.9214" y="46.99" size="1.778" layer="95" rot="R270"/>
@@ -16072,8 +16073,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY26" gate="GND" x="-58.42" y="0">
 <attribute name="VALUE" x="-60.325" y="-3.175" size="1.778" layer="96"/>
 </instance>
-<instance part="ADD1" gate="G$1" x="-30.48" y="7.62">
+<instance part="ADD1" gate="G$1" x="-30.48" y="7.62" smashed="yes">
 <attribute name="NAME" x="-31.75" y="12.7" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="-41.91" y="10.16" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="R8" gate="G$1" x="-27.94" y="43.18" rot="R270">
 <attribute name="NAME" x="-26.4414" y="46.99" size="1.778" layer="95" rot="R270"/>
@@ -16091,7 +16093,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY28" gate="GND" x="-27.94" y="0">
 <attribute name="VALUE" x="-29.845" y="-3.175" size="1.778" layer="96"/>
 </instance>
-<instance part="WIPER_FET" gate="G$1" x="12.7" y="5.08">
+<instance part="WIPER_FET" gate="G$1" x="12.7" y="5.08" smashed="yes">
 <attribute name="NAME" x="11.43" y="10.16" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="R9" gate="G$1" x="15.24" y="38.1" rot="R270">
@@ -16110,7 +16112,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY30" gate="GND" x="15.24" y="-2.54">
 <attribute name="VALUE" x="13.335" y="-5.715" size="1.778" layer="96"/>
 </instance>
-<instance part="HAZ_L" gate="G$1" x="60.96" y="7.62">
+<instance part="HAZ_L" gate="G$1" x="60.96" y="7.62" smashed="yes">
 <attribute name="NAME" x="59.69" y="12.7" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="HAZL_OUT" gate="G$1" x="73.66" y="25.4"/>
@@ -16120,7 +16122,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY32" gate="GND" x="63.5" y="0">
 <attribute name="VALUE" x="61.595" y="-3.175" size="1.778" layer="96"/>
 </instance>
-<instance part="HAZ_R" gate="G$1" x="99.06" y="7.62">
+<instance part="HAZ_R" gate="G$1" x="99.06" y="7.62" smashed="yes">
 <attribute name="NAME" x="97.79" y="12.7" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="HAZR_OUT" gate="G$1" x="111.76" y="25.4"/>
@@ -16130,7 +16132,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY34" gate="GND" x="101.6" y="0">
 <attribute name="VALUE" x="99.695" y="-3.175" size="1.778" layer="96"/>
 </instance>
-<instance part="BRAKE" gate="G$1" x="134.62" y="7.62">
+<instance part="BRAKE" gate="G$1" x="134.62" y="7.62" smashed="yes">
 <attribute name="NAME" x="133.35" y="12.7" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="BRAKE_OUT" gate="G$1" x="147.32" y="25.4"/>
@@ -16140,7 +16142,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY36" gate="GND" x="137.16" y="0">
 <attribute name="VALUE" x="135.255" y="-3.175" size="1.778" layer="96"/>
 </instance>
-<instance part="HEAD" gate="G$1" x="175.26" y="7.62">
+<instance part="HEAD" gate="G$1" x="175.26" y="7.62" smashed="yes">
 <attribute name="NAME" x="173.99" y="12.7" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="HEADLIGHTS_OUT" gate="G$1" x="187.96" y="25.4"/>
@@ -16150,7 +16152,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY2" gate="GND" x="177.8" y="0">
 <attribute name="VALUE" x="175.895" y="-3.175" size="1.778" layer="96"/>
 </instance>
-<instance part="REAR" gate="G$1" x="213.36" y="7.62">
+<instance part="REAR" gate="G$1" x="213.36" y="7.62" smashed="yes">
 <attribute name="NAME" x="212.09" y="12.7" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="REARLIGHTS_OUT" gate="G$1" x="226.06" y="25.4"/>
@@ -16344,7 +16346,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 <instance part="TP1" gate="G$1" x="50.8" y="119.38" rot="R180"/>
 <instance part="TP2" gate="G$1" x="-66.04" y="7.62" rot="R180"/>
-<instance part="TP3" gate="G$1" x="-35.56" y="7.62" rot="R180"/>
+<instance part="TP3" gate="G$1" x="-35.56" y="7.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="-34.544" y="13.97" size="1.778" layer="95" rot="R270"/>
+<attribute name="TP_SIGNAL_NAME" x="-36.83" y="10.16" size="1.778" layer="97" rot="R180"/>
+</instance>
 <instance part="TP4" gate="G$1" x="7.62" y="5.08" rot="R180"/>
 <instance part="TP5" gate="G$1" x="55.88" y="7.62" rot="R180"/>
 <instance part="TP6" gate="G$1" x="91.44" y="7.62" rot="R180"/>
