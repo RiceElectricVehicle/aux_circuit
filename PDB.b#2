@@ -2287,8 +2287,8 @@ design rules under a new name.</description>
 <vertex x="16.51" y="62.23"/>
 <vertex x="16.51" y="97.79" curve="-90"/>
 <vertex x="26.67" y="107.95"/>
-<vertex x="138.43" y="107.95" curve="-90"/>
-<vertex x="152.4" y="93.98"/>
+<vertex x="139.446" y="107.95" curve="-90"/>
+<vertex x="152.4" y="94.996"/>
 <vertex x="152.4" y="3.81" curve="-90"/>
 <vertex x="146.05" y="-2.54"/>
 <vertex x="30.48" y="-2.54" curve="-90"/>
@@ -2362,12 +2362,24 @@ design rules under a new name.</description>
 <vertex x="39.37" y="107.95"/>
 <vertex x="139.7" y="107.95" curve="-90"/>
 <vertex x="152.4" y="95.25"/>
-<vertex x="152.4" y="5.08" curve="-90"/>
-<vertex x="144.78" y="-2.54"/>
+<vertex x="152.4" y="3.556" curve="-90"/>
+<vertex x="146.304" y="-2.54"/>
 <vertex x="30.48" y="-2.54" curve="-90"/>
 <vertex x="16.51" y="11.43"/>
 </polygon>
 <contactref element="VDD_IN1" pad="BLACK"/>
+<contactref element="C9" pad="1"/>
+<contactref element="R8" pad="1"/>
+<wire x1="134.94" y1="11.43" x2="134.94" y2="15.24" width="0.6096" layer="1"/>
+<contactref element="C10" pad="1"/>
+<contactref element="R9" pad="1"/>
+<contactref element="D1" pad="C"/>
+<wire x1="111.186" y1="16.002" x2="111.186" y2="21.082" width="0.6096" layer="1"/>
+<wire x1="111.186" y1="21.082" x2="111.506" y2="21.402" width="0.1524" layer="1"/>
+<wire x1="111.506" y1="21.402" x2="111.506" y2="24.892" width="0.6096" layer="1"/>
+<contactref element="C8" pad="1"/>
+<contactref element="R7" pad="1"/>
+<wire x1="77.79" y1="16.51" x2="77.79" y2="21.59" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="ADD2" pad="MB"/>
@@ -2657,24 +2669,6 @@ design rules under a new name.</description>
 <contactref element="R6" pad="1"/>
 <wire x1="31.75" y1="76.42" x2="38" y2="76.42" width="0.6096" layer="1"/>
 <wire x1="38" y1="76.42" x2="38.1" y2="76.52" width="0.1524" layer="1"/>
-</signal>
-<signal name="VDD_W">
-<contactref element="C10" pad="1"/>
-<contactref element="R9" pad="1"/>
-<contactref element="D1" pad="C"/>
-<wire x1="111.186" y1="16.002" x2="111.186" y2="21.082" width="0.6096" layer="1"/>
-<wire x1="111.186" y1="21.082" x2="111.506" y2="21.402" width="0.1524" layer="1"/>
-<wire x1="111.506" y1="21.402" x2="111.506" y2="24.892" width="0.6096" layer="1"/>
-</signal>
-<signal name="VDD_ADD1">
-<contactref element="C9" pad="1"/>
-<contactref element="R8" pad="1"/>
-<wire x1="134.94" y1="11.43" x2="134.94" y2="15.24" width="0.6096" layer="1"/>
-</signal>
-<signal name="VDD_ADD2">
-<contactref element="C8" pad="1"/>
-<contactref element="R7" pad="1"/>
-<wire x1="77.79" y1="16.51" x2="77.79" y2="21.59" width="0.6096" layer="1"/>
 </signal>
 <signal name="H8">
 <contactref element="HEADLIGHTS" pad="1"/>
