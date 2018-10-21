@@ -8902,7 +8902,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-7.9" y1="15.97" x2="-7.9" y2="13.43" width="0.127" layer="21" curve="-180"/>
 <wire x1="7.9" y1="15.97" x2="7.9" y2="13.43" width="0.127" layer="21" curve="180"/>
 <wire x1="-7.9" y1="16.4" x2="7.9" y2="16.4" width="0.127" layer="21"/>
-<hole x="-0.0317125" y="14.7341125" drill="0.55"/>
 </package>
 <package name="POWERPOLE_PAIR_55A_HORIZ_MINI">
 <text x="6.35" y="2.54" size="1.27" layer="21">red</text>
@@ -15940,7 +15939,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="ADD1_OUT" library="powerpoles" deviceset="POWERPOLE_POWER" device="25A_HORIZONTAL_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="WIPER_FET" library="nxp_60" deviceset="PSMN" device="YS" technology="039-100"/>
+<part name="WIPER_" library="nxp_60" deviceset="PSMN" device="YS" technology="039-100"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="GND2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -16031,8 +16030,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
-<part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
-<part name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13Y" package3d_urn="urn:adsk.eagle:package:27947/1"/>
 <part name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13Y" package3d_urn="urn:adsk.eagle:package:27947/1"/>
 <part name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13Y" package3d_urn="urn:adsk.eagle:package:27947/1"/>
@@ -16097,7 +16094,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY28" gate="GND" x="-27.94" y="0">
 <attribute name="VALUE" x="-29.845" y="-3.175" size="1.778" layer="96"/>
 </instance>
-<instance part="WIPER_FET" gate="G$1" x="12.7" y="5.08" smashed="yes">
+<instance part="WIPER_" gate="G$1" x="12.7" y="5.08" smashed="yes">
 <attribute name="NAME" x="11.43" y="10.16" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="R9" gate="G$1" x="15.24" y="38.1" rot="R270">
@@ -16355,8 +16352,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP5" gate="G$1" x="55.88" y="7.62" rot="R180"/>
 <instance part="TP6" gate="G$1" x="91.44" y="7.62" rot="R180"/>
 <instance part="TP7" gate="G$1" x="127" y="7.62" rot="R180"/>
-<instance part="TP8" gate="G$1" x="162.56" y="7.62" rot="R180"/>
-<instance part="TP9" gate="G$1" x="205.74" y="7.62" rot="R180"/>
 <instance part="TP10" gate="G$1" x="83.82" y="88.9" rot="R180"/>
 <instance part="TP11" gate="G$1" x="91.44" y="88.9" rot="R180"/>
 <instance part="TP12" gate="G$1" x="99.06" y="88.9" rot="R180"/>
@@ -16391,7 +16386,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="WIPER_FET" gate="G$1" pin="S"/>
+<pinref part="WIPER_" gate="G$1" pin="S"/>
 <pinref part="SUPPLY30" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -16464,11 +16459,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="VDD_IN1" gate="G$1" pin="GND"/>
-<wire x1="134.62" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
-<label x="124.46" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="E"/>
@@ -16583,6 +16573,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-17.78" y1="86.36" x2="-12.7" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-12.7" y="86.36"/>
 </segment>
+<segment>
+<pinref part="VDD_IN1" gate="G$1" pin="GND"/>
+<wire x1="134.62" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="124.46" y="93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$8" class="0">
 <segment>
@@ -16614,7 +16609,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="WIPER_FET" gate="G$1" pin="D"/>
+<pinref part="WIPER_" gate="G$1" pin="D"/>
 <wire x1="15.24" y1="10.16" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="WIPER_OUT" gate="G$1" pin="GND"/>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -16830,7 +16825,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="LED7" gate="G$1" pin="A"/>
 <wire x1="172.72" y1="5.08" x2="162.56" y2="5.08" width="0.1524" layer="91"/>
 <junction x="162.56" y="5.08"/>
-<pinref part="TP8" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -16840,12 +16834,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="210.82" y1="5.08" x2="205.74" y2="5.08" width="0.1524" layer="91"/>
 <junction x="205.74" y="5.08"/>
-<pinref part="TP9" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="WIPER_FET" gate="G$1" pin="G"/>
+<pinref part="WIPER_" gate="G$1" pin="G"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
