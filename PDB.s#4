@@ -20844,18 +20844,18 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <package name="M9040P">
 <description>&lt;b&gt;TOGGLE SWITCH&lt;/b&gt;&lt;p&gt;
 Marquardt</description>
-<wire x1="-3.3528" y1="6.6802" x2="-3.9878" y2="6.0452" width="0.2032" layer="21"/>
-<wire x1="-3.3528" y1="6.6802" x2="3.3528" y2="6.6802" width="0.2032" layer="21"/>
-<wire x1="3.9878" y1="6.0452" x2="3.3528" y2="6.6802" width="0.2032" layer="21"/>
-<wire x1="3.3782" y1="-6.6802" x2="4.0132" y2="-6.0452" width="0.2032" layer="21"/>
-<wire x1="3.3782" y1="-6.6802" x2="-3.3782" y2="-6.6802" width="0.2032" layer="21"/>
-<wire x1="-4.0132" y1="-6.0452" x2="-3.3782" y2="-6.6802" width="0.2032" layer="21"/>
-<wire x1="4.318" y1="2.286" x2="4.318" y2="-2.286" width="0.2032" layer="21"/>
-<wire x1="-4.318" y1="2.286" x2="-4.318" y2="-2.286" width="0.2032" layer="21"/>
-<wire x1="4.318" y1="2.286" x2="3.9878" y2="2.5146" width="0.2032" layer="21"/>
-<wire x1="0" y1="5.08" x2="-3.9878" y2="2.4892" width="0.2032" layer="51"/>
-<wire x1="-4.318" y1="-2.286" x2="-4.0132" y2="-2.4892" width="0.2032" layer="21"/>
-<wire x1="0" y1="-5.08" x2="4.0132" y2="-2.4892" width="0.2032" layer="51"/>
+<wire x1="-3.3528" y1="6.2802" x2="-3.5878" y2="6.0452" width="0.2032" layer="21"/>
+<wire x1="-3.3528" y1="6.2802" x2="3.3528" y2="6.2802" width="0.2032" layer="21"/>
+<wire x1="3.5878" y1="6.0452" x2="3.3528" y2="6.2802" width="0.2032" layer="21"/>
+<wire x1="3.3782" y1="-6.2802" x2="3.6132" y2="-6.0452" width="0.2032" layer="21"/>
+<wire x1="3.3782" y1="-6.2802" x2="-3.3782" y2="-6.2802" width="0.2032" layer="21"/>
+<wire x1="-3.6132" y1="-6.0452" x2="-3.3782" y2="-6.2802" width="0.2032" layer="21"/>
+<wire x1="3.618" y1="2.186" x2="3.618" y2="-2.386" width="0.2032" layer="21"/>
+<wire x1="-3.618" y1="2.386" x2="-3.618" y2="-2.286" width="0.2032" layer="21"/>
+<wire x1="3.618" y1="2.186" x2="3.5878" y2="2.5146" width="0.2032" layer="21"/>
+<wire x1="0" y1="5.08" x2="-3.5878" y2="2.4892" width="0.2032" layer="51"/>
+<wire x1="-3.618" y1="-2.286" x2="-3.6132" y2="-2.4892" width="0.2032" layer="21"/>
+<wire x1="0" y1="-5.08" x2="3.6132" y2="-2.4892" width="0.2032" layer="51"/>
 <wire x1="1.905" y1="-1.27" x2="2.54" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="-2.54" width="0.2032" layer="51"/>
 <wire x1="1.905" y1="-3.175" x2="2.54" y2="-2.54" width="0.2032" layer="51"/>
@@ -20865,21 +20865,21 @@ Marquardt</description>
 <wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="51"/>
 <wire x1="1.6002" y1="1.27" x2="2.54" y2="-1.905" width="0.2032" layer="51"/>
-<wire x1="4.0132" y1="-6.0452" x2="4.0132" y2="-2.4892" width="0.2032" layer="21"/>
-<wire x1="3.9878" y1="6.0452" x2="3.9878" y2="2.5146" width="0.2032" layer="21"/>
-<wire x1="-3.9878" y1="2.4892" x2="-3.9878" y2="6.0452" width="0.2032" layer="21"/>
-<wire x1="-4.0132" y1="-6.0452" x2="-4.0132" y2="-2.4892" width="0.2032" layer="21"/>
+<wire x1="3.6132" y1="-6.0452" x2="3.6132" y2="-2.4892" width="0.2032" layer="21"/>
+<wire x1="3.5878" y1="6.0452" x2="3.5878" y2="2.5146" width="0.2032" layer="21"/>
+<wire x1="-3.5878" y1="2.5892" x2="-3.5878" y2="6.0452" width="0.2032" layer="21"/>
+<wire x1="-3.6132" y1="-6.0452" x2="-3.6132" y2="-2.4892" width="0.2032" layer="21"/>
 <wire x1="-1.6002" y1="1.27" x2="-2.54" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.2032" layer="51" curve="-270"/>
 <wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.2032" layer="51" curve="-233.130102" cap="flat"/>
 <wire x1="-1.6002" y1="1.27" x2="1.6002" y2="1.27" width="0.2032" layer="51"/>
-<wire x1="3.9878" y1="2.5146" x2="0" y2="5.08" width="0.2032" layer="51"/>
-<wire x1="4.0132" y1="-2.4892" x2="4.318" y2="-2.286" width="0.2032" layer="21"/>
-<wire x1="-4.0132" y1="-2.4892" x2="0" y2="-5.08" width="0.2032" layer="51"/>
-<wire x1="-3.9878" y1="2.4892" x2="-4.318" y2="2.286" width="0.2032" layer="21"/>
-<pad name="3" x="0" y="-4.699" drill="1.8034" shape="long"/>
-<pad name="2" x="0" y="0" drill="1.8034" shape="long"/>
-<pad name="1" x="0" y="4.699" drill="1.8034" shape="long"/>
+<wire x1="3.5878" y1="2.5146" x2="0" y2="5.08" width="0.2032" layer="51"/>
+<wire x1="3.6132" y1="-2.4892" x2="3.618" y2="-2.386" width="0.2032" layer="21"/>
+<wire x1="-3.6132" y1="-2.4892" x2="0" y2="-5.08" width="0.2032" layer="51"/>
+<wire x1="-3.5878" y1="2.5892" x2="-3.618" y2="2.386" width="0.2032" layer="21"/>
+<pad name="3" x="0" y="-4.249" drill="2.1" shape="long"/>
+<pad name="2" x="0" y="0" drill="2.1" shape="long"/>
+<pad name="1" x="0" y="4.249" drill="2.1" shape="long"/>
 <text x="-3.81" y="7.3025" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.2225" y="-0.3175" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-3.4925" y="-8.255" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
@@ -21210,7 +21210,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="C10" gate="G$1" x="17.78" y="58.42" rot="R90"/>
 <instance part="GND2" gate="GND" x="22.86" y="55.88"/>
-<instance part="WIPER_OUT" gate="G$1" x="25.4" y="22.86"/>
+<instance part="WIPER_OUT" gate="G$1" x="25.4" y="22.86" smashed="yes">
+<attribute name="NAME" x="20.32" y="30.48" size="1.778" layer="94"/>
+</instance>
 <instance part="SUPPLY29" gate="G$1" x="15.24" y="66.04">
 <attribute name="VALUE" x="13.335" y="69.215" size="1.778" layer="96"/>
 </instance>
@@ -21302,7 +21304,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="19.558" y="51.689" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND8" gate="GND" x="22.86" y="45.72"/>
-<instance part="D2" gate="G$1" x="15.24" y="22.86" rot="R90">
+<instance part="D2" gate="G$1" x="15.24" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.335" y="20.574" size="1.778" layer="95" rot="R90"/>
 <attribute name="NAME" x="13.335" y="20.574" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="GND6" gate="GND" x="-2.54" y="101.6">

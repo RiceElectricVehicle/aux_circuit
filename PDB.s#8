@@ -21492,16 +21492,12 @@ grid 45 mm, diameter 18 mm</description>
 <parts>
 <part name="ADD2" library="nxp_60" deviceset="PSMN" device="YS" technology="039-100"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0"/>
-<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="EL-" device="BI25-10AXIAL" package3d_urn="urn:adsk.eagle:package:25992/1"/>
-<part name="GND" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VDD_IN" library="powerpoles" deviceset="POWERPOLE_POWER" device="25A_HORIZONTAL_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2"/>
 <part name="ADD2_OUT" library="powerpoles" deviceset="POWERPOLE_POWER" device="25A_HORIZONTAL_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2"/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="ADD1" library="nxp_60" deviceset="PSMN" device="YS" technology="039-100"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0"/>
-<part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="EL-" device="BI25-10AXIAL" package3d_urn="urn:adsk.eagle:package:25992/1"/>
-<part name="GND1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="ADD1_OUT" library="powerpoles" deviceset="POWERPOLE_POWER" device="25A_HORIZONTAL_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -21641,10 +21637,6 @@ grid 45 mm, diameter 18 mm</description>
 <attribute name="NAME" x="-56.9214" y="46.99" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-61.722" y="46.99" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C8" gate="G$1" x="-55.88" y="55.88" rot="R90">
-<attribute name="VALUE" x="-51.689" y="56.896" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND" gate="GND" x="-50.8" y="53.34"/>
 <instance part="VDD_IN" gate="G$1" x="200.66" y="109.22"/>
 <instance part="ADD2_OUT" gate="G$1" x="-48.26" y="25.4"/>
 <instance part="SUPPLY19" gate="G$1" x="-58.42" y="63.5">
@@ -21661,10 +21653,6 @@ grid 45 mm, diameter 18 mm</description>
 <attribute name="NAME" x="-26.4414" y="46.99" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-31.242" y="46.99" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C9" gate="G$1" x="-25.4" y="55.88" rot="R90">
-<attribute name="VALUE" x="-21.209" y="56.896" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND1" gate="GND" x="-20.32" y="53.34"/>
 <instance part="ADD1_OUT" gate="G$1" x="-17.78" y="25.4"/>
 <instance part="SUPPLY11" gate="G$1" x="-27.94" y="63.5">
 <attribute name="VALUE" x="-29.845" y="66.675" size="1.778" layer="96"/>
@@ -21954,16 +21942,8 @@ grid 45 mm, diameter 18 mm</description>
 <label x="185.42" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="GND" gate="GND" pin="GND"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="ADD2" gate="G$1" pin="S"/>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND1" gate="GND" pin="GND"/>
-<pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="ADD1" gate="G$1" pin="S"/>
@@ -22163,8 +22143,6 @@ grid 45 mm, diameter 18 mm</description>
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="VDD"/>
 <wire x1="-27.94" y1="60.96" x2="-27.94" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<junction x="-27.94" y="55.88"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="48.26" x2="-27.94" y2="55.88" width="0.1524" layer="91"/>
 <label x="-30.48" y="53.34" size="1.778" layer="95" rot="R90"/>
@@ -22184,8 +22162,6 @@ grid 45 mm, diameter 18 mm</description>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VDD"/>
 <wire x1="-58.42" y1="60.96" x2="-58.42" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<junction x="-58.42" y="55.88"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-58.42" y1="48.26" x2="-58.42" y2="55.88" width="0.1524" layer="91"/>
 <label x="-60.96" y="50.8" size="1.778" layer="95" rot="R90"/>

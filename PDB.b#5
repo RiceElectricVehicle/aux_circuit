@@ -2804,28 +2804,28 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/table&gt;
 &lt;/BODY&gt;&lt;/HTML&gt;</description>
 <packages>
-<package name="R2512" urn="urn:adsk.eagle:footprint:25637/1" library_version="1">
+<package name="R3225" urn="urn:adsk.eagle:footprint:25641/1" library_version="1">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
-<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd name="1" x="-2.8" y="0" dx="1.8" dy="3.2" layer="1"/>
-<smd name="2" x="2.8" y="0" dx="1.8" dy="3.2" layer="1"/>
+<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
+<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
-<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
+<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
+<rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="35"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="R2512" urn="urn:adsk.eagle:package:26070/1" type="box" library_version="1">
+<package3d name="R3225" urn="urn:adsk.eagle:package:26073/1" type="box" library_version="1">
 <description>RESISTOR</description>
 <packageinstances>
-<packageinstance name="R2512"/>
+<packageinstance name="R3225"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3432,8 +3432,8 @@ design rules under a new name.</description>
 <element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-5-PTH" package3d_urn="urn:adsk.eagle:package:38120/1" value="" x="0" y="84.836" rot="R270">
 <attribute name="SF_ID" value="PRT-09917" x="0" y="84.836" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R2512" package3d_urn="urn:adsk.eagle:package:26070/1" value="12K" x="38.1" y="60.96" rot="R180"/>
-<element name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R2512" package3d_urn="urn:adsk.eagle:package:26070/1" value="18K" x="38.1" y="53.848"/>
+<element name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R3225" package3d_urn="urn:adsk.eagle:package:26073/1" value="12K" x="38.1" y="60.96" rot="R180"/>
+<element name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R3225" package3d_urn="urn:adsk.eagle:package:26073/1" value="18K" x="38.1" y="53.848"/>
 <element name="ADD1_" library="switch" package="M9040P" value="" x="140.208" y="42.672" smashed="yes">
 <attribute name="LABEL" value="" x="136.7155" y="34.417" size="1.016" layer="25" ratio="18"/>
 <attribute name="VALUE" x="137.9855" y="42.3545" size="0.8128" layer="27" ratio="10"/>
@@ -3526,7 +3526,7 @@ design rules under a new name.</description>
 <wire x1="54.102" y1="43.418" x2="56.708" y2="46.736" width="0" layer="19" extent="1-1"/>
 <wire x1="104.372" y1="8.69" x2="106.426" y2="19.812" width="0" layer="19" extent="1-1"/>
 <wire x1="95.25" y1="29.53" x2="106.68" y2="29.53" width="0" layer="19" extent="1-1"/>
-<wire x1="35.3" y1="53.848" x2="41.783" y2="43.688" width="0" layer="19" extent="1-1"/>
+<wire x1="36.7" y1="53.848" x2="41.783" y2="43.688" width="0" layer="19" extent="1-1"/>
 <wire x1="89.985" y1="18.415" x2="95.25" y2="29.53" width="0" layer="19" extent="1-1"/>
 <wire x1="89.985" y1="17.146" x2="89.985" y2="18.415" width="0" layer="19" extent="1-1"/>
 <wire x1="89.985" y1="15.875" x2="89.985" y2="17.146" width="0" layer="19" extent="1-1"/>
@@ -3662,9 +3662,9 @@ design rules under a new name.</description>
 <wire x1="27.94" y1="51.816" x2="27.94" y2="42.603" width="0.6096" layer="1"/>
 <wire x1="23.61" y1="78.916" x2="25.72" y2="81.026" width="0.6096" layer="1"/>
 <contactref element="R15" pad="2"/>
-<wire x1="35.3" y1="60.96" x2="35.052" y2="60.96" width="0.6096" layer="1"/>
+<wire x1="36.7" y1="60.96" x2="35.052" y2="60.96" width="0.6096" layer="1"/>
 <wire x1="23.61" y1="60.846" x2="35.186" y2="60.846" width="0.6096" layer="1"/>
-<wire x1="35.186" y1="60.846" x2="35.3" y2="60.96" width="0.6096" layer="1"/>
+<wire x1="35.186" y1="60.846" x2="36.7" y2="60.96" width="0.6096" layer="1"/>
 </signal>
 <signal name="H3">
 <contactref element="HAZ_LEFT" pad="1"/>
@@ -3969,7 +3969,7 @@ design rules under a new name.</description>
 <contactref element="J3" pad="5"/>
 <contactref element="R15" pad="1"/>
 <contactref element="R16" pad="2"/>
-<wire x1="40.9" y1="60.96" x2="40.9" y2="53.848" width="0.6096" layer="1"/>
+<wire x1="39.5" y1="60.96" x2="39.5" y2="53.848" width="0.6096" layer="1"/>
 <wire x1="0" y1="80.328" x2="3.08" y2="77.248" width="0.6096" layer="16"/>
 <wire x1="4.604" y1="75.724" x2="10.732" y2="69.596" width="0.6096" layer="16"/>
 <wire x1="10.732" y1="69.596" x2="42.164" y2="69.596" width="0.6096" layer="16"/>
@@ -3980,7 +3980,7 @@ design rules under a new name.</description>
 <wire x1="3.08" y1="77.248" x2="4.604" y2="75.724" width="0.6096" layer="16"/>
 <wire x1="42.164" y1="69.596" x2="45.72" y2="66.04" width="0.6096" layer="16"/>
 <wire x1="45.72" y1="66.04" x2="45.72" y2="60.96" width="0.6096" layer="16"/>
-<wire x1="45.72" y1="60.96" x2="40.9" y2="60.96" width="0.6096" layer="1"/>
+<wire x1="45.72" y1="60.96" x2="39.5" y2="60.96" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
