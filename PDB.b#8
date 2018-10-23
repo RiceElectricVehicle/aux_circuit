@@ -186,14 +186,9 @@
 <text x="7.62" y="91.44" size="1.778" layer="25" rot="R270">ADD. CTRL IN</text>
 <text x="7.62" y="107.188" size="1.778" layer="25" rot="R270">SPI PT IN</text>
 <text x="2.032" y="122.428" size="1.778" layer="26" rot="MR0">SPI PT OUT</text>
-<<<<<<< HEAD
 <text x="85.852" y="49.784" size="1.778" layer="25">ADD 2</text>
 <text x="136.144" y="49.784" size="1.778" layer="25">ADD 1</text>
 <text x="51.816" y="106.68" size="1.778" layer="25">Brake Lights</text>
-=======
-<text x="85.852" y="49.784" size="1.778" layer="25">ADD 1</text>
-<text x="136.144" y="49.784" size="1.778" layer="25">ADD 2</text>
->>>>>>> 2659e5f35b88ff2be2a8497d8d751c108c2efbe0
 </plain>
 <libraries>
 <library name="nxp_60">
@@ -3424,13 +3419,8 @@ design rules under a new name.</description>
 <element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-5-PTH" package3d_urn="urn:adsk.eagle:package:38120/1" value="" x="0" y="84.836" rot="R270">
 <attribute name="SF_ID" value="PRT-09917" x="0" y="84.836" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<<<<<<< HEAD
 <element name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R3225" package3d_urn="urn:adsk.eagle:package:26073/1" value="12K" x="38.1" y="60.96" rot="R180"/>
 <element name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R3225" package3d_urn="urn:adsk.eagle:package:26073/1" value="18K" x="38.1" y="53.848"/>
-=======
-<element name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R2512" package3d_urn="urn:adsk.eagle:package:26070/1" value="12K" x="38.1" y="60.96" rot="R180"/>
-<element name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R2512" package3d_urn="urn:adsk.eagle:package:26070/1" value="18K" x="38.1" y="53.848"/>
->>>>>>> 2659e5f35b88ff2be2a8497d8d751c108c2efbe0
 <element name="ADD1_" library="switch" package="M9040P" value="" x="140.208" y="42.672" smashed="yes">
 <attribute name="LABEL" value="" x="136.7155" y="34.417" size="1.016" layer="25" ratio="18"/>
 <attribute name="VALUE" x="137.9855" y="42.3545" size="0.8128" layer="27" ratio="10"/>
