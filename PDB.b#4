@@ -3301,10 +3301,24 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="106.68" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="104.14" y="31.115" size="1.27" layer="27" rot="R270"/>
 </element>
+<<<<<<< HEAD
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="510" x="72.136" y="77.47" rot="R90">
 <attribute name="NAME" x="70.866" y="76.835" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="R" x="72.136" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="74.676" y="76.835" size="1.27" layer="27" rot="R90"/>
+=======
+<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K" x="72.136" y="77.47" rot="R90">
+<attribute name="NAME" x="70.866" y="76.835" size="1.27" layer="25" rot="R90"/>
+<attribute name="SPICEPREFIX" value="R" x="72.136" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="74.676" y="76.835" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K" x="93.98" y="77.47" smashed="yes" rot="R90">
+<attribute name="NAME" x="92.71" y="76.835" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="92.71" y="76.835" size="1.27" layer="25" rot="R90"/>
+<attribute name="SPICEPREFIX" value="R" x="93.98" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="96.52" y="76.835" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="96.52" y="76.835" size="1.27" layer="27" rot="R90"/>
+>>>>>>> 2659e5f35b88ff2be2a8497d8d751c108c2efbe0
 </element>
 <element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="510" x="95.504" y="77.978" smashed="yes" rot="R90">
 <attribute name="NAME" x="94.234" y="77.343" size="1.27" layer="25" rot="R90"/>
@@ -3500,12 +3514,21 @@ design rules under a new name.</description>
 <wire x1="87.191" y1="90.805" x2="95.504" y2="78.928" width="0" layer="19" extent="1-1"/>
 <wire x1="87.191" y1="92.076" x2="87.191" y2="90.805" width="0" layer="19" extent="1-1"/>
 <wire x1="87.191" y1="93.345" x2="87.191" y2="92.076" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
 <wire x1="68.649" y1="92.837" x2="87.191" y2="92.076" width="0" layer="19" extent="1-1"/>
 <wire x1="68.649" y1="91.568" x2="68.649" y2="92.837" width="0" layer="19" extent="1-1"/>
 <wire x1="68.649" y1="90.297" x2="68.649" y2="91.568" width="0" layer="19" extent="1-1"/>
 <wire x1="72.136" y1="78.42" x2="68.649" y2="90.297" width="0" layer="19" extent="1-1"/>
 <wire x1="52.324" y1="76.708" x2="72.136" y2="78.42" width="0" layer="19" extent="1-1"/>
 <wire x1="45.212" y1="97.216" x2="52.324" y2="76.708" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="72.136" y1="78.42" x2="87.191" y2="90.805" width="0" layer="19" extent="1-1"/>
+<wire x1="59.505" y1="90.805" x2="72.136" y2="78.42" width="0" layer="19" extent="1-1"/>
+<wire x1="59.505" y1="92.076" x2="59.505" y2="90.805" width="0" layer="19" extent="1-1"/>
+<wire x1="59.505" y1="93.345" x2="59.505" y2="92.076" width="0" layer="19" extent="1-1"/>
+<wire x1="44.196" y1="77.216" x2="59.505" y2="90.805" width="0" layer="19" extent="1-1"/>
+<wire x1="39.116" y1="78.42" x2="44.196" y2="77.216" width="0" layer="19" extent="1-1"/>
+>>>>>>> 2659e5f35b88ff2be2a8497d8d751c108c2efbe0
 <wire x1="74.676" y1="40.828" x2="68.072" y2="36.068" width="0" layer="19" extent="1-1"/>
 <wire x1="67.244" y1="47.244" x2="74.676" y2="40.828" width="0" layer="19" extent="1-1"/>
 <wire x1="56.708" y1="46.736" x2="67.244" y2="47.244" width="0" layer="19" extent="1-1"/>
@@ -3638,7 +3661,12 @@ design rules under a new name.</description>
 <contactref element="HAZ_LEFT" pad="1"/>
 <contactref element="HAZ_L" pad="4"/>
 <contactref element="LED4" pad="A"/>
+<<<<<<< HEAD
 <wire x1="68.649" y1="89.027" x2="68.649" y2="81.383" width="0.6096" layer="1"/>
+=======
+<wire x1="59.505" y1="89.535" x2="59.505" y2="83.277" width="0.6096" layer="1"/>
+<wire x1="59.505" y1="83.277" x2="64.262" y2="78.52" width="0.6096" layer="1"/>
+>>>>>>> 2659e5f35b88ff2be2a8497d8d751c108c2efbe0
 <contactref element="TP5" pad="TP"/>
 <wire x1="66.929" y1="68.257" x2="63.823" y2="68.257" width="0.6096" layer="1"/>
 <wire x1="63.823" y1="68.257" x2="60.452" y2="71.628" width="0.6096" layer="1"/>
@@ -3648,7 +3676,11 @@ design rules under a new name.</description>
 <wire x1="66.929" y1="68.257" x2="75.43745" y2="68.257" width="0.6096" layer="1"/>
 <wire x1="75.692" y1="68.58" x2="75.43745" y2="68.257" width="0.6096" layer="1"/>
 <wire x1="63.754" y1="78.52" x2="65.786" y2="78.52" width="0.6096" layer="1"/>
+<<<<<<< HEAD
 <wire x1="68.649" y1="81.383" x2="65.786" y2="78.52" width="0.6096" layer="1"/>
+=======
+<wire x1="64.262" y1="78.52" x2="65.786" y2="78.52" width="0.6096" layer="1"/>
+>>>>>>> 2659e5f35b88ff2be2a8497d8d751c108c2efbe0
 </signal>
 <signal name="H5">
 <contactref element="R13" pad="1"/>

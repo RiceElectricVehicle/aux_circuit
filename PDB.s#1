@@ -21801,6 +21801,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="15.24" y="17.78"/>
 </segment>
 </net>
+<<<<<<< HEAD
+=======
+<net name="N$20" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="WIPER_OUT" gate="G$1" pin="V+"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="D2" gate="1" pin="C"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
+<junction x="15.24" y="27.94"/>
+</segment>
+</net>
+>>>>>>> 2659e5f35b88ff2be2a8497d8d751c108c2efbe0
 <net name="N$21" class="0">
 <segment>
 <pinref part="HAZ_L" gate="G$1" pin="D"/>
