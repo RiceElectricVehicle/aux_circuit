@@ -162,9 +162,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="-2.286" y1="-22.86" x2="157.46" y2="-22.86" width="0" layer="20"/>
-<wire x1="157.46" y1="-22.86" x2="157.46" y2="128.448" width="0" layer="20"/>
-<wire x1="157.46" y1="128.448" x2="-2.286" y2="128.448" width="0" layer="20"/>
+<wire x1="-2.286" y1="-22.86" x2="153.396" y2="-22.86" width="0" layer="20"/>
+<wire x1="153.396" y1="-22.86" x2="153.396" y2="128.448" width="0" layer="20"/>
+<wire x1="153.396" y1="128.448" x2="-2.286" y2="128.448" width="0" layer="20"/>
 <wire x1="-2.286" y1="128.448" x2="-2.286" y2="-22.86" width="0" layer="20"/>
 <text x="54.864" y="75.946" size="1.27" layer="25">GND</text>
 <text x="69.596" y="6.096" size="1.778" layer="25">12V IN </text>
@@ -175,11 +175,11 @@
 <text x="119.38" y="-1.524" size="1.778" layer="25" rot="R180">Wiper</text>
 <text x="141.732" y="-1.524" size="1.778" layer="25" rot="R180">Add 1</text>
 <text x="36.322" y="34.798" size="1.4224" layer="25">Blinker Delay</text>
-<text x="42.164" y="14.732" size="2.54" layer="25" font="vector" ratio="13">SEM 2019</text>
+<text x="42.164" y="7.62" size="2.54" layer="25" font="vector" ratio="13">SEM 2019</text>
 <text x="38.1" y="19.812" size="3.81" layer="25">REVolution</text>
 <text x="92.964" y="106.68" size="1.778" layer="25">Turn Right</text>
 <text x="73.66" y="106.68" size="1.778" layer="25">Turn Left</text>
-<text x="24.384" y="28.956" size="1.016" layer="25">Brake Sensor 
+<text x="21.844" y="74.676" size="1.016" layer="25">Brake Sensor 
    Override</text>
 <text x="45.72" y="30.48" size="1.27" layer="25">GND</text>
 <text x="99.568" y="43.434" size="1.4224" layer="25">GND</text>
@@ -189,6 +189,7 @@
 <text x="85.852" y="49.784" size="1.778" layer="25">ADD 2</text>
 <text x="136.144" y="49.784" size="1.778" layer="25">ADD 1</text>
 <text x="51.816" y="106.68" size="1.778" layer="25">Brake Lights</text>
+<text x="42.672" y="12.7" size="2.54" layer="25">Aux PDB</text>
 </plain>
 <libraries>
 <library name="nxp_60">
@@ -3390,9 +3391,9 @@ design rules under a new name.</description>
 <attribute name="LABEL" value="" x="85.9155" y="34.417" size="1.016" layer="25" ratio="18"/>
 <attribute name="VALUE" x="87.1855" y="42.3545" size="0.8128" layer="27" ratio="10"/>
 </element>
-<element name="SPI_IN" library="master_library" package="8-PIN-MOLEX" value="8-PIN-MOLEX-RA-FEMALE" x="-0.508" y="-22.352"/>
-<element name="SPI_OUT" library="master_library" package="8-PIN-MOLEX" value="8-PIN-MOLEX-RA-FEMALE" x="-1.524" y="102.616" rot="R270"/>
-<element name="ADD_IN" library="master_library" package="8-PIN-MOLEX" value="8-PIN-MOLEX-RA-FEMALE" x="30.48" y="-22.352"/>
+<element name="SPI_IN" library="master_library" package="8-PIN-MOLEX" value="8-PIN-MOLEX-RA-FEMALE" x="3.048" y="-22.86"/>
+<element name="SPI_OUT" library="master_library" package="8-PIN-MOLEX" value="8-PIN-MOLEX-RA-FEMALE" x="-2.032" y="102.616" rot="R270"/>
+<element name="ADD_IN" library="master_library" package="8-PIN-MOLEX" value="8-PIN-MOLEX-RA-FEMALE" x="33.528" y="-22.86"/>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">
@@ -3442,8 +3443,8 @@ design rules under a new name.</description>
 <vertex x="16.51" y="97.79" curve="-90"/>
 <vertex x="26.67" y="107.95"/>
 <vertex x="139.446" y="107.95" curve="-90"/>
-<vertex x="152.4" y="94.996"/>
-<vertex x="152.4" y="3.81" curve="-90"/>
+<vertex x="149.352" y="98.044"/>
+<vertex x="149.352" y="0.762" curve="-90"/>
 <vertex x="146.05" y="-2.54"/>
 <vertex x="30.48" y="-2.54" curve="-90"/>
 <vertex x="16.51" y="11.43"/>
@@ -3492,7 +3493,7 @@ design rules under a new name.</description>
 <wire x1="139.769" y1="17.654" x2="139.769" y2="18.923" width="0" layer="19" extent="1-1"/>
 <wire x1="139.769" y1="16.383" x2="139.769" y2="17.654" width="0" layer="19" extent="1-1"/>
 <wire x1="146.05" y1="29.53" x2="139.769" y2="18.923" width="0" layer="19" extent="1-1"/>
-<wire x1="11.636" y1="82.868" x2="42.164" y2="83.696" width="0" layer="19" extent="1-1"/>
+<wire x1="11.128" y1="82.868" x2="42.164" y2="83.696" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD">
 <contactref element="VDD_IN" pad="RED"/>
@@ -3515,8 +3516,8 @@ design rules under a new name.</description>
 <vertex x="26.67" y="107.95"/>
 <vertex x="39.37" y="107.95"/>
 <vertex x="139.7" y="107.95" curve="-90"/>
-<vertex x="152.4" y="95.25"/>
-<vertex x="152.4" y="3.556" curve="-90"/>
+<vertex x="149.352" y="98.298"/>
+<vertex x="149.352" y="0.508" curve="-90"/>
 <vertex x="146.304" y="-2.54"/>
 <vertex x="30.48" y="-2.54" curve="-90"/>
 <vertex x="16.51" y="11.43"/>
@@ -3535,7 +3536,7 @@ design rules under a new name.</description>
 <wire x1="111.76" y1="9.144" x2="109.794" y2="12.119221875" width="1.27" layer="1"/>
 <wire x1="111.874" y1="3.036" x2="112.89" y2="2.02" width="1.27" layer="1"/>
 <contactref element="SPI_OUT" pad="P1"/>
-<wire x1="26.784" y1="103.136" x2="11.636" y2="100.368" width="0" layer="19" extent="1-1"/>
+<wire x1="26.784" y1="103.136" x2="11.128" y2="100.368" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="ADD2" pad="MB"/>
@@ -3850,22 +3851,22 @@ design rules under a new name.</description>
 <signal name="SCL_SPI">
 <contactref element="SPI_IN" pad="P5"/>
 <contactref element="SPI_OUT" pad="P5"/>
-<wire x1="15.74" y1="-9.192" x2="11.636" y2="86.368" width="0" layer="19" extent="1-1"/>
+<wire x1="19.296" y1="-9.7" x2="11.128" y2="86.368" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CS_SPI">
 <contactref element="SPI_IN" pad="P4"/>
 <contactref element="SPI_OUT" pad="P4"/>
-<wire x1="12.24" y1="-9.192" x2="11.636" y2="89.868" width="0" layer="19" extent="1-1"/>
+<wire x1="15.796" y1="-9.7" x2="11.128" y2="89.868" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO_SPI">
 <contactref element="SPI_IN" pad="P2"/>
 <contactref element="SPI_OUT" pad="P2"/>
-<wire x1="5.24" y1="-9.192" x2="11.636" y2="96.868" width="0" layer="19" extent="1-1"/>
+<wire x1="8.796" y1="-9.7" x2="11.128" y2="96.868" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI_SPI">
 <contactref element="SPI_IN" pad="P3"/>
 <contactref element="SPI_OUT" pad="P3"/>
-<wire x1="8.74" y1="-9.192" x2="11.636" y2="93.368" width="0" layer="19" extent="1-1"/>
+<wire x1="12.296" y1="-9.7" x2="11.128" y2="93.368" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="µC_2">
 <via x="30.48" y="50.8" extent="1-16" drill="0.35"/>
@@ -3875,7 +3876,7 @@ design rules under a new name.</description>
 <wire x1="82.804" y1="50.8" x2="85.529" y2="50.8" width="0.6096" layer="1"/>
 <wire x1="85.529" y1="50.8" x2="89.408" y2="46.921" width="0.6096" layer="1"/>
 <contactref element="ADD_IN" pad="P2"/>
-<wire x1="36.228" y1="-9.192" x2="30.48" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="39.276" y1="-9.7" x2="30.48" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="µC_1">
 <via x="30.48" y="52.324" extent="1-16" drill="0.35"/>
@@ -3886,7 +3887,7 @@ design rules under a new name.</description>
 <wire x1="134.62" y1="52.324" x2="140.023" y2="46.921" width="0.6096" layer="1"/>
 <wire x1="140.208" y1="46.921" x2="140.023" y2="46.921" width="0.6096" layer="1"/>
 <contactref element="ADD_IN" pad="P3"/>
-<wire x1="39.728" y1="-9.192" x2="30.48" y2="52.324" width="0" layer="19" extent="1-1"/>
+<wire x1="42.776" y1="-9.7" x2="30.48" y2="52.324" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BRK_SNS_5V">
 <contactref element="R15" pad="1"/>
@@ -3897,8 +3898,8 @@ design rules under a new name.</description>
 <wire x1="35.052" y1="69.596" x2="35.052" y2="61.024" width="0.6096" layer="16"/>
 <contactref element="SPI_IN" pad="P1"/>
 <contactref element="ADD_IN" pad="P1"/>
-<wire x1="1.74" y1="-9.192" x2="35.052" y2="69.596" width="0" layer="19" extent="1-1"/>
-<wire x1="32.728" y1="-9.192" x2="1.74" y2="-9.192" width="0" layer="19" extent="1-1"/>
+<wire x1="35.776" y1="-9.7" x2="35.052" y2="61.024" width="0" layer="19" extent="16-16"/>
+<wire x1="5.296" y1="-9.7" x2="35.776" y2="-9.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="SPI_IN" pad="P6"/>
