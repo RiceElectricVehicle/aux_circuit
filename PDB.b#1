@@ -183,8 +183,8 @@
    Override</text>
 <text x="45.72" y="30.48" size="1.27" layer="25">GND</text>
 <text x="99.568" y="43.434" size="1.4224" layer="25">GND</text>
-<text x="7.62" y="91.44" size="1.778" layer="25" rot="R270">ADD. CTRL IN</text>
-<text x="7.62" y="107.188" size="1.778" layer="25" rot="R270">SPI PT IN</text>
+<text x="40.64" y="-6.096" size="1.778" layer="25">ADD. CTRL IN</text>
+<text x="12.7" y="-6.096" size="1.778" layer="25">SPI PT IN</text>
 <text x="2.032" y="122.428" size="1.778" layer="26" rot="MR0">SPI PT OUT</text>
 <text x="85.852" y="49.784" size="1.778" layer="25">ADD 2</text>
 <text x="136.144" y="49.784" size="1.778" layer="25">ADD 1</text>

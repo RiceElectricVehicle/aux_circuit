@@ -175,11 +175,11 @@
 <text x="119.38" y="-1.524" size="1.778" layer="25" rot="R180">Wiper</text>
 <text x="141.732" y="-1.524" size="1.778" layer="25" rot="R180">Add 1</text>
 <text x="36.322" y="34.798" size="1.4224" layer="25">Blinker Delay</text>
-<text x="42.164" y="14.732" size="2.54" layer="25" font="vector" ratio="13">SEM 2019</text>
+<text x="42.164" y="7.62" size="2.54" layer="25" font="vector" ratio="13">SEM 2019</text>
 <text x="38.1" y="19.812" size="3.81" layer="25">REVolution</text>
 <text x="92.964" y="106.68" size="1.778" layer="25">Turn Right</text>
 <text x="73.66" y="106.68" size="1.778" layer="25">Turn Left</text>
-<text x="24.384" y="28.956" size="1.016" layer="25">Brake Sensor 
+<text x="21.844" y="74.676" size="1.016" layer="25">Brake Sensor 
    Override</text>
 <text x="45.72" y="30.48" size="1.27" layer="25">GND</text>
 <text x="99.568" y="43.434" size="1.4224" layer="25">GND</text>
@@ -189,6 +189,7 @@
 <text x="85.852" y="49.784" size="1.778" layer="25">ADD 2</text>
 <text x="136.144" y="49.784" size="1.778" layer="25">ADD 1</text>
 <text x="51.816" y="106.68" size="1.778" layer="25">Brake Lights</text>
+<text x="42.672" y="12.7" size="2.54" layer="25">Aux PDB</text>
 </plain>
 <libraries>
 <library name="nxp_60">
