@@ -21431,7 +21431,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="134.62" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="µC_2" class="0">
+<net name="µC_ADD_2" class="0">
 <segment>
 <wire x1="-71.12" y1="-38.1" x2="-73.66" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-76.2" y="-38.1" size="1.016" layer="95"/>
@@ -21443,7 +21443,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="50.8" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="µC_1" class="0">
+<net name="µC_ADD_1" class="0">
 <segment>
 <wire x1="-33.02" y1="-38.1" x2="-35.56" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-38.1" y="-38.1" size="1.016" layer="95"/>

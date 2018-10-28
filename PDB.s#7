@@ -20426,9 +20426,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="ADD1_" library="switch" deviceset="M9040P" device=""/>
 <part name="ADD2_" library="switch" deviceset="M9040P" device=""/>
-<part name="SPI_IN" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device=""/>
+<part name="CONTROL_IN" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device=""/>
 <part name="SPI_OUT" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device=""/>
-<part name="ADD_IN" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device=""/>
+<part name="LIGHTS_OUT" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20455,8 +20455,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="129.54" y="73.66" size="3.81" layer="95">Brake</text>
 <text x="165.1" y="73.66" size="3.81" layer="95">Headlights</text>
 <text x="203.2" y="73.66" size="3.81" layer="95">Rear lights</text>
-<text x="-127" y="96.52" size="3.81" layer="95">NOTES
-1. Change bypass caps to electrolytics</text>
 </plain>
 <instances>
 <instance part="ADD2" gate="G$1" x="-60.96" y="7.62" smashed="yes">
@@ -20749,9 +20747,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="-64.135" y="-26.67" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-68.58" y="-41.91" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SPI_IN" gate="G$1" x="83.82" y="154.94"/>
+<instance part="CONTROL_IN" gate="G$1" x="111.76" y="154.94"/>
 <instance part="SPI_OUT" gate="G$1" x="200.66" y="154.94"/>
-<instance part="ADD_IN" gate="G$1" x="121.92" y="154.94"/>
+<instance part="LIGHTS_OUT" gate="G$1" x="238.76" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -21089,7 +21087,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="167.64" x2="175.26" y2="167.64" width="0.1524" layer="91"/>
-<label x="177.8" y="167.64" size="1.016" layer="95"/>
+<label x="175.26" y="167.64" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="H3" class="0">
@@ -21362,9 +21360,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SCL_SPI" class="0">
 <segment>
-<pinref part="SPI_IN" gate="G$1" pin="P$5"/>
-<wire x1="91.44" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
-<label x="93.98" y="147.32" size="1.778" layer="95"/>
+<pinref part="CONTROL_IN" gate="G$1" pin="P$5"/>
+<wire x1="119.38" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
+<label x="121.92" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$5"/>
@@ -21374,9 +21372,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="CS_SPI" class="0">
 <segment>
-<pinref part="SPI_IN" gate="G$1" pin="P$4"/>
-<wire x1="91.44" y1="152.4" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
-<label x="93.98" y="152.4" size="1.778" layer="95"/>
+<pinref part="CONTROL_IN" gate="G$1" pin="P$4"/>
+<wire x1="119.38" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
+<label x="121.92" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$4"/>
@@ -21386,9 +21384,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="MISO_SPI" class="0">
 <segment>
-<pinref part="SPI_IN" gate="G$1" pin="P$2"/>
-<wire x1="91.44" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
-<label x="93.98" y="162.56" size="1.778" layer="95"/>
+<pinref part="CONTROL_IN" gate="G$1" pin="P$2"/>
+<wire x1="119.38" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
+<label x="121.92" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$2"/>
@@ -21398,9 +21396,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="MOSI_SPI" class="0">
 <segment>
-<pinref part="SPI_IN" gate="G$1" pin="P$3"/>
-<wire x1="91.44" y1="157.48" x2="93.98" y2="157.48" width="0.1524" layer="91"/>
-<label x="93.98" y="157.48" size="1.778" layer="95"/>
+<pinref part="CONTROL_IN" gate="G$1" pin="P$3"/>
+<wire x1="119.38" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
+<label x="121.92" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$3"/>
@@ -21410,52 +21408,47 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="µC_2" class="0">
 <segment>
-<wire x1="129.54" y1="162.56" x2="134.62" y2="162.56" width="0.1524" layer="91"/>
-<label x="137.16" y="162.56" size="1.016" layer="95"/>
-<pinref part="ADD_IN" gate="G$1" pin="P$2"/>
-</segment>
-<segment>
 <wire x1="-71.12" y1="-38.1" x2="-73.66" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-76.2" y="-38.1" size="1.016" layer="95"/>
 <pinref part="ADD2_" gate="1" pin="O"/>
 </segment>
+<segment>
+<pinref part="CONTROL_IN" gate="G$1" pin="P$7"/>
+<wire x1="119.38" y1="137.16" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
+<label x="121.92" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="µC_1" class="0">
-<segment>
-<wire x1="129.54" y1="157.48" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
-<label x="137.16" y="157.48" size="1.016" layer="95"/>
-<pinref part="ADD_IN" gate="G$1" pin="P$3"/>
-</segment>
 <segment>
 <wire x1="-33.02" y1="-38.1" x2="-35.56" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-38.1" y="-38.1" size="1.016" layer="95"/>
 <pinref part="ADD1_" gate="1" pin="O"/>
 </segment>
+<segment>
+<pinref part="CONTROL_IN" gate="G$1" pin="P$6"/>
+<wire x1="119.38" y1="142.24" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
+<label x="121.92" y="142.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BRK_SNS_5V" class="0">
 <segment>
-<wire x1="129.54" y1="167.64" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
-<label x="137.16" y="167.64" size="1.016" layer="95"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="167.64" x2="152.4" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="167.64" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="167.64" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="167.64" x2="134.62" y2="182.88" width="0.1524" layer="91"/>
 <junction x="137.16" y="167.64"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <junction x="152.4" y="167.64"/>
-<wire x1="134.62" y1="182.88" x2="93.98" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="SPI_IN" gate="G$1" pin="P$1"/>
-<wire x1="91.44" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
-<label x="93.98" y="167.64" size="1.778" layer="95"/>
-<wire x1="93.98" y1="182.88" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="ADD_IN" gate="G$1" pin="P$1"/>
+<wire x1="134.62" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="CONTROL_IN" gate="G$1" pin="P$1"/>
+<wire x1="119.38" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
+<label x="121.92" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="N$4" class="0">
 <segment>
-<pinref part="SPI_IN" gate="G$1" pin="P$6"/>
-<wire x1="91.44" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="CONTROL_IN" gate="G$1" pin="P$8"/>
+<wire x1="119.38" y1="132.08" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -21474,10 +21467,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

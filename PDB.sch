@@ -20887,6 +20887,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 <label x="165.1" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="CONTROL_IN" gate="G$1" pin="P$8"/>
+<wire x1="48.26" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
+<label x="50.8" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
@@ -21461,12 +21466,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="CONTROL_IN" gate="G$1" pin="P$1"/>
 <wire x1="48.26" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
 <label x="50.8" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="CONTROL_IN" gate="G$1" pin="P$8"/>
-<wire x1="48.26" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HAZ_R_SIG" class="0">

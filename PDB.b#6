@@ -162,12 +162,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="8.382" y1="-23.368" x2="167.112" y2="-23.368" width="0" layer="20"/>
-<wire x1="167.112" y1="-23.368" x2="167.112" y2="127.94" width="0" layer="20"/>
-<wire x1="167.112" y1="127.94" x2="8.382" y2="127.94" width="0" layer="20"/>
+<wire x1="8.382" y1="-23.368" x2="151.872" y2="-23.368" width="0" layer="20"/>
+<wire x1="151.872" y1="-23.368" x2="151.872" y2="127.94" width="0" layer="20"/>
+<wire x1="151.872" y1="127.94" x2="8.382" y2="127.94" width="0" layer="20"/>
 <wire x1="8.382" y1="127.94" x2="8.382" y2="-23.368" width="0" layer="20"/>
 <text x="54.864" y="75.946" size="1.27" layer="25">GND</text>
-<text x="69.596" y="-3.556" size="1.778" layer="25">12V IN </text>
+<text x="60.96" y="-3.556" size="1.778" layer="25">12V IN </text>
 <text x="40.132" y="108.712" size="1.778" layer="25" rot="R180">Brake Sensor</text>
 <text x="144.78" y="108.712" size="1.778" layer="25" rot="R180">Rear Lights</text>
 <text x="124.714" y="108.712" size="1.778" layer="25" rot="R180">Head Lights</text>
@@ -3292,7 +3292,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="140.2" y="87.94" size="1" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="138.7" y="87.94" size="1" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="VDD_IN" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="73.406" y="-5.08" rot="R180"/>
+<element name="VDD_IN" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="64.77" y="-5.08" rot="R180"/>
 <element name="WIPER_" library="nxp_60" package="SOT669" value="PSMN039-100YS" x="124.46" y="17.018" smashed="yes" rot="R270">
 <attribute name="NAME" x="126.992" y="13.518" size="1" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="123.46" y="13.518" size="1" layer="27" font="vector" rot="R270"/>
@@ -3438,15 +3438,15 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="1"/>
 <contactref element="C4" pad="2"/>
 <polygon width="0.1524" layer="16" isolate="0.254">
-<vertex x="17.526" y="64.262"/>
-<vertex x="17.357309375" y="114.41996875" curve="-90.269365"/>
-<vertex x="19.359975" y="116.427090625"/>
-<vertex x="147.354678125" y="116.255659375" curve="-89.935973"/>
-<vertex x="149.352" y="114.2556625"/>
-<vertex x="149.352" y="-0.54" curve="-90"/>
-<vertex x="147.352" y="-2.54"/>
-<vertex x="18.51" y="-2.54" curve="-90"/>
-<vertex x="16.51" y="-0.54"/>
+<vertex x="16.51" y="64.262"/>
+<vertex x="16.3683375" y="106.38385625" curve="-90.269432"/>
+<vertex x="26.381675" y="116.4176875"/>
+<vertex x="139.36539375" y="116.266359375" curve="-89.923116"/>
+<vertex x="149.352" y="106.26636875"/>
+<vertex x="149.352" y="7.46" curve="-90"/>
+<vertex x="139.352" y="-2.54"/>
+<vertex x="26.51" y="-2.54" curve="-90"/>
+<vertex x="16.51" y="7.46"/>
 <vertex x="16.51" y="58.928"/>
 </polygon>
 <contactref element="TP10" pad="TP"/>
@@ -3455,14 +3455,13 @@ design rules under a new name.</description>
 <contactref element="R16" pad="1"/>
 <contactref element="SPI_OUT" pad="P6"/>
 <contactref element="LIGHTS_OUT" pad="P8"/>
-<wire x1="111.321" y1="93.345" x2="123.776" y2="114.856" width="0" layer="19" extent="1-1"/>
-<wire x1="111.321" y1="92.076" x2="111.321" y2="93.345" width="0" layer="19" extent="1-1"/>
-<wire x1="111.321" y1="90.805" x2="111.321" y2="92.076" width="0" layer="19" extent="1-1"/>
-<wire x1="121.666" y1="78.928" x2="111.321" y2="90.805" width="0" layer="19" extent="1-1"/>
-<wire x1="136.975" y1="90.805" x2="121.666" y2="78.928" width="0" layer="19" extent="1-1"/>
-<wire x1="136.975" y1="92.076" x2="136.975" y2="90.805" width="0" layer="19" extent="1-1"/>
-<wire x1="136.975" y1="93.345" x2="136.975" y2="92.076" width="0" layer="19" extent="1-1"/>
+<wire x1="136.975" y1="92.076" x2="136.975" y2="93.345" width="0" layer="19" extent="1-1"/>
+<wire x1="136.975" y1="90.805" x2="136.975" y2="92.076" width="0" layer="19" extent="1-1"/>
 <wire x1="145.542" y1="76.896" x2="136.975" y2="90.805" width="0" layer="19" extent="1-1"/>
+<wire x1="121.666" y1="78.928" x2="136.975" y2="90.805" width="0" layer="19" extent="1-1"/>
+<wire x1="111.321" y1="90.805" x2="121.666" y2="78.928" width="0" layer="19" extent="1-1"/>
+<wire x1="111.321" y1="92.076" x2="111.321" y2="90.805" width="0" layer="19" extent="1-1"/>
+<wire x1="111.321" y1="93.345" x2="111.321" y2="92.076" width="0" layer="19" extent="1-1"/>
 <wire x1="95.504" y1="78.928" x2="111.321" y2="90.805" width="0" layer="19" extent="1-1"/>
 <wire x1="87.191" y1="90.805" x2="95.504" y2="78.928" width="0" layer="19" extent="1-1"/>
 <wire x1="87.191" y1="92.076" x2="87.191" y2="90.805" width="0" layer="19" extent="1-1"/>
@@ -3490,7 +3489,6 @@ design rules under a new name.</description>
 <wire x1="121.735" y1="16.383" x2="107.928" y2="14.786" width="0" layer="19" extent="1-1"/>
 <wire x1="121.735" y1="17.654" x2="121.735" y2="16.383" width="0" layer="19" extent="1-1"/>
 <wire x1="121.735" y1="18.923" x2="121.735" y2="17.654" width="0" layer="19" extent="1-1"/>
-<wire x1="42.608" y1="114.856" x2="45.212" y2="97.216" width="0" layer="19" extent="1-1"/>
 <wire x1="139.769" y1="18.923" x2="121.735" y2="18.923" width="0" layer="19" extent="1-1"/>
 <wire x1="139.769" y1="17.654" x2="139.769" y2="18.923" width="0" layer="19" extent="1-1"/>
 <wire x1="139.769" y1="16.383" x2="139.769" y2="17.654" width="0" layer="19" extent="1-1"/>
@@ -3513,14 +3511,14 @@ design rules under a new name.</description>
 <contactref element="C4" pad="1"/>
 <polygon width="0.1524" layer="1" spacing="0.6096" isolate="0.254">
 <vertex x="16.51" y="52.07"/>
-<vertex x="17.559365625" y="104.925246875" curve="-88.317121"/>
-<vertex x="19.53993125" y="106.88545"/>
-<vertex x="147.332959375" y="108.102109375" curve="-90.544217"/>
-<vertex x="149.352" y="106.1022"/>
-<vertex x="149.352" y="-0.54" curve="-90"/>
-<vertex x="147.352" y="-2.54"/>
-<vertex x="18.51" y="-2.54" curve="-90"/>
-<vertex x="16.51" y="-0.54"/>
+<vertex x="16.538340625" y="96.9658125" curve="-89.42273"/>
+<vertex x="26.4438875" y="106.96025625"/>
+<vertex x="139.25755" y="108.025834375" curve="-90.541402"/>
+<vertex x="149.352" y="98.02628125"/>
+<vertex x="149.352" y="7.46" curve="-90"/>
+<vertex x="139.352" y="-2.54"/>
+<vertex x="26.51" y="-2.54" curve="-90"/>
+<vertex x="16.51" y="7.46"/>
 </polygon>
 <contactref element="VDD_IN1" pad="BLACK"/>
 <contactref element="C10" pad="+"/>
@@ -3864,19 +3862,21 @@ design rules under a new name.</description>
 <signal name="SCL_SPI">
 <contactref element="CONTROL_IN" pad="P5"/>
 <contactref element="SPI_OUT" pad="P5"/>
-<wire x1="29.3078375" y1="-5.71414375" x2="28.83814375" y2="69.22153125" width="0.6096" layer="16"/>
-<wire x1="28.83814375" y1="69.22153125" x2="36.604959375" y2="76.656115625" width="0.6096" layer="16"/>
+<wire x1="28.83814375" y1="68.71353125" x2="29.3078375" y2="-6.22214375" width="0.6096" layer="16"/>
+<wire x1="28.83814375" y1="68.71353125" x2="36.604959375" y2="76.656115625" width="0.6096" layer="16"/>
 <wire x1="36.604959375" y1="76.656115625" x2="36.6028125" y2="112.3508125" width="0.6096" layer="16"/>
-<wire x1="29.456" y1="-5.86230625" x2="29.3078375" y2="-5.71414375" width="0.508" layer="16"/>
-<wire x1="29.456" y1="-5.86230625" x2="29.456" y2="-10.208" width="0.6096" layer="16"/>
+<wire x1="29.456" y1="-10.208" x2="29.456" y2="-7.89430625" width="0.6096" layer="16"/>
 <wire x1="36.6028125" y1="112.3508125" x2="39.108" y2="114.856" width="0.6096" layer="16"/>
+<wire x1="29.456" y1="-7.89430625" x2="29.456" y2="-7.89430625" width="0.6096" layer="16"/>
+<wire x1="29.3078375" y1="-6.22214375" x2="29.3078375" y2="-7.536609375" width="0.508" layer="16"/>
+<wire x1="29.3078375" y1="-7.536609375" x2="29.456" y2="-7.89430625" width="0.508" layer="16" curve="45"/>
 </signal>
 <signal name="CS_SPI">
 <contactref element="CONTROL_IN" pad="P4"/>
 <contactref element="SPI_OUT" pad="P4"/>
-<wire x1="35.608" y1="114.856" x2="33.98280625" y2="112.697475" width="0.6096" layer="16"/>
-<wire x1="33.98280625" y1="112.697475" x2="33.986359375" y2="77.231990625" width="0.6096" layer="16"/>
-<wire x1="33.986359375" y1="77.231990625" x2="25.403471875" y2="69.091471875" width="0.6096" layer="16"/>
+<wire x1="35.608" y1="114.856" x2="33.47480625" y2="112.697475" width="0.6096" layer="16"/>
+<wire x1="33.47480625" y1="112.697475" x2="32.462359375" y2="77.231990625" width="0.6096" layer="16"/>
+<wire x1="32.462359375" y1="77.231990625" x2="25.403471875" y2="69.091471875" width="0.6096" layer="16"/>
 <wire x1="25.403471875" y1="69.091471875" x2="25.956" y2="-10.208" width="0.6096" layer="16"/>
 </signal>
 <signal name="MISO_SPI">

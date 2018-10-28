@@ -162,12 +162,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="8.382" y1="-23.368" x2="167.112" y2="-23.368" width="0" layer="20"/>
-<wire x1="167.112" y1="-23.368" x2="167.112" y2="127.94" width="0" layer="20"/>
-<wire x1="167.112" y1="127.94" x2="8.382" y2="127.94" width="0" layer="20"/>
+<wire x1="8.382" y1="-23.368" x2="151.872" y2="-23.368" width="0" layer="20"/>
+<wire x1="151.872" y1="-23.368" x2="151.872" y2="127.94" width="0" layer="20"/>
+<wire x1="151.872" y1="127.94" x2="8.382" y2="127.94" width="0" layer="20"/>
 <wire x1="8.382" y1="127.94" x2="8.382" y2="-23.368" width="0" layer="20"/>
 <text x="54.864" y="75.946" size="1.27" layer="25">GND</text>
-<text x="69.596" y="-3.556" size="1.778" layer="25">12V IN </text>
+<text x="60.96" y="-3.556" size="1.778" layer="25">12V IN </text>
 <text x="40.132" y="108.712" size="1.778" layer="25" rot="R180">Brake Sensor</text>
 <text x="144.78" y="108.712" size="1.778" layer="25" rot="R180">Rear Lights</text>
 <text x="124.714" y="108.712" size="1.778" layer="25" rot="R180">Head Lights</text>
@@ -3292,7 +3292,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="140.2" y="87.94" size="1" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="138.7" y="87.94" size="1" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="VDD_IN" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="73.406" y="-5.08" rot="R180"/>
+<element name="VDD_IN" library="powerpoles" package="POWERPOLE_PAIR_25A_HORIZ_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2" x="64.77" y="-5.08" rot="R180"/>
 <element name="WIPER_" library="nxp_60" package="SOT669" value="PSMN039-100YS" x="124.46" y="17.018" smashed="yes" rot="R270">
 <attribute name="NAME" x="126.992" y="13.518" size="1" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="123.46" y="13.518" size="1" layer="27" font="vector" rot="R270"/>
@@ -3862,19 +3862,21 @@ design rules under a new name.</description>
 <signal name="SCL_SPI">
 <contactref element="CONTROL_IN" pad="P5"/>
 <contactref element="SPI_OUT" pad="P5"/>
-<wire x1="28.2918375" y1="-6.22214375" x2="26.80614375" y2="68.71353125" width="0.6096" layer="16"/>
-<wire x1="26.80614375" y1="68.71353125" x2="35.588959375" y2="76.656115625" width="0.6096" layer="16"/>
-<wire x1="35.588959375" y1="76.656115625" x2="36.6028125" y2="112.3508125" width="0.6096" layer="16"/>
-<wire x1="29.456" y1="-5.86230625" x2="28.2918375" y2="-6.22214375" width="0.508" layer="16"/>
-<wire x1="29.456" y1="-5.86230625" x2="29.456" y2="-10.208" width="0.6096" layer="16"/>
+<wire x1="28.83814375" y1="68.71353125" x2="29.3078375" y2="-6.22214375" width="0.6096" layer="16"/>
+<wire x1="28.83814375" y1="68.71353125" x2="36.604959375" y2="76.656115625" width="0.6096" layer="16"/>
+<wire x1="36.604959375" y1="76.656115625" x2="36.6028125" y2="112.3508125" width="0.6096" layer="16"/>
+<wire x1="29.456" y1="-10.208" x2="29.456" y2="-7.89430625" width="0.6096" layer="16"/>
 <wire x1="36.6028125" y1="112.3508125" x2="39.108" y2="114.856" width="0.6096" layer="16"/>
+<wire x1="29.456" y1="-7.89430625" x2="29.456" y2="-7.89430625" width="0.6096" layer="16"/>
+<wire x1="29.3078375" y1="-6.22214375" x2="29.3078375" y2="-7.536609375" width="0.508" layer="16"/>
+<wire x1="29.3078375" y1="-7.536609375" x2="29.456" y2="-7.89430625" width="0.508" layer="16" curve="45"/>
 </signal>
 <signal name="CS_SPI">
 <contactref element="CONTROL_IN" pad="P4"/>
 <contactref element="SPI_OUT" pad="P4"/>
-<wire x1="35.608" y1="114.856" x2="33.98280625" y2="112.697475" width="0.6096" layer="16"/>
-<wire x1="33.98280625" y1="112.697475" x2="33.986359375" y2="77.231990625" width="0.6096" layer="16"/>
-<wire x1="33.986359375" y1="77.231990625" x2="25.403471875" y2="69.091471875" width="0.6096" layer="16"/>
+<wire x1="35.608" y1="114.856" x2="33.47480625" y2="112.697475" width="0.6096" layer="16"/>
+<wire x1="33.47480625" y1="112.697475" x2="32.462359375" y2="77.231990625" width="0.6096" layer="16"/>
+<wire x1="32.462359375" y1="77.231990625" x2="25.403471875" y2="69.091471875" width="0.6096" layer="16"/>
 <wire x1="25.403471875" y1="69.091471875" x2="25.956" y2="-10.208" width="0.6096" layer="16"/>
 </signal>
 <signal name="MISO_SPI">

@@ -21068,7 +21068,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="REARLIGHTS_OUT" gate="G$1" pin="GND"/>
 </segment>
 </net>
-<net name="BRAKE_SNS_" class="0">
+<net name="BRAKE_SNS_IN" class="0">
 <segment>
 <pinref part="BRAKE_SNS_OVR" gate="1" pin="O"/>
 <wire x1="129.54" y1="-35.56" x2="132.08" y2="-35.56" width="0.1524" layer="91"/>

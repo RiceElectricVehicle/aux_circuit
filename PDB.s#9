@@ -21018,6 +21018,75 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="master_library">
+<packages>
+<package name="8-PIN-MOLEX">
+<wire x1="0" y1="0" x2="0" y2="15.66" width="0.15" layer="21"/>
+<wire x1="0" y1="15.66" x2="29" y2="15.66" width="0.15" layer="21"/>
+<wire x1="29" y1="15.66" x2="29" y2="0" width="0.15" layer="21"/>
+<wire x1="29" y1="0" x2="0" y2="0" width="0.15" layer="21"/>
+<pad name="P1" x="2.248" y="13.16" drill="0.6" shape="square"/>
+<pad name="P2" x="5.748" y="13.16" drill="0.6" shape="square"/>
+<pad name="P3" x="9.248" y="13.16" drill="0.6" shape="square"/>
+<pad name="P4" x="12.748" y="13.16" drill="0.6" shape="square"/>
+<pad name="P5" x="16.248" y="13.16" drill="0.6" shape="square"/>
+<pad name="P6" x="19.748" y="13.16" drill="0.6" shape="square"/>
+<pad name="P7" x="23.248" y="13.16" drill="0.6" shape="square"/>
+<pad name="P8" x="26.748" y="13.16" drill="0.6" shape="square"/>
+<text x="12.162" y="8.359665625" size="1.27" layer="25">&gt;NAME</text>
+<hole x="4" y="5.25" drill="3.05"/>
+<hole x="25" y="5.25" drill="3.05"/>
+<text x="10.004" y="0.715" size="1.27" layer="21">PCB EDGE </text>
+<wire x1="8" y1="2" x2="8" y2="0.5" width="0.15" layer="21"/>
+<wire x1="8" y1="0.5" x2="8.5" y2="1" width="0.15" layer="21"/>
+<wire x1="8" y1="0.5" x2="7.5" y2="1" width="0.15" layer="21"/>
+<wire x1="20.5" y1="2" x2="20.5" y2="0.5" width="0.15" layer="21"/>
+<wire x1="20.5" y1="0.5" x2="21" y2="1" width="0.15" layer="21"/>
+<wire x1="20.5" y1="0.5" x2="20" y2="1" width="0.15" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="8-PIN-CONNECTOR">
+<wire x1="-5.08" y1="15.24" x2="-5.08" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-25.4" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<pin name="P$1" x="7.62" y="12.7" length="middle" rot="R180"/>
+<pin name="P$2" x="7.62" y="7.62" length="middle" rot="R180"/>
+<pin name="P$3" x="7.62" y="2.54" length="middle" rot="R180"/>
+<pin name="P$4" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$5" x="7.62" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$6" x="7.62" y="-12.7" length="middle" rot="R180"/>
+<pin name="P$7" x="7.62" y="-17.78" length="middle" rot="R180"/>
+<pin name="P$8" x="7.62" y="-22.86" length="middle" rot="R180"/>
+<text x="-4.572" y="16.256" size="1.27" layer="94">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="8-PIN-MOLEX-RA-FEMALE">
+<gates>
+<gate name="G$1" symbol="8-PIN-CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="8-PIN-MOLEX">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1"/>
+<connect gate="G$1" pin="P$2" pad="P2"/>
+<connect gate="G$1" pin="P$3" pad="P3"/>
+<connect gate="G$1" pin="P$4" pad="P4"/>
+<connect gate="G$1" pin="P$5" pad="P5"/>
+<connect gate="G$1" pin="P$6" pad="P6"/>
+<connect gate="G$1" pin="P$7" pad="P7"/>
+<connect gate="G$1" pin="P$8" pad="P8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21134,6 +21203,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="ADD1_" library="switch" deviceset="M9040P" device=""/>
 <part name="ADD2_" library="switch" deviceset="M9040P" device=""/>
+<part name="U$1" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21457,6 +21527,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="-64.135" y="-26.67" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-68.58" y="-41.91" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U$1" gate="G$1" x="226.06" y="134.62"/>
 </instances>
 <busses>
 </busses>
@@ -22090,6 +22161,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="91.44" y1="124.46" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
 <label x="96.52" y="124.46" size="1.016" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<wire x1="233.68" y1="142.24" x2="236.22" y2="142.24" width="0.1524" layer="91"/>
+<label x="236.22" y="142.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MOSI_SPI" class="0">
 <segment>
@@ -22101,6 +22177,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="91.44" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
 <label x="96.52" y="121.92" size="1.016" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<wire x1="233.68" y1="137.16" x2="236.22" y2="137.16" width="0.1524" layer="91"/>
+<label x="236.22" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -22152,6 +22233,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="93.98" y1="157.48" x2="93.98" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <junction x="144.78" y="149.86"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="233.68" y1="147.32" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
+<label x="236.22" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$4"/>
+<wire x1="233.68" y1="132.08" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$5"/>
+<wire x1="233.68" y1="127" x2="236.22" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$6"/>
+<wire x1="233.68" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

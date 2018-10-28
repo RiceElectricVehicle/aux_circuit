@@ -20882,6 +20882,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="132.08" y1="93.98" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
 <label x="134.62" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="LIGHTS_OUT" gate="G$1" pin="P$8"/>
+<wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<label x="165.1" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
