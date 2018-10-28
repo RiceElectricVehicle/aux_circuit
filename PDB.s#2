@@ -20734,10 +20734,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="216.916" y="105.41" size="1.778" layer="95" rot="R270"/>
 <attribute name="TP_SIGNAL_NAME" x="214.63" y="101.6" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="R15" gate="G$1" x="91.44" y="119.38"/>
-<instance part="R16" gate="G$1" x="81.28" y="114.3" rot="R90"/>
-<instance part="SUPPLY5" gate="GND" x="81.28" y="106.68">
-<attribute name="VALUE" x="79.375" y="103.505" size="1.778" layer="96"/>
+<instance part="R15" gate="G$1" x="81.28" y="119.38"/>
+<instance part="R16" gate="G$1" x="71.12" y="114.3" rot="R90"/>
+<instance part="SUPPLY5" gate="GND" x="71.12" y="106.68">
+<attribute name="VALUE" x="69.215" y="103.505" size="1.778" layer="96"/>
 </instance>
 <instance part="ADD1_" gate="1" x="-27.94" y="-38.1" rot="R90">
 <attribute name="NAME" x="-26.035" y="-26.67" size="1.778" layer="95" rot="R180"/>
@@ -20886,6 +20886,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="LIGHTS_OUT" gate="G$1" pin="P$8"/>
 <wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 <label x="165.1" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CONTROL_IN" gate="G$1" pin="P$8"/>
+<wire x1="48.26" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
+<label x="50.8" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -21050,13 +21055,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="165.1" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="HAR_R_SIG" class="0">
-<segment>
-<pinref part="HAZ_R" gate="G$1" pin="D"/>
-<wire x1="101.6" y1="12.7" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="HAZR_OUT" gate="G$1" pin="GND"/>
-</segment>
-</net>
 <net name="BRAKE_SIG" class="0">
 <segment>
 <pinref part="BRAKE" gate="G$1" pin="D"/>
@@ -21111,8 +21109,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="119.38" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
-<label x="104.14" y="119.38" size="1.016" layer="95"/>
+<wire x1="86.36" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
+<label x="93.98" y="119.38" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="H3" class="0">
@@ -21458,22 +21456,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="BRK_SNS_5V" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
-<junction x="66.04" y="119.38"/>
+<wire x1="76.2" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<junction x="81.28" y="119.38"/>
-<wire x1="63.5" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="CONTROL_IN" gate="G$1" pin="P$1"/>
-<wire x1="48.26" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
 <label x="50.8" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="CONTROL_IN" gate="G$1" pin="P$8"/>
-<wire x1="48.26" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HAZ_R_SIG" class="0">
@@ -21481,6 +21468,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="LIGHTS_OUT" gate="G$1" pin="P$3"/>
 <wire x1="162.56" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
 <label x="165.1" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="HAZ_R" gate="G$1" pin="D"/>
+<wire x1="101.6" y1="12.7" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="HAZR_OUT" gate="G$1" pin="GND"/>
 </segment>
 </net>
 </nets>
