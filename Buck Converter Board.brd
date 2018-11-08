@@ -81,7 +81,7 @@
 <text x="4.59625" y="25.16625" size="1.778" layer="25" rot="R270">48V IN</text>
 <text x="109.65375" y="39.235" size="1.778" layer="25" rot="R180">12V OUT</text>
 <text x="109.71625" y="7.70375" size="1.778" layer="25" rot="R180">12V OUT</text>
-<text x="54.06125" y="3.64125" size="2.54" layer="25">REVolution</text>
+<text x="44.40125" y="0.70125" size="2.54" layer="25">REVolution</text>
 <rectangle x1="52.405" y1="36.945" x2="54.475" y2="36.955" layer="25"/>
 <rectangle x1="56.685" y1="36.945" x2="57.185" y2="36.955" layer="25"/>
 <rectangle x1="62.535" y1="36.945" x2="65.735" y2="36.955" layer="25"/>
@@ -7156,6 +7156,7 @@
 <rectangle x1="65.905" y1="44.405" x2="69.305" y2="44.415" layer="25"/>
 <rectangle x1="71.695" y1="44.405" x2="71.975" y2="44.415" layer="25"/>
 <text x="50.55" y="36.9" size="0.02" layer="25" font="vector">/Users/louissmidt/Downloads/Untitled-1.BMP</text>
+<text x="65.63" y="0.87" size="1.778" layer="25" font="vector">SEM 2018</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -8374,8 +8375,6 @@ diameter 5 mm, horizontal, grid 17 mm</description>
 <library name="REV Aux Circuit">
 <packages>
 <package name="DOSA1/8">
-<dimension x1="-0.24999375" y1="0" x2="-0.24999375" y2="22.917540625" x3="-3.874903125" y3="11.45876875" textsize="1.27" layer="21"/>
-<dimension x1="0.049003125" y1="-0.19646875" x2="58.522175" y2="-0.210528125" x3="29.28498125" y3="-2.729753125" textsize="1.27" layer="51"/>
 <rectangle x1="0" y1="0" x2="58.42" y2="22.86" layer="51"/>
 <pad name="V+" x="3.81" y="19.05" drill="0.6"/>
 <pad name="ON/OFF" x="3.81" y="11.43" drill="0.6"/>

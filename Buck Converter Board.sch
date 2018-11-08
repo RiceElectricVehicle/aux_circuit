@@ -6352,13 +6352,13 @@ Source: AVX .. aphvc.pdf</description>
 </packages>
 <symbols>
 <symbol name="POWERPOLE_POWER">
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
 <pin name="V+" x="-10.16" y="5.08" length="middle" direction="pwr"/>
 <pin name="GND" x="-10.16" y="-5.08" length="middle" direction="pwr"/>
-<text x="-2.54" y="10.16" size="1.778" layer="94">NAME</text>
+<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6543,8 +6543,6 @@ diameter 5 mm, horizontal, grid 17 mm</description>
 <library name="REV Aux Circuit">
 <packages>
 <package name="DOSA1/8">
-<dimension x1="-0.24999375" y1="0" x2="-0.24999375" y2="22.917540625" x3="-3.874903125" y3="11.45876875" textsize="1.27" layer="21"/>
-<dimension x1="0.049003125" y1="-0.19646875" x2="58.522175" y2="-0.210528125" x3="29.28498125" y3="-2.729753125" textsize="1.27" layer="51"/>
 <rectangle x1="0" y1="0" x2="58.42" y2="22.86" layer="51"/>
 <pad name="V+" x="3.81" y="19.05" drill="0.6"/>
 <pad name="ON/OFF" x="3.81" y="11.43" drill="0.6"/>
