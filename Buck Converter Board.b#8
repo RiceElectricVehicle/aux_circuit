@@ -79,7 +79,8 @@
 <wire x1="135.87" y1="75.87" x2="15.24" y2="75.87" width="0" layer="20"/>
 <wire x1="15.24" y1="75.87" x2="15.24" y2="35.56" width="0" layer="20"/>
 <text x="25.4" y="66.04" size="1.778" layer="25" rot="R180">48V IN</text>
-<text x="44.45" y="71.12" size="1.778" layer="25" rot="R180">48V, 10A Fuse</text>
+<text x="39.35625" y="70.96375" size="1.016" layer="25" rot="R180">Fuse
+48V, 8A</text>
 <text x="128.27" y="72.39" size="1.778" layer="25" rot="R180">12V OUT</text>
 <text x="128.27" y="40.64" size="1.778" layer="25" rot="R180">12V OUT</text>
 <text x="46.99" y="72.39" size="2.54" layer="25">REVolution</text>
@@ -1303,9 +1304,6 @@ Based on the following sources:
 <pad name="TRIM" x="54.61" y="11.43" drill="0.6"/>
 <pad name="SNS+" x="54.61" y="15.24" drill="0.6"/>
 <pad name="V_OUT+" x="54.61" y="19.05" drill="0.6"/>
-<dimension x1="-2.54" y1="3.81" x2="-2.54" y2="19.05" x3="-1.27" y3="11.43" textsize="1.27" layer="51"/>
-<dimension x1="59.69" y1="7.62" x2="59.69" y2="15.24" x3="62.23" y3="11.43" textsize="1.27" layer="51"/>
-<dimension x1="3.81" y1="24.13" x2="54.61" y2="24.13" x3="29.21" y3="25.4" textsize="1.27" layer="51"/>
 </package>
 </packages>
 </library>
@@ -1616,6 +1614,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

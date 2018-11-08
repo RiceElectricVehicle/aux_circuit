@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.03125" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1544,23 +1544,22 @@ design rules under a new name.</description>
 <vertex x="38.1" y="69.85"/>
 <vertex x="40.64" y="69.85"/>
 <vertex x="49.53" y="69.85" curve="-90"/>
-<vertex x="55.88" y="63.5"/>
-<vertex x="55.88" y="60.96" curve="-90"/>
-<vertex x="54.61" y="59.69"/>
+<vertex x="55.88" y="63.5" curve="-90"/>
+<vertex x="52.07" y="59.69"/>
 <vertex x="33.02" y="59.69" curve="-90"/>
 </polygon>
 </signal>
 <signal name="BGND" airwireshidden="yes">
 <polygon width="0.1524" layer="16" isolate="0.254">
-<vertex x="55.88" y="43.18"/>
-<vertex x="55.88" y="59.69" curve="90"/>
-<vertex x="53.34" y="62.23"/>
+<vertex x="29.05" y="41.91"/>
+<vertex x="45.88" y="41.91" curve="90"/>
+<vertex x="55.88" y="51.91"/>
+<vertex x="55.88" y="52.23" curve="90"/>
+<vertex x="45.88" y="62.23"/>
 <vertex x="41.91" y="62.23"/>
-<vertex x="20.32" y="62.23" curve="90"/>
-<vertex x="19.05" y="60.96"/>
-<vertex x="19.05" y="45.72" curve="90"/>
-<vertex x="22.86" y="41.91"/>
-<vertex x="53.34" y="41.91" curve="90"/>
+<vertex x="29.05" y="62.23" curve="90"/>
+<vertex x="19.05" y="52.23"/>
+<vertex x="19.05" y="51.91" curve="90"/>
 </polygon>
 <contactref element="J1" pad="BLACK"/>
 <contactref element="C2" pad="2"/>
@@ -1576,14 +1575,14 @@ design rules under a new name.</description>
 <contactref element="D1" pad="C"/>
 <polygon width="0.1524" layer="1">
 <vertex x="101.6" y="59.69"/>
-<vertex x="101.6" y="67.31" curve="-90"/>
-<vertex x="105.41" y="71.12"/>
-<vertex x="125.73" y="71.12" curve="-90"/>
-<vertex x="130.81" y="66.04"/>
-<vertex x="130.81" y="44.45" curve="-90"/>
-<vertex x="127" y="40.64"/>
-<vertex x="106.68" y="40.64" curve="-90"/>
-<vertex x="101.6" y="45.72"/>
+<vertex x="101.6" y="61.12" curve="-90"/>
+<vertex x="111.6" y="71.12"/>
+<vertex x="120.81" y="71.12" curve="-90"/>
+<vertex x="130.81" y="61.12"/>
+<vertex x="130.81" y="50.64" curve="-90"/>
+<vertex x="120.81" y="40.64"/>
+<vertex x="111.6" y="40.64" curve="-90"/>
+<vertex x="101.6" y="50.64"/>
 </polygon>
 </signal>
 <signal name="OGND" airwireshidden="yes">
@@ -1593,15 +1592,15 @@ design rules under a new name.</description>
 <contactref element="UEE150W" pad="V_OUT-"/>
 <contactref element="D1" pad="A"/>
 <polygon width="0.1524" layer="16">
-<vertex x="101.6" y="67.31" curve="-90"/>
-<vertex x="105.41" y="71.12"/>
-<vertex x="125.73" y="71.12" curve="-90"/>
-<vertex x="130.81" y="66.04"/>
-<vertex x="130.81" y="44.45" curve="-90"/>
-<vertex x="127" y="40.64"/>
-<vertex x="106.68" y="40.64" curve="-90"/>
-<vertex x="101.6" y="45.72"/>
 <vertex x="101.6" y="60.96"/>
+<vertex x="101.6" y="61.12" curve="-90"/>
+<vertex x="111.6" y="71.12"/>
+<vertex x="120.81" y="71.12" curve="-90"/>
+<vertex x="130.81" y="61.12"/>
+<vertex x="130.81" y="50.64" curve="-90"/>
+<vertex x="120.81" y="40.64"/>
+<vertex x="111.6" y="40.64" curve="-90"/>
+<vertex x="101.6" y="50.64"/>
 </polygon>
 <wire x1="120.31" y1="53.34" x2="117.79" y2="58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="115.43" y1="66.56" x2="117.79" y2="58.42" width="0" layer="19" extent="1-1"/>
