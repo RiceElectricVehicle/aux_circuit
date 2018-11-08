@@ -81,8 +81,8 @@
 <text x="25.4" y="66.04" size="1.778" layer="25" rot="R180">48V IN</text>
 <text x="39.35625" y="70.96375" size="1.016" layer="25" rot="R180">Fuse
 48V, 8A</text>
-<text x="128.27" y="72.39" size="1.778" layer="25" rot="R180">12V OUT</text>
-<text x="128.27" y="40.64" size="1.778" layer="25" rot="R180">12V OUT</text>
+<text x="124.61375" y="72.265" size="1.778" layer="25" rot="R180">12V OUT</text>
+<text x="124.67625" y="40.73375" size="1.778" layer="25" rot="R180">12V OUT</text>
 <text x="49.115" y="71.67125" size="2.54" layer="25">REVolution</text>
 </plain>
 <libraries>

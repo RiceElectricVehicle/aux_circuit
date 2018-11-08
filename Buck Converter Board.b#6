@@ -8624,8 +8624,8 @@ design rules under a new name.</description>
 <vertex x="30.6475" y="44.3275"/>
 <vertex x="37.03125" y="44.3275" curve="-90"/>
 <vertex x="47.248125" y="34.110625" curve="-90"/>
-<vertex x="36.01625" y="22.87875"/>
-<vertex x="31.96625" y="22.87875" curve="-90"/>
+<vertex x="37.30625" y="24.16875"/>
+<vertex x="30.67625" y="24.16875" curve="-90"/>
 </polygon>
 </signal>
 <signal name="BGND" airwireshidden="yes">
