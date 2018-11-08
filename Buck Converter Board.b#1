@@ -8581,7 +8581,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="96.62" y="22.06" smashed="yes" rot="R90">
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".47uF" x="96.62" y="22.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.35" y="20.79" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="C" x="96.62" y="22.06" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="99.16" y="20.79" size="1.27" layer="27" rot="R90"/>
@@ -8624,8 +8624,8 @@ design rules under a new name.</description>
 <vertex x="30.6475" y="44.3275"/>
 <vertex x="37.03125" y="44.3275" curve="-90"/>
 <vertex x="47.248125" y="34.110625" curve="-90"/>
-<vertex x="36.01625" y="22.87875"/>
-<vertex x="31.96625" y="22.87875" curve="-90"/>
+<vertex x="37.30625" y="24.16875"/>
+<vertex x="30.67625" y="24.16875" curve="-90"/>
 </polygon>
 </signal>
 <signal name="BGND" airwireshidden="yes">
@@ -8663,6 +8663,8 @@ design rules under a new name.</description>
 <vertex x="87.92125" y="7.61" curve="-90"/>
 </polygon>
 <contactref element="D2" pad="C"/>
+<contactref element="UEE150W" pad="SNS+"/>
+<wire x1="89.18" y1="26.66" x2="89.18" y2="30.47" width="0.6096" layer="1"/>
 </signal>
 <signal name="OGND" airwireshidden="yes">
 <contactref element="C1" pad="2"/>
@@ -8682,6 +8684,8 @@ design rules under a new name.</description>
 <wire x1="96.62" y1="23.01" x2="96.63375" y2="23.02375" width="0.6096" layer="1"/>
 <wire x1="96.63375" y1="23.02375" x2="96.63375" y2="25.47" width="0.6096" layer="1"/>
 <via x="96.63375" y="25.47" extent="1-16" drill="0.35"/>
+<contactref element="UEE150W" pad="SNS-"/>
+<wire x1="89.18" y1="19.04" x2="89.18" y2="15.23" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
