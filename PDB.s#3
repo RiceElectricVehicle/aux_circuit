@@ -20912,6 +20912,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="555" gate="A" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <junction x="-68.58" y="99.06"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="-58.42" y1="101.6" x2="-58.42" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-17.78" y1="91.44" x2="-58.42" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="91.44" x2="-58.42" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
@@ -20920,12 +20925,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="91.44" x2="-58.42" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="91.44" x2="-58.42" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TP10" gate="G$1" pin="TP"/>
@@ -20980,8 +20979,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VDD"/>
-<wire x1="177.8" y1="60.96" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="48.26" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="HEADLIGHTS_OUT" gate="G$1" pin="V+"/>
+<wire x1="177.8" y1="30.48" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VDD"/>
@@ -20990,10 +20989,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="REARLIGHTS_OUT" gate="G$1" pin="V+"/>
 <wire x1="215.9" y1="50.8" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="30.48" x2="215.9" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="HEADLIGHTS_OUT" gate="G$1" pin="V+"/>
-<wire x1="177.8" y1="30.48" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="REARLIGHTS" gate="1" pin="P"/>

@@ -21567,6 +21567,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="104,1,-58.42,20.32,ADD2_OUT,GND,N$8,,,"/>
 <approved hash="104,1,-27.94,30.48,ADD1_OUT,V+,VDD,,,"/>
 <approved hash="104,1,-27.94,20.32,ADD1_OUT,GND,N$17,,,"/>
+<approved hash="104,1,15.24,27.94,WIPER_OUT,V+,VDD,,,"/>
+<approved hash="104,1,15.24,17.78,WIPER_OUT,GND,N$19,,,"/>
 <approved hash="104,1,63.5,30.48,HAZL_OUT,V+,VDD,,,"/>
 <approved hash="104,1,63.5,20.32,HAZL_OUT,GND,HAZ_L_SIG,,,"/>
 <approved hash="104,1,101.6,30.48,HAZR_OUT,V+,VDD,,,"/>
@@ -21580,6 +21582,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="104,1,195.58,127,VDD_IN1,V+,BRAKE_SNS_IN,,,"/>
 <approved hash="104,1,195.58,137.16,VDD_IN1,GND,SNS_VOLTAGE,,,"/>
 <approved hash="104,1,-27.94,99.06,555,V+,VDD,,,"/>
+<approved hash="113,1,54.3445,-34.5846,HAZ_LEFT,,,,,"/>
+<approved hash="113,1,90.7525,-34.5846,HAZ_RIGHT,,,,,"/>
+<approved hash="113,1,-65.7183,1.27,LED1,,,,,"/>
+<approved hash="113,1,-35.2383,1.27,LED2,,,,,"/>
+<approved hash="113,1,7.94173,-1.27,LED3,,,,,"/>
+<approved hash="113,1,56.2017,1.27,LED4,,,,,"/>
+<approved hash="113,1,91.7617,1.27,LED5,,,,,"/>
+<approved hash="113,1,167.872,-34.5846,HEADLIGHTS,,,,,"/>
+<approved hash="113,1,-27.94,-36.5438,ADD1_,,,,,"/>
+<approved hash="113,1,-66.04,-36.5438,ADD2_,,,,,"/>
+<approved hash="113,1,97.2785,101.007,CLK_SELECT,,,,,"/>
+<approved hash="113,1,118.15,-33.6127,BRAKE_SENSOR_OVERRIDE,,,,,"/>
 </errors>
 </schematic>
 </drawing>

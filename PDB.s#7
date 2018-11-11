@@ -20922,7 +20922,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<label x="-7.62" y="96.52" size="1.778" layer="95"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="91.44" x2="-58.42" y2="91.44" width="0.1524" layer="91"/>
