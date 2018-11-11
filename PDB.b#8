@@ -4135,6 +4135,7 @@
 <rectangle x1="63.73" y1="21.31" x2="71.01" y2="21.33" layer="25"/>
 <rectangle x1="75.59" y1="21.31" x2="75.97" y2="21.33" layer="25"/>
 <text x="33.12" y="6.64" size="0.04" layer="25" font="vector">/Users/louissmidt/Downloads/Untitled-2.BMP</text>
+<text x="9.36" y="120.5" size="1.778" layer="26">Standoffs</text>
 </plain>
 <libraries>
 <library name="nxp_60">

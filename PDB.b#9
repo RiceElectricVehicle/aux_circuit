@@ -7868,7 +7868,6 @@ design rules under a new name.</description>
 <signal name="SCL_SPI">
 <contactref element="CONTROL_IN" pad="P5"/>
 <contactref element="SPI_OUT" pad="P5"/>
-<wire x1="34.028" y1="-10.208" x2="33.90404375" y2="-10.08404375" width="0.6096" layer="16"/>
 <wire x1="36.775959375" y1="-7.460040625" x2="34.028" y2="-10.208" width="0.6096" layer="16"/>
 <wire x1="36.536" y1="110.823" x2="36.775959375" y2="-7.460040625" width="0.6096" layer="16"/>
 <wire x1="39.108" y1="113.395" x2="36.536" y2="110.823" width="0.6096" layer="16"/>
@@ -7932,7 +7931,6 @@ design rules under a new name.</description>
 <wire x1="44.528" y1="-0.186" x2="46.884" y2="2.17" width="0.6096" layer="16"/>
 <via x="46.888" y="2.17" extent="1-16" drill="0.35"/>
 <wire x1="44.528" y1="-10.208" x2="44.528" y2="-0.186" width="0.6096" layer="16"/>
-<wire x1="46.888" y1="2.17" x2="46.855" y2="2.203" width="0.6096" layer="1"/>
 <wire x1="46.884" y1="2.17" x2="46.888" y2="2.17" width="0.6096" layer="16"/>
 <wire x1="46.888" y1="2.17" x2="46.888" y2="24.392" width="0.6096" layer="1"/>
 <wire x1="46.888" y1="24.392" x2="46.88" y2="24.4" width="0.6096" layer="1"/>

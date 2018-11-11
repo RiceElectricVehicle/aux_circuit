@@ -7444,7 +7444,6 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="R21" pad="1"/>
 <contactref element="R20" pad="1"/>
-<contactref element="C2" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="555" pad="1"/>
 <contactref element="C4" pad="2"/>
@@ -7529,7 +7528,6 @@ design rules under a new name.</description>
 <wire x1="54.903" y1="43.027" x2="53.6" y2="44.33" width="0.6096" layer="1"/>
 <wire x1="53.6" y1="44.33" x2="53.6" y2="45.48" width="0.6096" layer="1"/>
 <via x="53.6" y="45.48" extent="1-16" drill="0.35"/>
-<wire x1="56.708" y1="46.736" x2="54.856" y2="46.736" width="0.6096" layer="1"/>
 <wire x1="54.856" y1="46.736" x2="53.6" y2="45.48" width="0.6096" layer="1"/>
 <wire x1="66.153" y1="46.786" x2="68.066" y2="46.786" width="0.6096" layer="1"/>
 <wire x1="68.066" y1="46.786" x2="68.08" y2="46.8" width="0.6096" layer="1"/>
@@ -7556,6 +7554,8 @@ design rules under a new name.</description>
 <via x="65.58" y="31.14" extent="1-16" drill="0.35" diameter="0.9"/>
 <wire x1="65.58" y1="31.14" x2="70.54" y2="26.18" width="1.016" layer="1"/>
 <via x="70.54" y="26.18" extent="1-16" drill="0.35" diameter="0.9"/>
+<contactref element="C2" pad="2"/>
+<wire x1="54.856" y1="46.736" x2="56.708" y2="46.736" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD">
 <contactref element="VDD_IN" pad="RED"/>
