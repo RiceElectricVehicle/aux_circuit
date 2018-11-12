@@ -81,7 +81,7 @@
 <text x="4.59625" y="25.16625" size="1.778" layer="25" rot="R270">48V IN</text>
 <text x="109.65375" y="39.235" size="1.778" layer="25" rot="R180">12V OUT</text>
 <text x="109.71625" y="7.70375" size="1.778" layer="25" rot="R180">12V OUT</text>
-<text x="54.06125" y="3.64125" size="2.54" layer="25">REVolution</text>
+<text x="44.40125" y="0.70125" size="2.54" layer="25">REVolution</text>
 <rectangle x1="52.405" y1="36.945" x2="54.475" y2="36.955" layer="25"/>
 <rectangle x1="56.685" y1="36.945" x2="57.185" y2="36.955" layer="25"/>
 <rectangle x1="62.535" y1="36.945" x2="65.735" y2="36.955" layer="25"/>
@@ -7156,6 +7156,7 @@
 <rectangle x1="65.905" y1="44.405" x2="69.305" y2="44.415" layer="25"/>
 <rectangle x1="71.695" y1="44.405" x2="71.975" y2="44.415" layer="25"/>
 <text x="50.55" y="36.9" size="0.02" layer="25" font="vector">/Users/louissmidt/Downloads/Untitled-1.BMP</text>
+<text x="65.63" y="0.87" size="1.778" layer="25" font="vector">SEM 2018</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -8374,8 +8375,6 @@ diameter 5 mm, horizontal, grid 17 mm</description>
 <library name="REV Aux Circuit">
 <packages>
 <package name="DOSA1/8">
-<dimension x1="-0.24999375" y1="0" x2="-0.24999375" y2="22.917540625" x3="-3.874903125" y3="11.45876875" textsize="1.27" layer="21"/>
-<dimension x1="0.049003125" y1="-0.19646875" x2="58.522175" y2="-0.210528125" x3="29.28498125" y3="-2.729753125" textsize="1.27" layer="51"/>
 <rectangle x1="0" y1="0" x2="58.42" y2="22.86" layer="51"/>
 <pad name="V+" x="3.81" y="19.05" drill="0.6"/>
 <pad name="ON/OFF" x="3.81" y="11.43" drill="0.6"/>
@@ -8581,10 +8580,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".47uF" x="96.62" y="22.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="95.35" y="20.79" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEPREFIX" value="C" x="96.62" y="22.06" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="99.16" y="20.79" size="1.27" layer="27" rot="R90"/>
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".47uF" x="96.01" y="22.03" smashed="yes" rot="R90">
+<attribute name="NAME" x="94.74" y="20.76" size="1.27" layer="25" rot="R90"/>
+<attribute name="SPICEPREFIX" value="C" x="96.01" y="22.03" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="98.55" y="20.76" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" package="FUSE_HOLDER_5X20MM" package3d_urn="urn:adsk.eagle:package:14079/1" value="FUSEBLANK_5X20MM" x="14.58875" y="39.1875" smashed="yes">
 <attribute name="MF" value="" x="14.58875" y="39.1875" size="1.778" layer="27" display="off"/>
@@ -8663,6 +8662,8 @@ design rules under a new name.</description>
 <vertex x="87.92125" y="7.61" curve="-90"/>
 </polygon>
 <contactref element="D2" pad="C"/>
+<contactref element="UEE150W" pad="SNS+"/>
+<wire x1="89.18" y1="26.66" x2="89.18" y2="30.47" width="0.6096" layer="1"/>
 </signal>
 <signal name="OGND" airwireshidden="yes">
 <contactref element="C1" pad="2"/>
@@ -8679,9 +8680,11 @@ design rules under a new name.</description>
 <vertex x="96.9525" y="7.61" curve="-90"/>
 </polygon>
 <contactref element="D2" pad="A"/>
-<wire x1="96.62" y1="23.01" x2="96.63375" y2="23.02375" width="0.6096" layer="1"/>
-<wire x1="96.63375" y1="23.02375" x2="96.63375" y2="25.47" width="0.6096" layer="1"/>
-<via x="96.63375" y="25.47" extent="1-16" drill="0.35"/>
+<wire x1="96.01" y1="22.98" x2="96.02375" y2="22.99375" width="0.6096" layer="1"/>
+<wire x1="96.02375" y1="22.99375" x2="96.02375" y2="25.44" width="0.6096" layer="1"/>
+<via x="96.02375" y="25.44" extent="1-16" drill="0.35"/>
+<contactref element="UEE150W" pad="SNS-"/>
+<wire x1="89.18" y1="19.04" x2="89.18" y2="15.23" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
