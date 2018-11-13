@@ -7616,7 +7616,7 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <attribute name="NAME" x="125.095" y="53.594" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="130.429" y="53.594" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-2.54" y="53.34" rot="R180"/>
+<instance part="U$1" gate="G$1" x="-5.08" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -7625,10 +7625,10 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<label x="12.7" y="66.04" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="-"/>
-<wire x1="-2.54" y1="66.04" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
+<label x="2.54" y="66.04" size="1.778" layer="95"/>
 <wire x1="10.16" y1="66.04" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="+"/>
+<wire x1="-5.08" y1="66.04" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_BATT_FUSED" class="0">
@@ -7652,11 +7652,11 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <junction x="45.72" y="55.88"/>
 <pinref part="UEE150W" gate="G$1" pin="V-"/>
 <pinref part="UEE150W" gate="G$1" pin="ON/OFF"/>
-<label x="5.08" y="58.42" size="1.778" layer="95"/>
+<label x="5.08" y="50.8" size="1.778" layer="95"/>
 <wire x1="35.56" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="55.88" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="+"/>
-<wire x1="10.16" y1="53.34" x2="-2.54" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="-"/>
+<wire x1="10.16" y1="53.34" x2="-5.08" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_OUT" class="0">
