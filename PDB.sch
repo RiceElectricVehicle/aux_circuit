@@ -23658,7 +23658,7 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="R11" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="B25U" package3d_urn="urn:adsk.eagle:package:22685/1" value="10K"/>
 <part name="555" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" technology="LM"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22uF"/>
+<part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF-POLAR" device="-PANASONIC_C-35V-20%" package3d_urn="urn:adsk.eagle:package:37430/1" value="22uF"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
@@ -23687,7 +23687,7 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="LED_ICLK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R3225" package3d_urn="urn:adsk.eagle:package:26073/1" value="470"/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="LED_XCLK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="XCLK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100"/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R24" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1"/>
@@ -24010,7 +24010,7 @@ Source: VISHAY wscwsn.pdf</description>
 <instance part="SUPPLY17" gate="GND" x="153.408840625" y="139.16840625">
 <attribute name="VALUE" x="151.503840625" y="135.99340625" size="1.778" layer="96"/>
 </instance>
-<instance part="LED_XCLK" gate="G$1" x="131.61291875" y="140.527025" smashed="yes">
+<instance part="XCLK" gate="G$1" x="131.61291875" y="140.527025" smashed="yes">
 <attribute name="NAME" x="125.79391875" y="135.955025" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="137.32791875" y="135.955025" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -24102,7 +24102,7 @@ Source: VISHAY wscwsn.pdf</description>
 <pinref part="555" gate="A" pin="GND"/>
 <wire x1="-48.26" y1="99.06" x2="-50.8" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="GND" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="-"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-71.12" y1="104.14" x2="-71.12" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="99.06" x2="-68.58" y2="99.06" width="0.1524" layer="91"/>
@@ -24252,7 +24252,7 @@ Source: VISHAY wscwsn.pdf</description>
 <junction x="-22.86" y="99.06"/>
 <pinref part="555" gate="A" pin="R"/>
 <pinref part="555" gate="A" pin="V+"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="+"/>
 <wire x1="-68.58" y1="91.44" x2="-63.5" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-63.5" y="91.44"/>
 </segment>
@@ -24703,7 +24703,7 @@ Source: VISHAY wscwsn.pdf</description>
 <segment>
 <pinref part="CLK_SELECT" gate="1" pin="1"/>
 <label x="132.432725" y="150.647134375" size="1.016" layer="95" rot="R90"/>
-<pinref part="LED_XCLK" gate="G$1" pin="A"/>
+<pinref part="XCLK" gate="G$1" pin="A"/>
 <wire x1="131.61291875" y1="143.067025" x2="131.61291875" y2="158.267134375" width="0.1524" layer="91"/>
 <wire x1="131.61291875" y1="158.267134375" x2="132.120225" y2="158.267134375" width="0.1524" layer="91"/>
 </segment>
@@ -24801,7 +24801,7 @@ Source: VISHAY wscwsn.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LED_XCLK" gate="G$1" pin="C"/>
+<pinref part="XCLK" gate="G$1" pin="C"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="133.873840625" y1="135.45840625" x2="131.61291875" y2="135.447025" width="0.1524" layer="91"/>
 </segment>

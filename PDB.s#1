@@ -20194,12 +20194,77 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.048" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
+<package name="PANASONIC_D" urn="urn:adsk.eagle:footprint:37384/1" library_version="1">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E&lt;/b&gt;</description>
+<wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="1.55" x2="3.25" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="-1.55" x2="1.55" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="-3.25" y1="0.95" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="1.55" x2="3.25" y2="0.95" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-0.95" x2="3.25" y2="-1.55" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-1.55" x2="1.55" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="1.55" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="2.95" y1="0.95" x2="-2.95" y2="0.95" width="0.1016" layer="21" curve="144.299363"/>
+<wire x1="-2.95" y1="-0.95" x2="2.95" y2="-0.95" width="0.1016" layer="21" curve="144.299363"/>
+<wire x1="-2.1" y1="2.25" x2="-2.1" y2="-2.2" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="3.1" width="0.1016" layer="51"/>
+<smd name="+" x="2.4" y="0" dx="3" dy="1.4" layer="1"/>
+<smd name="-" x="-2.4" y="0" dx="3" dy="1.4" layer="1"/>
+<text x="0" y="3.429" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.429" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-0.35" x2="-3.05" y2="0.35" layer="51"/>
+<rectangle x1="3.05" y1="-0.35" x2="3.65" y2="0.35" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.15" y="2.15"/>
+<vertex x="-2.6" y="1.6"/>
+<vertex x="-2.9" y="0.9"/>
+<vertex x="-3.05" y="0"/>
+<vertex x="-2.9" y="-0.95"/>
+<vertex x="-2.55" y="-1.65"/>
+<vertex x="-2.15" y="-2.15"/>
+<vertex x="-2.15" y="2.1"/>
+</polygon>
+</package>
+<package name="EIA3528" urn="urn:adsk.eagle:footprint:37383/1" library_version="1">
+<description>Generic EIA 3528 polarized tantalum capacitor</description>
+<wire x1="-0.9" y1="-1.6" x2="-2.6" y2="-1.6" width="0.2032" layer="51"/>
+<wire x1="-2.6" y1="-1.6" x2="-2.6" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="-2.6" y1="1.55" x2="-0.9" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="1" y1="-1.55" x2="2.2" y2="-1.55" width="0.2032" layer="51"/>
+<wire x1="2.2" y1="-1.55" x2="2.6" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="2.6" y1="-1.2" x2="2.6" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="2.6" y1="1.25" x2="2.2" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="2.2" y1="1.55" x2="1" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="2.641" y1="1.311" x2="2.641" y2="-1.286" width="0.2032" layer="21" style="longdash"/>
+<smd name="C" x="-1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="A" x="1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="PANASONIC_C" urn="urn:adsk.eagle:package:37430/1" type="box" library_version="1">
 <description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E</description>
 <packageinstances>
 <packageinstance name="PANASONIC_C"/>
+</packageinstances>
+</package3d>
+<package3d name="PANASONIC_D" urn="urn:adsk.eagle:package:37420/1" type="box" library_version="1">
+<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E</description>
+<packageinstances>
+<packageinstance name="PANASONIC_D"/>
+</packageinstances>
+</package3d>
+<package3d name="EIA3528" urn="urn:adsk.eagle:package:37411/1" type="box" library_version="1">
+<description>Generic EIA 3528 polarized tantalum capacitor</description>
+<packageinstances>
+<packageinstance name="EIA3528"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -20238,6 +20303,57 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="CAP-08618"/>
 <attribute name="VALUE" value="22uF"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="47UF-POLAR" urn="urn:adsk.eagle:component:37466/1" prefix="C" library_version="1">
+<description>&lt;h3&gt;47µF polarized capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-EIA3528-10V-10%" package="EIA3528">
+<connects>
+<connect gate="G$1" pin="+" pad="A"/>
+<connect gate="G$1" pin="-" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37411/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08310"/>
+<attribute name="VALUE" value="47uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-PANASONIC_D-35V-20%" package="PANASONIC_D">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37420/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08478"/>
+<attribute name="VALUE" value="47uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-PANASONIC_D-50V-20%" package="PANASONIC_D">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37420/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -23658,7 +23774,7 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="R11" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="B25U" package3d_urn="urn:adsk.eagle:package:22685/1" value="10K"/>
 <part name="555" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" technology="LM"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22uF"/>
+<part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47UF-POLAR" device="-PANASONIC_D-35V-20%" package3d_urn="urn:adsk.eagle:package:37420/1" value="47uF"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
@@ -23687,7 +23803,7 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="LED_ICLK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R3225" package3d_urn="urn:adsk.eagle:package:26073/1" value="470"/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="LED_XCLK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="XCLK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100"/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R24" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1"/>
@@ -24010,7 +24126,7 @@ Source: VISHAY wscwsn.pdf</description>
 <instance part="SUPPLY17" gate="GND" x="153.408840625" y="139.16840625">
 <attribute name="VALUE" x="151.503840625" y="135.99340625" size="1.778" layer="96"/>
 </instance>
-<instance part="LED_XCLK" gate="G$1" x="131.61291875" y="140.527025" smashed="yes">
+<instance part="XCLK" gate="G$1" x="131.61291875" y="140.527025" smashed="yes">
 <attribute name="NAME" x="125.79391875" y="135.955025" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="137.32791875" y="135.955025" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -24102,7 +24218,7 @@ Source: VISHAY wscwsn.pdf</description>
 <pinref part="555" gate="A" pin="GND"/>
 <wire x1="-48.26" y1="99.06" x2="-50.8" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="GND" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="-"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-71.12" y1="104.14" x2="-71.12" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="99.06" x2="-68.58" y2="99.06" width="0.1524" layer="91"/>
@@ -24252,7 +24368,7 @@ Source: VISHAY wscwsn.pdf</description>
 <junction x="-22.86" y="99.06"/>
 <pinref part="555" gate="A" pin="R"/>
 <pinref part="555" gate="A" pin="V+"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="+"/>
 <wire x1="-68.58" y1="91.44" x2="-63.5" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-63.5" y="91.44"/>
 </segment>
@@ -24703,7 +24819,7 @@ Source: VISHAY wscwsn.pdf</description>
 <segment>
 <pinref part="CLK_SELECT" gate="1" pin="1"/>
 <label x="132.432725" y="150.647134375" size="1.016" layer="95" rot="R90"/>
-<pinref part="LED_XCLK" gate="G$1" pin="A"/>
+<pinref part="XCLK" gate="G$1" pin="A"/>
 <wire x1="131.61291875" y1="143.067025" x2="131.61291875" y2="158.267134375" width="0.1524" layer="91"/>
 <wire x1="131.61291875" y1="158.267134375" x2="132.120225" y2="158.267134375" width="0.1524" layer="91"/>
 </segment>
@@ -24801,7 +24917,7 @@ Source: VISHAY wscwsn.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LED_XCLK" gate="G$1" pin="C"/>
+<pinref part="XCLK" gate="G$1" pin="C"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="133.873840625" y1="135.45840625" x2="131.61291875" y2="135.447025" width="0.1524" layer="91"/>
 </segment>

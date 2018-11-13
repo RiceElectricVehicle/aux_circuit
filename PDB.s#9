@@ -24023,8 +24023,8 @@ Source: VISHAY wscwsn.pdf</description>
 </instance>
 <instance part="R24" gate="G$1" x="84.375" y="93.75"/>
 <instance part="R25" gate="G$1" x="84.375" y="87.5"/>
-<instance part="µC_A1" gate="G$1" x="75" y="93.75" rot="R90"/>
-<instance part="µC_A2" gate="G$1" x="75" y="87.5" rot="R90"/>
+<instance part="µC_A1" gate="G$1" x="71.875" y="93.75" rot="R90"/>
+<instance part="µC_A2" gate="G$1" x="71.875" y="87.5" rot="R90"/>
 <instance part="SUPPLY20" gate="GND" x="92.08159375" y="94.033840625" rot="R90"/>
 <instance part="SUPPLY23" gate="GND" x="92.08159375" y="87.783840625" rot="R90"/>
 </instances>
@@ -24478,14 +24478,12 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="CLK_SELECT" gate="1" pin="3"/>
-<wire x1="137.200225" y1="158.267134375" x2="137.200225" y2="155.727134375" width="0.1524" layer="91"/>
 <label x="137.512725" y="150.647134375" size="1.016" layer="95" rot="R90"/>
 <pinref part="LED_ICLK" gate="G$1" pin="A"/>
 <wire x1="137.86291875" y1="149.317025" x2="137.86291875" y2="150" width="0.1524" layer="91"/>
 <wire x1="137.86291875" y1="150" x2="137.5" y2="150" width="0.1524" layer="91"/>
 <wire x1="137.5" y1="150" x2="137.5" y2="158.267134375" width="0.1524" layer="91"/>
 <wire x1="137.5" y1="158.267134375" x2="137.200225" y2="158.267134375" width="0.1524" layer="91"/>
-<junction x="137.200225" y="158.267134375"/>
 </segment>
 </net>
 <net name="H7" class="0">
@@ -24663,8 +24661,8 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="48.26" y1="88.9" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
 <label x="50.8" y="88.9" size="1.778" layer="95"/>
 <pinref part="µC_A2" gate="G$1" pin="A"/>
-<wire x1="72.46" y1="87.5" x2="72.46" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="72.46" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="69.335" y1="87.5" x2="69.335" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="69.335" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
 <junction x="48.26" y="88.9"/>
 </segment>
 </net>
@@ -24679,8 +24677,8 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="48.26" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
 <label x="50.8" y="93.98" size="1.778" layer="95"/>
 <pinref part="µC_A1" gate="G$1" pin="A"/>
-<wire x1="72.46" y1="93.75" x2="72.46" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="72.46" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="69.335" y1="93.75" x2="69.335" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="69.335" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
 <junction x="48.26" y="93.98"/>
 </segment>
 </net>
@@ -24704,12 +24702,10 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="CLK_SELECT" gate="1" pin="1"/>
-<wire x1="132.120225" y1="158.267134375" x2="132.120225" y2="155.727134375" width="0.1524" layer="91"/>
 <label x="132.432725" y="150.647134375" size="1.016" layer="95" rot="R90"/>
 <pinref part="LED_XCLK" gate="G$1" pin="A"/>
 <wire x1="131.61291875" y1="143.067025" x2="131.61291875" y2="158.267134375" width="0.1524" layer="91"/>
 <wire x1="131.61291875" y1="158.267134375" x2="132.120225" y2="158.267134375" width="0.1524" layer="91"/>
-<junction x="132.120225" y="158.267134375"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -24717,8 +24713,6 @@ Source: VISHAY wscwsn.pdf</description>
 <pinref part="CLK_SELECT" gate="1" pin="2"/>
 <wire x1="134.660225" y1="158.267134375" x2="134.660225" y2="155.727134375" width="0.1524" layer="91"/>
 <label x="134.660225" y="153.187134375" size="1.016" layer="95" rot="R90"/>
-<wire x1="134.73791875" y1="158.267134375" x2="134.660225" y2="158.267134375" width="0.1524" layer="91"/>
-<junction x="134.660225" y="158.267134375"/>
 </segment>
 <segment>
 <pinref part="HAZ_RIGHT" gate="1" pin="P"/>
@@ -24816,14 +24810,14 @@ Source: VISHAY wscwsn.pdf</description>
 <segment>
 <pinref part="µC_A1" gate="G$1" pin="C"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="80.08" y1="93.75" x2="79.295" y2="93.75" width="0.1524" layer="91"/>
+<wire x1="76.955" y1="93.75" x2="79.295" y2="93.75" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="µC_A2" gate="G$1" pin="C"/>
 <pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="80.08" y1="87.5" x2="79.295" y2="87.5" width="0.1524" layer="91"/>
+<wire x1="76.955" y1="87.5" x2="79.295" y2="87.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -24862,16 +24856,9 @@ Source: VISHAY wscwsn.pdf</description>
 <approved hash="104,1,-27.94,99.06,555,V+,VDD,,,"/>
 <approved hash="113,1,54.3445,-34.5846,HAZ_LEFT,,,,,"/>
 <approved hash="113,1,90.7525,-34.5846,HAZ_RIGHT,,,,,"/>
-<approved hash="113,1,-65.7183,1.27,LED1,,,,,"/>
-<approved hash="113,1,-35.2383,1.27,LED2,,,,,"/>
-<approved hash="113,1,7.94173,-1.27,LED3,,,,,"/>
-<approved hash="113,1,56.2017,1.27,LED4,,,,,"/>
-<approved hash="113,1,91.7617,1.27,LED5,,,,,"/>
 <approved hash="113,1,167.872,-34.5846,HEADLIGHTS,,,,,"/>
 <approved hash="113,1,-27.94,-36.5438,ADD1_,,,,,"/>
 <approved hash="113,1,-66.04,-36.5438,ADD2_,,,,,"/>
-<approved hash="113,1,97.2785,101.007,CLK_SELECT,,,,,"/>
-<approved hash="113,1,118.15,-33.6127,BRAKE_SENSOR_OVERRIDE,,,,,"/>
 </errors>
 </schematic>
 </drawing>
