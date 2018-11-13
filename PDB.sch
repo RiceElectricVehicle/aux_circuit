@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="3.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
+<grid distance="3.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
@@ -23617,9 +23617,9 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="REARLIGHTS_OUT" library="powerpoles" deviceset="POWERPOLE_POWER" device="25A_HORIZONTAL_G2" value="POWERPOLE_POWER25A_HORIZONTAL_G2"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K"/>
@@ -23629,7 +23629,7 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="DO41Z10" package3d_urn="urn:adsk.eagle:package:43341/1" value="12V"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="DO41Z10" package3d_urn="urn:adsk.eagle:package:43341/1" value="15V"/>
 <part name="GND8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4446" device="" package3d_urn="urn:adsk.eagle:package:43344/2"/>
 <part name="GND6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -23641,14 +23641,11 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="REARLIGHTS" library="switch" deviceset="M9040P" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K"/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -23682,14 +23679,23 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="LIGHTS_OUT" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device=""/>
 <part name="CLK_SELECT" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
 <part name="BRAKE_SENSOR_OVERRIDE" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
-<part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="R7" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1" value="100"/>
-<part name="R8" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1" value="100"/>
+<part name="POWER" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="R7" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1" value="220"/>
+<part name="R8" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1" value="220"/>
 <part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R3225" package3d_urn="urn:adsk.eagle:package:26073/1" value="470"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="LED_ICLK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R3225" package3d_urn="urn:adsk.eagle:package:26073/1" value="470"/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="LED_XCLK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100"/>
+<part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R24" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1"/>
+<part name="R25" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1"/>
+<part name="µC_A1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="µC_A2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23709,13 +23715,13 @@ Source: VISHAY wscwsn.pdf</description>
 <text x="-66.04" y="73.66" size="3.81" layer="95">Add. #2 </text>
 <text x="-35.56" y="73.66" size="3.81" layer="95">Add. #1</text>
 <text x="7.62" y="73.66" size="3.81" layer="95">Wiper</text>
-<text x="48.26" y="73.66" size="3.81" layer="95">Left Turn/Haz</text>
-<text x="83.82" y="73.66" size="3.81" layer="95">Right Turn/Haz</text>
+<text x="48.26" y="70.535" size="3.81" layer="95">Left Turn/Haz</text>
+<text x="83.82" y="70.535" size="3.81" layer="95">Right Turn/Haz</text>
 <text x="129.54" y="73.66" size="3.81" layer="95">Brake</text>
 <text x="165.1" y="73.66" size="3.81" layer="95">Headlights</text>
 <text x="203.2" y="73.66" size="3.81" layer="95">Rear lights</text>
 <text x="190.5" y="106.68" size="5.08" layer="94">GND Headers</text>
-<text x="81.28" y="132.08" size="5.08" layer="94">Connectors</text>
+<text x="78.155" y="138.33" size="5.08" layer="94">Connectors</text>
 </plain>
 <instances>
 <instance part="ADD2" gate="G$1" x="-60.96" y="7.62" smashed="yes">
@@ -23741,19 +23747,19 @@ Source: VISHAY wscwsn.pdf</description>
 <instance part="SUPPLY28" gate="GND" x="-27.94" y="0">
 <attribute name="VALUE" x="-29.845" y="-3.175" size="1.778" layer="96"/>
 </instance>
-<instance part="WIPER_" gate="G$1" x="12.7" y="5.08" smashed="yes">
-<attribute name="NAME" x="11.43" y="10.16" size="1.778" layer="95" font="vector"/>
+<instance part="WIPER_" gate="G$1" x="12.7" y="8.205" smashed="yes">
+<attribute name="NAME" x="11.43" y="13.285" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="C10" gate="G$1" x="17.78" y="58.42" rot="R90"/>
 <instance part="GND2" gate="GND" x="22.86" y="55.88"/>
-<instance part="WIPER_OUT" gate="G$1" x="25.4" y="22.86" smashed="yes">
-<attribute name="NAME" x="20.32" y="30.48" size="1.778" layer="94"/>
+<instance part="WIPER_OUT" gate="G$1" x="25.4" y="25.985" smashed="yes">
+<attribute name="NAME" x="20.32" y="33.605" size="1.778" layer="94"/>
 </instance>
 <instance part="SUPPLY29" gate="G$1" x="15.24" y="66.04">
 <attribute name="VALUE" x="13.335" y="69.215" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY30" gate="GND" x="15.24" y="-2.54">
-<attribute name="VALUE" x="13.335" y="-5.715" size="1.778" layer="96"/>
+<instance part="SUPPLY30" gate="GND" x="15.24" y="0.585">
+<attribute name="VALUE" x="13.335" y="-2.59" size="1.778" layer="96"/>
 </instance>
 <instance part="HAZ_L" gate="G$1" x="60.96" y="7.62" smashed="yes">
 <attribute name="NAME" x="59.69" y="12.7" size="1.778" layer="95" font="vector"/>
@@ -23809,40 +23815,40 @@ Source: VISHAY wscwsn.pdf</description>
 <attribute name="NAME" x="-64.5414" y="-3.81" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-69.342" y="-3.81" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R2" gate="G$1" x="-35.56" y="-7.62" rot="R270">
-<attribute name="NAME" x="-34.0614" y="-3.81" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-38.862" y="-3.81" size="1.778" layer="96" rot="R270"/>
+<instance part="R2" gate="G$1" x="-35.56" y="-4.495" rot="R270">
+<attribute name="NAME" x="-34.0614" y="-0.685" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-38.862" y="-0.685" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R3" gate="G$1" x="7.62" y="-10.16" rot="R270">
-<attribute name="NAME" x="9.1186" y="-6.35" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="4.318" y="-6.35" size="1.778" layer="96" rot="R270"/>
+<instance part="R3" gate="G$1" x="7.62" y="-3.91" rot="R270">
+<attribute name="NAME" x="9.1186" y="-0.1" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="4.318" y="-0.1" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R4" gate="G$1" x="55.88" y="-7.62" rot="R270">
-<attribute name="NAME" x="57.3786" y="-3.81" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="52.578" y="-3.81" size="1.778" layer="96" rot="R270"/>
+<instance part="R4" gate="G$1" x="55.88" y="-4.495" rot="R270">
+<attribute name="NAME" x="57.3786" y="-0.685" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="52.578" y="-0.685" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R5" gate="G$1" x="91.44" y="-7.62" rot="R270">
-<attribute name="NAME" x="92.9386" y="-3.81" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="88.138" y="-3.81" size="1.778" layer="96" rot="R270"/>
+<instance part="R5" gate="G$1" x="91.44" y="-4.495" rot="R270">
+<attribute name="NAME" x="92.9386" y="-0.685" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="88.138" y="-0.685" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R6" gate="G$1" x="127" y="-4.39141875" rot="R270">
 <attribute name="NAME" x="128.4986" y="-0.58141875" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="123.698" y="-0.58141875" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY8" gate="GND" x="-66.04" y="-15.24"/>
-<instance part="SUPPLY9" gate="GND" x="-35.56" y="-15.24"/>
-<instance part="SUPPLY10" gate="GND" x="7.62" y="-17.78"/>
-<instance part="SUPPLY12" gate="GND" x="55.88" y="-15.24"/>
-<instance part="SUPPLY13" gate="GND" x="91.44" y="-15.24"/>
+<instance part="SUPPLY9" gate="GND" x="-35.56" y="-12.115"/>
+<instance part="SUPPLY10" gate="GND" x="7.62" y="-11.53"/>
+<instance part="SUPPLY12" gate="GND" x="55.88" y="-12.115"/>
+<instance part="SUPPLY13" gate="GND" x="91.44" y="-12.115"/>
 <instance part="SUPPLY14" gate="GND" x="127" y="-13.761121875"/>
 <instance part="D1" gate="G$1" x="17.78" y="48.26" rot="R180">
 <attribute name="NAME" x="19.558" y="46.355" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="19.558" y="51.689" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND8" gate="GND" x="22.86" y="45.72"/>
-<instance part="D2" gate="1" x="15.24" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.335" y="20.574" size="1.778" layer="95" rot="R90"/>
-<attribute name="NAME" x="13.335" y="20.574" size="1.778" layer="95" rot="R90"/>
+<instance part="D2" gate="1" x="15.24" y="25.985" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.335" y="23.699" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="13.335" y="23.699" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="GND6" gate="GND" x="-50.8" y="96.52">
 <attribute name="VALUE" x="-52.705" y="93.345" size="1.778" layer="96"/>
@@ -23856,15 +23862,12 @@ Source: VISHAY wscwsn.pdf</description>
 <attribute name="VALUE" x="-26.162" y="107.95" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="WIPER" gate="1" x="12.7" y="-35.56" rot="R270">
-<attribute name="NAME" x="10.795" y="-29.21" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.24" y="-31.75" size="1.778" layer="96"/>
 </instance>
 <instance part="HAZ_LEFT" gate="1" x="53.34" y="-35.56" rot="R270">
-<attribute name="NAME" x="51.435" y="-29.21" size="1.778" layer="95"/>
 <attribute name="VALUE" x="55.88" y="-31.75" size="1.778" layer="96"/>
 </instance>
 <instance part="HAZ_RIGHT" gate="1" x="88.9" y="-35.56" rot="R270">
-<attribute name="NAME" x="86.995" y="-29.21" size="1.778" layer="95"/>
 <attribute name="VALUE" x="91.44" y="-31.75" size="1.778" layer="96"/>
 </instance>
 <instance part="REARLIGHTS" gate="1" x="205.74" y="-35.56" rot="R270">
@@ -23885,9 +23888,9 @@ Source: VISHAY wscwsn.pdf</description>
 <attribute name="NAME" x="-46.99" y="6.5786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-46.99" y="1.778" size="1.778" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="0" y="2.54">
-<attribute name="NAME" x="-3.81" y="4.0386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-3.81" y="-0.762" size="1.778" layer="96"/>
+<instance part="R14" gate="G$1" x="0" y="5.665">
+<attribute name="NAME" x="-3.81" y="7.1636" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-3.81" y="2.363" size="1.778" layer="96"/>
 </instance>
 <instance part="R18" gate="G$1" x="157.48" y="5.08">
 <attribute name="NAME" x="153.67" y="6.5786" size="1.778" layer="95"/>
@@ -23896,15 +23899,6 @@ Source: VISHAY wscwsn.pdf</description>
 <instance part="R19" gate="G$1" x="200.66" y="5.08">
 <attribute name="NAME" x="196.85" y="6.5786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="196.85" y="1.778" size="1.778" layer="96"/>
-</instance>
-<instance part="LED1" gate="G$1" x="-66.04" y="2.54">
-<attribute name="VALUE" x="-60.325" y="-2.032" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="LED2" gate="G$1" x="-35.56" y="2.54">
-<attribute name="VALUE" x="-29.845" y="-2.032" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="LED3" gate="G$1" x="7.62" y="0">
-<attribute name="VALUE" x="13.335" y="-4.572" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R20" gate="G$1" x="205.74" y="-3.8447875" rot="R90">
 <attribute name="NAME" x="204.2414" y="-7.6547875" size="1.778" layer="95" rot="R90"/>
@@ -23917,7 +23911,6 @@ Source: VISHAY wscwsn.pdf</description>
 <instance part="SUPPLY21" gate="GND" x="162.539109375" y="-11.953153125"/>
 <instance part="SUPPLY22" gate="GND" x="205.74" y="-11.4647875"/>
 <instance part="HEADLIGHTS" gate="1" x="165.1" y="-35.56" rot="R270">
-<attribute name="NAME" x="163.195" y="-29.21" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.64" y="-31.75" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY16" gate="G$1" x="157.48" y="-35.56">
@@ -23953,7 +23946,7 @@ Source: VISHAY wscwsn.pdf</description>
 <instance part="TP1" gate="G$1" x="-2.54" y="124.46" rot="R180"/>
 <instance part="TP2" gate="G$1" x="-66.04" y="7.62" rot="R180"/>
 <instance part="TP3" gate="G$1" x="-35.56" y="7.62" rot="R180"/>
-<instance part="TP4" gate="G$1" x="7.62" y="5.08" rot="R180"/>
+<instance part="TP4" gate="G$1" x="7.62" y="8.205" rot="R180"/>
 <instance part="TP5" gate="G$1" x="55.88" y="7.62" rot="R180"/>
 <instance part="TP6" gate="G$1" x="91.44" y="7.62" rot="R180"/>
 <instance part="TP7" gate="G$1" x="127" y="7.62" rot="R180"/>
@@ -23975,25 +23968,25 @@ Source: VISHAY wscwsn.pdf</description>
 <attribute name="VALUE" x="36.8873125" y="128.466825" size="1.778" layer="96"/>
 </instance>
 <instance part="ADD1_" gate="1" x="-27.94" y="-38.1" rot="R90">
-<attribute name="NAME" x="-26.035" y="-26.67" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="-22.91" y="-26.67" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-30.48" y="-41.91" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="ADD2_" gate="1" x="-66.04" y="-38.1" rot="R90">
-<attribute name="NAME" x="-64.135" y="-26.67" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="-61.01" y="-26.67" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-68.58" y="-41.91" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="CONTROL_IN" gate="G$1" x="40.64" y="106.68"/>
-<instance part="SPI_OUT" gate="G$1" x="124.46" y="106.68"/>
-<instance part="LIGHTS_OUT" gate="G$1" x="154.94" y="106.68"/>
-<instance part="CLK_SELECT" gate="1" x="81.535225" y="107.682134375" smashed="yes">
-<attribute name="NAME" x="90.425225" y="112.762134375" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="87.250225" y="107.682134375" size="1.778" layer="96" rot="R90"/>
+<instance part="SPI_OUT" gate="G$1" x="115.085" y="106.68"/>
+<instance part="LIGHTS_OUT" gate="G$1" x="145.565" y="106.68"/>
+<instance part="CLK_SELECT" gate="1" x="134.660225" y="160.807134375" smashed="yes">
+<attribute name="NAME" x="143.550225" y="165.887134375" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="140.375225" y="160.807134375" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="BRAKE_SENSOR_OVERRIDE" gate="1" x="127" y="-33.02" smashed="yes">
-<attribute name="NAME" x="135.89" y="-27.94" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="145.265" y="-27.94" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="132.715" y="-33.02" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED6" gate="G$1" x="241.3" y="144.78" smashed="yes" rot="R180">
+<instance part="POWER" gate="G$1" x="241.3" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="237.744" y="149.352" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="235.585" y="149.352" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -24006,17 +23999,34 @@ Source: VISHAY wscwsn.pdf</description>
 <instance part="SUPPLY6" gate="GND" x="254" y="147.32">
 <attribute name="VALUE" x="252.095" y="144.145" size="1.778" layer="96"/>
 </instance>
-<instance part="LED7" gate="G$1" x="81.61291875" y="93.652025" smashed="yes">
-<attribute name="NAME" x="85.16891875" y="89.080025" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="87.32791875" y="89.080025" size="1.778" layer="96" rot="R90"/>
+<instance part="LED_ICLK" gate="G$1" x="137.86291875" y="146.777025" smashed="yes">
+<attribute name="NAME" x="141.41891875" y="142.205025" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="143.57791875" y="142.205025" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R17" gate="G$1" x="92.078840625" y="88.58340625" smashed="yes">
-<attribute name="NAME" x="89.815165625" y="85.69324375" size="1.778" layer="95" rot="SR0"/>
-<attribute name="VALUE" x="89.2766375" y="90.10934375" size="1.778" layer="96"/>
+<instance part="R17" gate="G$1" x="148.328840625" y="141.70840625" smashed="yes">
+<attribute name="NAME" x="146.065165625" y="138.81824375" size="1.778" layer="95" rot="SR0"/>
+<attribute name="VALUE" x="145.5266375" y="143.23434375" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY17" gate="GND" x="97.158840625" y="86.04340625">
-<attribute name="VALUE" x="95.253840625" y="82.86840625" size="1.778" layer="96"/>
+<instance part="SUPPLY17" gate="GND" x="153.408840625" y="139.16840625">
+<attribute name="VALUE" x="151.503840625" y="135.99340625" size="1.778" layer="96"/>
 </instance>
+<instance part="LED_XCLK" gate="G$1" x="131.61291875" y="140.527025" smashed="yes">
+<attribute name="NAME" x="125.79391875" y="135.955025" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="137.32791875" y="135.955025" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R23" gate="G$1" x="138.953840625" y="135.45840625" smashed="yes">
+<attribute name="NAME" x="136.690165625" y="132.56824375" size="1.778" layer="95" rot="SR0"/>
+<attribute name="VALUE" x="136.1516375" y="136.98434375" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY18" gate="GND" x="144.033840625" y="132.91840625">
+<attribute name="VALUE" x="142.128840625" y="129.74340625" size="1.778" layer="96"/>
+</instance>
+<instance part="R24" gate="G$1" x="84.375" y="93.75"/>
+<instance part="R25" gate="G$1" x="84.375" y="87.5"/>
+<instance part="µC_A1" gate="G$1" x="71.875" y="93.75" rot="R90"/>
+<instance part="µC_A2" gate="G$1" x="71.875" y="87.5" rot="R90"/>
+<instance part="SUPPLY20" gate="GND" x="92.08159375" y="94.033840625" rot="R90"/>
+<instance part="SUPPLY23" gate="GND" x="92.08159375" y="87.783840625" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -24084,11 +24094,6 @@ Source: VISHAY wscwsn.pdf</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="SUPPLY14" gate="GND" pin="GND"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="127" y1="-9.47141875" x2="127" y2="-11.221121875" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND8" gate="GND" pin="GND"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="22.86" y1="48.26" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
@@ -24142,13 +24147,13 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$6"/>
-<wire x1="132.08" y1="93.98" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
-<label x="134.62" y="93.98" size="1.778" layer="95"/>
+<wire x1="122.705" y1="93.98" x2="125.245" y2="93.98" width="0.1524" layer="91"/>
+<label x="125.245" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LIGHTS_OUT" gate="G$1" pin="P$8"/>
-<wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<label x="165.1" y="83.82" size="1.778" layer="95"/>
+<wire x1="153.185" y1="83.82" x2="155.725" y2="83.82" width="0.1524" layer="91"/>
+<label x="155.725" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
@@ -24158,13 +24163,34 @@ Source: VISHAY wscwsn.pdf</description>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="SUPPLY18" gate="GND" pin="GND"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="SUPPLY20" gate="GND" pin="GND"/>
+<wire x1="89.455" y1="93.75" x2="89.455" y2="94.033840625" width="0.1524" layer="91"/>
+<wire x1="89.455" y1="94.033840625" x2="89.54159375" y2="94.033840625" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="SUPPLY23" gate="GND" pin="GND"/>
+<wire x1="89.455" y1="87.5" x2="89.455" y2="87.783840625" width="0.1524" layer="91"/>
+<wire x1="89.455" y1="87.783840625" x2="89.54159375" y2="87.783840625" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY14" gate="GND" pin="GND"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="127" y1="-11.221121875" x2="127" y2="-9.47141875" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
 <pinref part="VDD_IN" gate="G$1" pin="V+"/>
 <wire x1="243.84" y1="137.16" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
 <label x="238.76" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="POWER" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="137.16" x2="241.3" y2="142.24" width="0.1524" layer="91"/>
 <junction x="241.3" y="137.16"/>
@@ -24247,9 +24273,9 @@ Source: VISHAY wscwsn.pdf</description>
 <label x="12.7" y="53.34" size="1.778" layer="95" rot="R90"/>
 <pinref part="WIPER_OUT" gate="G$1" pin="V+"/>
 <pinref part="D2" gate="1" pin="C"/>
-<wire x1="15.24" y1="25.4" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
-<junction x="15.24" y="27.94"/>
-<wire x1="15.24" y1="27.94" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="28.525" x2="15.24" y2="31.065" width="0.1524" layer="91"/>
+<junction x="15.24" y="31.065"/>
+<wire x1="15.24" y1="31.065" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VDD"/>
@@ -24271,8 +24297,8 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$1"/>
-<wire x1="132.08" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
-<label x="134.62" y="119.38" size="1.778" layer="95"/>
+<wire x1="122.705" y1="119.38" x2="125.245" y2="119.38" width="0.1524" layer="91"/>
+<label x="125.245" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="BRAKE_SENSOR_OVERRIDE" gate="1" pin="1"/>
@@ -24302,11 +24328,11 @@ Source: VISHAY wscwsn.pdf</description>
 <net name="N$19" class="0">
 <segment>
 <pinref part="WIPER_" gate="G$1" pin="D"/>
-<wire x1="15.24" y1="10.16" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="13.285" x2="15.24" y2="20.905" width="0.1524" layer="91"/>
 <pinref part="WIPER_OUT" gate="G$1" pin="GND"/>
 <pinref part="D2" gate="1" pin="A"/>
-<wire x1="15.24" y1="17.78" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
-<junction x="15.24" y="17.78"/>
+<wire x1="15.24" y1="20.905" x2="15.24" y2="23.445" width="0.1524" layer="91"/>
+<junction x="15.24" y="20.905"/>
 </segment>
 </net>
 <net name="HAZ_L_SIG" class="0">
@@ -24317,8 +24343,8 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="LIGHTS_OUT" gate="G$1" pin="P$2"/>
-<wire x1="162.56" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
-<label x="165.1" y="114.3" size="1.778" layer="95"/>
+<wire x1="153.185" y1="114.3" x2="155.725" y2="114.3" width="0.1524" layer="91"/>
+<label x="155.725" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BRAKE_SIG" class="0">
@@ -24329,8 +24355,8 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="LIGHTS_OUT" gate="G$1" pin="P$1"/>
-<wire x1="162.56" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="91"/>
-<label x="165.1" y="119.38" size="1.778" layer="95"/>
+<wire x1="153.185" y1="119.38" x2="155.725" y2="119.38" width="0.1524" layer="91"/>
+<label x="155.725" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HEADLIGHT_SIG" class="0">
@@ -24341,8 +24367,8 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="LIGHTS_OUT" gate="G$1" pin="P$4"/>
-<wire x1="162.56" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
-<label x="165.1" y="104.14" size="1.778" layer="95"/>
+<wire x1="153.185" y1="104.14" x2="155.725" y2="104.14" width="0.1524" layer="91"/>
+<label x="155.725" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="REARLIGHT_SIG" class="0">
@@ -24353,8 +24379,8 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="LIGHTS_OUT" gate="G$1" pin="P$5"/>
-<wire x1="162.56" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
-<label x="165.1" y="99.06" size="1.778" layer="95"/>
+<wire x1="153.185" y1="99.06" x2="155.725" y2="99.06" width="0.1524" layer="91"/>
+<label x="155.725" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BRAKE_SNS_IN" class="0">
@@ -24413,8 +24439,8 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="91"/>
-<label x="-10.16" y="0" size="1.778" layer="95"/>
+<wire x1="-5.08" y1="5.665" x2="-7.62" y2="5.665" width="0.1524" layer="91"/>
+<label x="-10.16" y="3.125" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="H6" class="0">
@@ -24452,8 +24478,12 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="CLK_SELECT" gate="1" pin="3"/>
-<wire x1="84.075225" y1="105.142134375" x2="84.075225" y2="102.602134375" width="0.1524" layer="91"/>
-<label x="84.387725" y="97.522134375" size="1.016" layer="95" rot="R90"/>
+<label x="137.512725" y="150.647134375" size="1.016" layer="95" rot="R90"/>
+<pinref part="LED_ICLK" gate="G$1" pin="A"/>
+<wire x1="137.86291875" y1="149.317025" x2="137.86291875" y2="150" width="0.1524" layer="91"/>
+<wire x1="137.86291875" y1="150" x2="137.5" y2="150" width="0.1524" layer="91"/>
+<wire x1="137.5" y1="150" x2="137.5" y2="158.267134375" width="0.1524" layer="91"/>
+<wire x1="137.5" y1="158.267134375" x2="137.200225" y2="158.267134375" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="H7" class="0">
@@ -24492,11 +24522,12 @@ Source: VISHAY wscwsn.pdf</description>
 <segment>
 <pinref part="WIPER_" gate="G$1" pin="G"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="7.62" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="91"/>
-<junction x="7.62" y="2.54"/>
+<wire x1="10.16" y1="5.665" x2="7.62" y2="5.665" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="5.665" x2="5.08" y2="5.665" width="0.1524" layer="91"/>
+<junction x="7.62" y="5.665"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="1.17" x2="7.62" y2="5.665" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -24504,38 +24535,22 @@ Source: VISHAY wscwsn.pdf</description>
 <pinref part="ADD1" gate="G$1" pin="G"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="-33.02" y1="5.08" x2="-35.56" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="-35.56" y1="5.08" x2="-38.1" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-35.56" y="5.08"/>
 <pinref part="TP3" gate="G$1" pin="TP"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="0.585" x2="-35.56" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="ADD2" gate="G$1" pin="G"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="-66.04" y1="5.08" x2="-63.5" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-66.04" y="5.08"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="-66.04" y1="-2.54" x2="-66.04" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="H8" class="0">
@@ -24595,8 +24610,8 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$5"/>
-<wire x1="132.08" y1="99.06" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
-<label x="134.62" y="99.06" size="1.778" layer="95"/>
+<wire x1="122.705" y1="99.06" x2="125.245" y2="99.06" width="0.1524" layer="91"/>
+<label x="125.245" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_SPI" class="0">
@@ -24607,8 +24622,8 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$4"/>
-<wire x1="132.08" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
-<label x="134.62" y="104.14" size="1.778" layer="95"/>
+<wire x1="122.705" y1="104.14" x2="125.245" y2="104.14" width="0.1524" layer="91"/>
+<label x="125.245" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO_SPI" class="0">
@@ -24619,8 +24634,8 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$2"/>
-<wire x1="132.08" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
-<label x="134.62" y="114.3" size="1.778" layer="95"/>
+<wire x1="122.705" y1="114.3" x2="125.245" y2="114.3" width="0.1524" layer="91"/>
+<label x="125.245" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI_SPI" class="0">
@@ -24631,8 +24646,8 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$3"/>
-<wire x1="132.08" y1="109.22" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
-<label x="134.62" y="109.22" size="1.778" layer="95"/>
+<wire x1="122.705" y1="109.22" x2="125.245" y2="109.22" width="0.1524" layer="91"/>
+<label x="125.245" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="µC_ADD_2" class="0">
@@ -24645,6 +24660,10 @@ Source: VISHAY wscwsn.pdf</description>
 <pinref part="CONTROL_IN" gate="G$1" pin="P$7"/>
 <wire x1="48.26" y1="88.9" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
 <label x="50.8" y="88.9" size="1.778" layer="95"/>
+<pinref part="µC_A2" gate="G$1" pin="A"/>
+<wire x1="69.335" y1="87.5" x2="69.335" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="69.335" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<junction x="48.26" y="88.9"/>
 </segment>
 </net>
 <net name="µC_ADD_1" class="0">
@@ -24657,13 +24676,17 @@ Source: VISHAY wscwsn.pdf</description>
 <pinref part="CONTROL_IN" gate="G$1" pin="P$6"/>
 <wire x1="48.26" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
 <label x="50.8" y="93.98" size="1.778" layer="95"/>
+<pinref part="µC_A1" gate="G$1" pin="A"/>
+<wire x1="69.335" y1="93.75" x2="69.335" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="69.335" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
+<junction x="48.26" y="93.98"/>
 </segment>
 </net>
 <net name="HAZ_R_SIG" class="0">
 <segment>
 <pinref part="LIGHTS_OUT" gate="G$1" pin="P$3"/>
-<wire x1="162.56" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
-<label x="165.1" y="109.22" size="1.778" layer="95"/>
+<wire x1="153.185" y1="109.22" x2="155.725" y2="109.22" width="0.1524" layer="91"/>
+<label x="155.725" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="HAZ_R" gate="G$1" pin="D"/>
@@ -24679,19 +24702,17 @@ Source: VISHAY wscwsn.pdf</description>
 </segment>
 <segment>
 <pinref part="CLK_SELECT" gate="1" pin="1"/>
-<wire x1="78.995225" y1="105.142134375" x2="78.995225" y2="102.602134375" width="0.1524" layer="91"/>
-<label x="79.307725" y="97.522134375" size="1.016" layer="95" rot="R90"/>
+<label x="132.432725" y="150.647134375" size="1.016" layer="95" rot="R90"/>
+<pinref part="LED_XCLK" gate="G$1" pin="A"/>
+<wire x1="131.61291875" y1="143.067025" x2="131.61291875" y2="158.267134375" width="0.1524" layer="91"/>
+<wire x1="131.61291875" y1="158.267134375" x2="132.120225" y2="158.267134375" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLK" class="0">
 <segment>
 <pinref part="CLK_SELECT" gate="1" pin="2"/>
-<wire x1="81.535225" y1="105.142134375" x2="81.535225" y2="102.602134375" width="0.1524" layer="91"/>
-<label x="81.535225" y="100.062134375" size="1.016" layer="95" rot="R90"/>
-<pinref part="LED7" gate="G$1" pin="A"/>
-<wire x1="81.61291875" y1="96.192025" x2="81.61291875" y2="105.142134375" width="0.1524" layer="91"/>
-<wire x1="81.61291875" y1="105.142134375" x2="81.535225" y2="105.142134375" width="0.1524" layer="91"/>
-<junction x="81.535225" y="105.142134375"/>
+<wire x1="134.660225" y1="158.267134375" x2="134.660225" y2="155.727134375" width="0.1524" layer="91"/>
+<label x="134.660225" y="153.187134375" size="1.016" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="HAZ_RIGHT" gate="1" pin="P"/>
@@ -24749,7 +24770,7 @@ Source: VISHAY wscwsn.pdf</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="5.1758625" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="-2.54" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="0.585" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HL_GATE" class="0">
@@ -24761,21 +24782,42 @@ Source: VISHAY wscwsn.pdf</description>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="50.9689625" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="-2.54" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="0.585" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LED6" gate="G$1" pin="C"/>
+<pinref part="POWER" gate="G$1" pin="C"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="149.86" x2="241.3" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="LED7" gate="G$1" pin="C"/>
+<pinref part="LED_ICLK" gate="G$1" pin="C"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="86.998840625" y1="88.58340625" x2="81.61291875" y2="88.572025" width="0.1524" layer="91"/>
+<wire x1="143.248840625" y1="141.70840625" x2="137.86291875" y2="141.697025" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="LED_XCLK" gate="G$1" pin="C"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="133.873840625" y1="135.45840625" x2="131.61291875" y2="135.447025" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="µC_A1" gate="G$1" pin="C"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="76.955" y1="93.75" x2="79.295" y2="93.75" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="µC_A2" gate="G$1" pin="C"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="76.955" y1="87.5" x2="79.295" y2="87.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -24814,16 +24856,9 @@ Source: VISHAY wscwsn.pdf</description>
 <approved hash="104,1,-27.94,99.06,555,V+,VDD,,,"/>
 <approved hash="113,1,54.3445,-34.5846,HAZ_LEFT,,,,,"/>
 <approved hash="113,1,90.7525,-34.5846,HAZ_RIGHT,,,,,"/>
-<approved hash="113,1,-65.7183,1.27,LED1,,,,,"/>
-<approved hash="113,1,-35.2383,1.27,LED2,,,,,"/>
-<approved hash="113,1,7.94173,-1.27,LED3,,,,,"/>
-<approved hash="113,1,56.2017,1.27,LED4,,,,,"/>
-<approved hash="113,1,91.7617,1.27,LED5,,,,,"/>
 <approved hash="113,1,167.872,-34.5846,HEADLIGHTS,,,,,"/>
 <approved hash="113,1,-27.94,-36.5438,ADD1_,,,,,"/>
 <approved hash="113,1,-66.04,-36.5438,ADD2_,,,,,"/>
-<approved hash="113,1,97.2785,101.007,CLK_SELECT,,,,,"/>
-<approved hash="113,1,118.15,-33.6127,BRAKE_SENSOR_OVERRIDE,,,,,"/>
 </errors>
 </schematic>
 </drawing>
