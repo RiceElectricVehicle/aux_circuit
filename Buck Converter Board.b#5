@@ -8795,13 +8795,13 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="12.53" y="40.07" size="1" layer="37"/>
 <attribute name="VALUE" x="19.71" y="43.78" size="0.0254" layer="27"/>
 </element>
-<element name="BUCK_OUT" library="master_library" package="P1-13Y" package3d_urn="urn:adsk.eagle:package:2274087/1" value="TEST_POINTSPAD1-13Y" x="90.91" y="7.56" smashed="yes">
-<attribute name="NAME" x="87.0978" y="2.8314" size="1.06" layer="25" ratio="10" rot="SR0"/>
+<element name="VOUT" library="master_library" package="P1-13Y" package3d_urn="urn:adsk.eagle:package:2274087/1" value="TEST_POINTSPAD1-13Y" x="90.91" y="7.56" smashed="yes">
+<attribute name="NAME" x="88.9978" y="4.0714" size="1.06" layer="25" ratio="10" rot="SR0"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="89.64" y="3.75" size="1" layer="37"/>
 <attribute name="VALUE" x="88.51" y="6.03" size="0.0254" layer="27"/>
 </element>
-<element name="BUCK_GND" library="master_library" package="P1-13Y" package3d_urn="urn:adsk.eagle:package:2274087/1" value="TEST_POINTSPAD1-13Y" x="85.48" y="7.67" smashed="yes">
-<attribute name="NAME" x="81.5978" y="4.2614" size="1.016" layer="25" ratio="10" rot="SR0"/>
+<element name="OGND" library="master_library" package="P1-13Y" package3d_urn="urn:adsk.eagle:package:2274087/1" value="TEST_POINTSPAD1-13Y" x="85.48" y="7.67" smashed="yes">
+<attribute name="NAME" x="83.2778" y="4.0014" size="1.016" layer="25" ratio="10" rot="SR0"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="84.21" y="3.86" size="1" layer="37"/>
 <attribute name="VALUE" x="86.05" y="7.21" size="0.0254" layer="27"/>
 </element>
@@ -8876,18 +8876,18 @@ design rules under a new name.</description>
 <contactref element="UEE150W" pad="V_OUT+"/>
 <contactref element="C1" pad="1"/>
 <polygon width="0.1524" layer="1">
-<vertex x="73.75875" y="28.5325" curve="-90"/>
+<vertex x="73.45875" y="28.2325" curve="-90"/>
 <vertex x="87.88625" y="42.66"/>
 <vertex x="103.39625" y="42.66" curve="-90"/>
 <vertex x="120.05375" y="26.0025"/>
 <vertex x="120.05375" y="18.74125" curve="-90"/>
 <vertex x="103.6625" y="2.35"/>
-<vertex x="99.94125" y="2.35" curve="-90"/>
+<vertex x="99.34125" y="2.35" curve="-90"/>
 </polygon>
 <contactref element="D1" pad="C"/>
 <contactref element="UEE150W" pad="SNS+"/>
 <wire x1="89.18" y1="26.66" x2="89.18" y2="30.47" width="0.6096" layer="1"/>
-<contactref element="BUCK_OUT" pad="TP"/>
+<contactref element="VOUT" pad="TP"/>
 <contactref element="LED1" pad="A"/>
 <wire x1="89.18" y1="30.47" x2="89.18" y2="34.92" width="0.6096" layer="1"/>
 <wire x1="89.18" y1="34.92" x2="87.16" y2="36.94" width="0.6096" layer="1"/>
@@ -8912,7 +8912,7 @@ design rules under a new name.</description>
 <via x="108.14" y="23.34625" extent="1-16" drill="0.69"/>
 <contactref element="UEE150W" pad="SNS-"/>
 <wire x1="89.18" y1="19.04" x2="89.18" y2="15.23" width="0.6096" layer="1"/>
-<contactref element="BUCK_GND" pad="TP"/>
+<contactref element="OGND" pad="TP"/>
 <contactref element="R1" pad="1"/>
 <wire x1="92.67" y1="36.8" x2="94.389553125" y2="35.610446875" width="0.6096" layer="1"/>
 <via x="95.2" y="34.8" extent="1-16" drill="0.69"/>

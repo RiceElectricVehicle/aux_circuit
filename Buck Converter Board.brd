@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -157,14 +157,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="-11.23625" y1="-1.975" x2="121.00375" y2="-2.175" width="0" layer="20"/>
+<wire x1="-11.23625" y1="-2.095" x2="121.00375" y2="-2.175" width="0" layer="20"/>
 <wire x1="121.00375" y1="-2.175" x2="121.11375" y2="49.61875" width="0" layer="20"/>
-<wire x1="121.11375" y1="49.61875" x2="-11.12625" y2="49.81875" width="0" layer="20"/>
-<wire x1="-11.12625" y1="49.81875" x2="-11.23625" y2="-1.975" width="0" layer="20"/>
+<wire x1="121.11375" y1="49.61875" x2="-11.12625" y2="49.69875" width="0" layer="20"/>
+<wire x1="-11.12625" y1="49.69875" x2="-11.23625" y2="-2.095" width="0" layer="20"/>
 <text x="-7.15375" y="27.37625" size="1.778" layer="25" rot="R270">48V IN</text>
 <text x="109.48375" y="35.915" size="1.778" layer="25" rot="R180">12V OUT</text>
 <text x="109.16625" y="13.26375" size="1.778" layer="25" rot="R180">12V OUT</text>
-<text x="44.40125" y="0.70125" size="2.54" layer="25">REVolution</text>
+<text x="43.08125" y="-1.81875" size="2.54" layer="25">REVolution</text>
 <rectangle x1="52.405" y1="36.945" x2="54.475" y2="36.955" layer="25"/>
 <rectangle x1="56.685" y1="36.945" x2="57.185" y2="36.955" layer="25"/>
 <rectangle x1="62.535" y1="36.945" x2="65.735" y2="36.955" layer="25"/>
@@ -7239,9 +7239,13 @@
 <rectangle x1="65.905" y1="44.405" x2="69.305" y2="44.415" layer="25"/>
 <rectangle x1="71.695" y1="44.405" x2="71.975" y2="44.415" layer="25"/>
 <text x="50.55" y="36.9" size="0.02" layer="25" font="vector">/Users/louissmidt/Downloads/Untitled-1.BMP</text>
-<text x="65.63" y="0.87" size="1.778" layer="25" font="vector">SEM 2019</text>
-<text x="119.94" y="-1.16" size="1.778" layer="26" rot="MR0">Louis Smidt</text>
+<text x="65.39" y="-1.77" size="1.778" layer="25" font="vector">SEM 2019</text>
+<text x="-0.34" y="-1.76" size="1.778" layer="25">Louis Smidt</text>
 <text x="82.87" y="40.54" size="1.778" layer="25">Power</text>
+<hole x="-4.92" y="45.43" drill="2"/>
+<hole x="-4.56" y="1.68" drill="2"/>
+<hole x="116.68" y="45.31" drill="2"/>
+<hole x="116.56" y="2.16" drill="2"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -8460,7 +8464,6 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 <library name="REV Aux Circuit">
 <packages>
 <package name="DOSA1/8">
-<rectangle x1="0" y1="0" x2="58.42" y2="22.86" layer="51"/>
 <pad name="V+" x="3.81" y="19.05" drill="1.6"/>
 <pad name="ON/OFF" x="3.81" y="11.43" drill="1.6"/>
 <pad name="V-" x="3.81" y="3.81" drill="1.6"/>
@@ -8469,12 +8472,10 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 <pad name="TRIM" x="54.61" y="11.43" drill="1.6"/>
 <pad name="SNS+" x="54.61" y="15.24" drill="1.6"/>
 <pad name="V_OUT+" x="54.61" y="19.05" drill="1.6"/>
-<polygon width="0.254" layer="25">
-<vertex x="0" y="0"/>
-<vertex x="0" y="22.86"/>
-<vertex x="58.42" y="22.86"/>
-<vertex x="58.42" y="0"/>
-</polygon>
+<wire x1="0" y1="0" x2="0" y2="22.86" width="0.127" layer="21"/>
+<wire x1="0" y1="22.86" x2="58.42" y2="22.86" width="0.127" layer="21"/>
+<wire x1="58.42" y1="22.86" x2="58.42" y2="0" width="0.127" layer="21"/>
+<wire x1="58.42" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
