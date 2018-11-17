@@ -8464,7 +8464,6 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 <library name="REV Aux Circuit">
 <packages>
 <package name="DOSA1/8">
-<rectangle x1="0" y1="0" x2="58.42" y2="22.86" layer="51"/>
 <pad name="V+" x="3.81" y="19.05" drill="1.6"/>
 <pad name="ON/OFF" x="3.81" y="11.43" drill="1.6"/>
 <pad name="V-" x="3.81" y="3.81" drill="1.6"/>
@@ -8473,12 +8472,10 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 <pad name="TRIM" x="54.61" y="11.43" drill="1.6"/>
 <pad name="SNS+" x="54.61" y="15.24" drill="1.6"/>
 <pad name="V_OUT+" x="54.61" y="19.05" drill="1.6"/>
-<polygon width="0.254" layer="25">
-<vertex x="0" y="0"/>
-<vertex x="0" y="22.86"/>
-<vertex x="58.42" y="22.86"/>
-<vertex x="58.42" y="0"/>
-</polygon>
+<wire x1="0" y1="0" x2="0" y2="22.86" width="0.127" layer="21"/>
+<wire x1="0" y1="22.86" x2="58.42" y2="22.86" width="0.127" layer="21"/>
+<wire x1="58.42" y1="22.86" x2="58.42" y2="0" width="0.127" layer="21"/>
+<wire x1="58.42" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>

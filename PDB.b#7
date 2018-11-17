@@ -175,8 +175,8 @@
 <text x="109.48" y="20.568" size="2.1844" layer="25" rot="R180">Wiper</text>
 <text x="130.712" y="20.348" size="2.1844" layer="25" rot="R180">Add 1</text>
 <text x="28.342" y="58.538" size="1.27" layer="25">Blinker Delay</text>
-<text x="4.867" y="83.901" size="2.54" layer="25" font="vector" ratio="13" rot="R90">SEM 2019</text>
-<text x="5.73" y="52.222" size="3.81" layer="25" rot="R90">REVolution</text>
+<text x="3.487" y="84.041" size="2.54" layer="25" font="vector" ratio="13" rot="R90">SEM 2019</text>
+<text x="4.61" y="52.222" size="3.81" layer="25" rot="R90">REVolution</text>
 <text x="79.804" y="131.12" size="2.1844" layer="25">Right Turn </text>
 <text x="61.32" y="131.2" size="2.1844" layer="25">Left Turn </text>
 <text x="38.446" y="52.515" size="1.27" layer="25">GND</text>
@@ -4133,11 +4133,11 @@
 <rectangle x1="52.51" y1="44.31" x2="59.79" y2="44.33" layer="25"/>
 <rectangle x1="64.37" y1="44.31" x2="64.75" y2="44.33" layer="25"/>
 <text x="21.9" y="29.64" size="0.04" layer="25" font="vector">/Users/louissmidt/Downloads/Untitled-2.BMP</text>
-<hole x="5.28" y="143.38" drill="2"/>
-<hole x="41.8" y="5.56" drill="2"/>
+<hole x="5.56" y="143.4" drill="2"/>
+<hole x="41.8" y="5.18" drill="2"/>
 <hole x="139.32" y="143.4" drill="2"/>
-<hole x="139.1" y="15.56" drill="2"/>
-<text x="142.26" y="0.88" size="1.4224" layer="25" rot="R90">Louis Smidt</text>
+<hole x="139.32" y="5.18" drill="2"/>
+<text x="142.62" y="0.76" size="1.27" layer="25" rot="R90">Designed by L.S. </text>
 <text x="65.94" y="29.26" size="1.27" layer="25">Power</text>
 <text x="36.88" y="82.76" size="1.016" layer="25" rot="R180">CLK</text>
 <text x="46.22" y="103.1" size="1.017" layer="25">HAZ_L VG</text>

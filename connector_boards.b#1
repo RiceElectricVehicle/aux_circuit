@@ -148,24 +148,6 @@
 <wire x1="91.454653125" y1="67.32313125" x2="31.75" y2="67.3" width="0" layer="20"/>
 <wire x1="31.75" y1="67.3" x2="31.663625" y2="21.33711875" width="0" layer="20"/>
 <text x="32.291" y="21.671" size="0.6096" layer="25">Designed by B. D.</text>
-<text x="44.037" y="39.096" size="0.9" layer="25" rot="R90">GND</text>
-<text x="44.037" y="50.382" size="0.9" layer="25" rot="R90">RL</text>
-<text x="44.145" y="53.784" size="0.9" layer="25" rot="R90">HL</text>
-<text x="44.064" y="60.291" size="0.9" layer="25" rot="R90">T_Lt</text>
-<text x="44.037" y="56.7" size="0.9" layer="25" rot="R90">T_Rt</text>
-<text x="44.226" y="63.855" size="0.9" layer="25" rot="R90">BRK</text>
-<text x="79.353" y="64.692" size="0.9" layer="25">BRK</text>
-<text x="81.567" y="61.992" size="0.9" layer="25" rot="R180">T_Lt</text>
-<text x="81.756" y="58.563" size="0.9" layer="25" rot="R180">T_Rt</text>
-<text x="80.568" y="55.026" size="0.9" layer="25" rot="R180">HL</text>
-<text x="80.595" y="51.489" size="0.9" layer="25" rot="R180">RL</text>
-<text x="81.756" y="41.04" size="0.9" layer="25" rot="R180">GND</text>
-<text x="75.276" y="33.804" size="0.9" layer="25" rot="R180">GND</text>
-<text x="64.341" y="33.804" size="0.9" layer="25" rot="R180">RL</text>
-<text x="60.777" y="33.831" size="0.9" layer="25" rot="R180">HL</text>
-<text x="57.807" y="33.858" size="0.9" layer="25" rot="R180">T_Rt</text>
-<text x="54.027" y="33.831" size="0.9" layer="25" rot="R180">T_Lt</text>
-<text x="48.276" y="32.967" size="0.9" layer="25">BRK</text>
 </plain>
 <libraries>
 <library name="master_library">

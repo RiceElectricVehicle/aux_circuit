@@ -7240,7 +7240,7 @@
 <rectangle x1="71.695" y1="44.405" x2="71.975" y2="44.415" layer="25"/>
 <text x="50.55" y="36.9" size="0.02" layer="25" font="vector">/Users/louissmidt/Downloads/Untitled-1.BMP</text>
 <text x="65.39" y="-1.77" size="1.778" layer="25" font="vector">SEM 2019</text>
-<text x="-0.34" y="-1.76" size="1.778" layer="25">Louis Smidt</text>
+<text x="-10.58" y="-1.75" size="1.016" layer="25">Designed by L.S.</text>
 <text x="82.87" y="40.54" size="1.778" layer="25">Power</text>
 <hole x="-4.92" y="45.43" drill="2"/>
 <hole x="-4.56" y="1.68" drill="2"/>
