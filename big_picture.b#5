@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -640,66 +640,6 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 </package3d>
 </packages3d>
 </library>
-<library name="master_library">
-<packages>
-<package name="SB50POWER_CLAW" urn="urn:adsk.eagle:footprint:2273858/1">
-<wire x1="-5" y1="18" x2="22" y2="18" width="0.2" layer="21"/>
-<wire x1="22" y1="18" x2="22" y2="-18" width="0.2" layer="21"/>
-<wire x1="22" y1="-18" x2="-5" y2="-18" width="0.2" layer="21"/>
-<wire x1="-5" y1="-18" x2="-5" y2="18" width="0.2" layer="21"/>
-<pad name="NEG1" x="-22.35" y="13.21" drill="2.54" rot="R90"/>
-<pad name="NEG2" x="-17.27" y="6.35" drill="2.54" rot="R90"/>
-<pad name="NEG3" x="-12.19" y="13.21" drill="2.54" rot="R90"/>
-<pad name="POS1" x="-22.35" y="-6.35" drill="2.54" rot="R90"/>
-<pad name="POS2" x="-17.27" y="-13.21" drill="2.54" rot="R90"/>
-<pad name="POS3" x="-12.19" y="-6.35" drill="2.54" rot="R90"/>
-<text x="-19.46" y="-8.23" size="5.08" layer="21">+</text>
-<text x="-18.1" y="10.67" size="5.08" layer="21">-</text>
-<text x="-6.35" y="-8.89" size="3.81" layer="21" rot="R90">&gt;NAME</text>
-<hole x="0" y="0" drill="3.66"/>
-<hole x="19.05" y="0" drill="3.66"/>
-</package>
-<package name="8-PIN-MOLEX">
-<wire x1="0" y1="0" x2="0" y2="15.66" width="0.15" layer="21"/>
-<wire x1="0" y1="15.66" x2="29" y2="15.66" width="0.15" layer="21"/>
-<wire x1="29" y1="15.66" x2="29" y2="0" width="0.15" layer="21"/>
-<wire x1="29" y1="0" x2="0" y2="0" width="0.15" layer="21"/>
-<pad name="P1" x="2.248" y="13.16" drill="0.6" shape="square"/>
-<pad name="P2" x="5.748" y="13.16" drill="0.6" shape="square"/>
-<pad name="P3" x="9.248" y="13.16" drill="0.6" shape="square"/>
-<pad name="P4" x="12.748" y="13.16" drill="0.6" shape="square"/>
-<pad name="P5" x="16.248" y="13.16" drill="0.6" shape="square"/>
-<pad name="P6" x="19.748" y="13.16" drill="0.6" shape="square"/>
-<pad name="P7" x="23.248" y="13.16" drill="0.6" shape="square"/>
-<pad name="P8" x="26.748" y="13.16" drill="0.6" shape="square"/>
-<text x="12.162" y="8.359665625" size="1.27" layer="25">&gt;NAME</text>
-<hole x="4" y="5.25" drill="3.05"/>
-<hole x="25" y="5.25" drill="3.05"/>
-<text x="10.004" y="0.715" size="1.27" layer="21">PCB EDGE </text>
-<wire x1="8" y1="2" x2="8" y2="0.5" width="0.15" layer="21"/>
-<wire x1="8" y1="0.5" x2="8.5" y2="1" width="0.15" layer="21"/>
-<wire x1="8" y1="0.5" x2="7.5" y2="1" width="0.15" layer="21"/>
-<wire x1="20.5" y1="2" x2="20.5" y2="0.5" width="0.15" layer="21"/>
-<wire x1="20.5" y1="0.5" x2="21" y2="1" width="0.15" layer="21"/>
-<wire x1="20.5" y1="0.5" x2="20" y2="1" width="0.15" layer="21"/>
-<text x="1.778" y="22.606" size="1.016" layer="21" rot="R270">&gt;P1NAME</text>
-<text x="5.207" y="22.606" size="1.016" layer="21" rot="R270">&gt;P2NAME</text>
-<text x="8.89" y="22.733" size="1.016" layer="21" rot="R270">&gt;P3NAME</text>
-<text x="12.319" y="22.733" size="1.016" layer="21" rot="R270">&gt;P4NAME</text>
-<text x="15.748" y="22.606" size="1.016" layer="21" rot="R270">&gt;P5NAME</text>
-<text x="19.177" y="22.733" size="1.016" layer="21" rot="R270">&gt;P6NAME</text>
-<text x="22.606" y="22.606" size="1.016" layer="21" rot="R270">&gt;P7NAME</text>
-<text x="26.416" y="22.479" size="1.016" layer="21" rot="R270">&gt;P8NAME</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SB50POWER_CLAW" urn="urn:adsk.eagle:package:2274131/1" type="box">
-<packageinstances>
-<packageinstance name="SB50POWER_CLAW"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -893,91 +833,48 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="big_picture_parts" package="AUX" value="" x="-6.35" y="-12.7" smashed="yes"/>
-<element name="U$2" library="big_picture_parts" package="BUCK" value="" x="-8.89" y="-24.13" smashed="yes"/>
-<element name="U$3" library="big_picture_parts" package="HORN" value="" x="0" y="-34.29" smashed="yes"/>
-<element name="E_STOP" library="switch" library_urn="urn:adsk.eagle:library:380" package="TL3XWO" package3d_urn="urn:adsk.eagle:package:27754/1" value="TL36WO" x="-110.49" y="-77.47" smashed="yes">
+<element name="U$1" library="big_picture_parts" package="AUX" value="" x="-6.35" y="-12.7"/>
+<element name="U$2" library="big_picture_parts" package="BUCK" value="" x="-8.89" y="-24.13"/>
+<element name="U$3" library="big_picture_parts" package="HORN" value="" x="0" y="-34.29"/>
+<element name="E_STOP" library="switch" library_urn="urn:adsk.eagle:library:380" package="TL3XWO" package3d_urn="urn:adsk.eagle:package:27754/1" value="TL36WO" x="-110.49" y="-77.47">
 <attribute name="NAME" x="-114.808" y="-82.042" size="1.778" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-104.14" y="-82.042" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="G1" library="battery" library_urn="urn:adsk.eagle:library:109" package="CR1/2" package3d_urn="urn:adsk.eagle:package:4577/1" value="CR1/2" x="-102.87" y="-95.25" smashed="yes">
-<attribute name="NAME" x="-115.57" y="-87.122" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-107.95" y="-90.17" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="K1" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" package="RELAY-JZC" package3d_urn="urn:adsk.eagle:package:38557/1" value="RELAY-SPDT-JZC-11F" x="-123.19" y="-90.17" smashed="yes">
-<attribute name="NAME" x="-123.19" y="-100.965" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<element name="G1" library="battery" library_urn="urn:adsk.eagle:library:109" package="CR1/2" package3d_urn="urn:adsk.eagle:package:4577/1" value="CR1/2" x="-102.87" y="-95.25"/>
+<element name="K1" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" package="RELAY-JZC" package3d_urn="urn:adsk.eagle:package:38557/1" value="RELAY-SPDT-JZC-11F" x="-123.19" y="-90.17">
 <attribute name="PROD_ID" value="COMP-09533" x="-123.19" y="-90.17" size="1.778" layer="27" display="off"/>
 <attribute name="SF_SKU" value="COM-00100" x="-123.19" y="-90.17" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-123.19" y="-100.457" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" package="TL3XPO" package3d_urn="urn:adsk.eagle:package:27745/1" value="TL37PO" x="-134.62" y="-128.27" smashed="yes">
-<attribute name="NAME" x="-139.7" y="-125.095" size="1.778" layer="25"/>
-<attribute name="VALUE" x="-139.7" y="-133.35" size="1.778" layer="27"/>
-</element>
-<element name="E_STOP1" library="switch" library_urn="urn:adsk.eagle:library:380" package="TL3XWO" package3d_urn="urn:adsk.eagle:package:27754/1" value="TL36WO" x="-133.35" y="-149.86" smashed="yes">
-<attribute name="NAME" x="-137.668" y="-154.432" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-127" y="-154.432" size="1.778" layer="27" rot="R90"/>
-</element>
-<element name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="AL30P" package3d_urn="urn:adsk.eagle:package:5288/1" value="AL30P" x="-124.46" y="-172.72" smashed="yes">
+<element name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" package="TL3XPO" package3d_urn="urn:adsk.eagle:package:27745/1" value="TL37PO" x="-134.62" y="-128.27"/>
+<element name="E_STOP1" library="switch" library_urn="urn:adsk.eagle:library:380" package="TL3XWO" package3d_urn="urn:adsk.eagle:package:27754/1" value="TL36WO" x="-133.35" y="-149.86"/>
+<element name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="AL30P" package3d_urn="urn:adsk.eagle:package:5288/1" value="AL30P" x="-124.46" y="-172.72">
 <attribute name="MF" value="" x="-124.46" y="-175.26" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-124.46" y="-175.26" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-116.713" y="-158.75" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="-124.46" y="-175.26" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-124.46" y="-175.26" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-113.03" y="-184.785" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="DZ1" library="led" library_urn="urn:adsk.eagle:library:259" package="LZR184" package3d_urn="urn:adsk.eagle:package:15790/1" value="LZR184" x="-123.19" y="-195.58" smashed="yes">
-<attribute name="NAME" x="-124.4854" y="-190.2968" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-120.0658" y="-200.025" size="1.016" layer="27" ratio="10" rot="R90"/>
-</element>
-<element name="M1" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" package="VIBE-MOTOR-10MM" package3d_urn="urn:adsk.eagle:package:38555/1" value="MOTOR10MM" x="-132.08" y="-193.04" smashed="yes">
-<attribute name="NAME" x="-137.287" y="-193.04" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<element name="DZ1" library="led" library_urn="urn:adsk.eagle:library:259" package="LZR184" package3d_urn="urn:adsk.eagle:package:15790/1" value="LZR184" x="-123.19" y="-195.58"/>
+<element name="M1" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" package="VIBE-MOTOR-10MM" package3d_urn="urn:adsk.eagle:package:38555/1" value="MOTOR10MM" x="-132.08" y="-193.04">
 <attribute name="PROD_ID" value="COMP-08572" x="-139.7" y="-195.58" size="1.778" layer="27" display="off"/>
 <attribute name="SF_SKU" value="ROB-08449" x="-139.7" y="-195.58" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-136.779" y="-193.04" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="FUSE_3A" library="fuse" library_urn="urn:adsk.eagle:library:233" package="SH22,5A" package3d_urn="urn:adsk.eagle:package:14070/1" value="FUSESH22,5A" x="-127" y="-207.01" smashed="yes">
+<element name="FUSE_3A" library="fuse" library_urn="urn:adsk.eagle:library:233" package="SH22,5A" package3d_urn="urn:adsk.eagle:package:14070/1" value="FUSESH22,5A" x="-127" y="-207.01">
 <attribute name="MF" value="" x="-127" y="-207.01" size="1.4224" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-127" y="-207.01" size="1.4224" layer="27" display="off"/>
-<attribute name="NAME" x="-139.7" y="-214.63" size="1.778" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="-127" y="-207.01" size="1.4224" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-127" y="-207.01" size="1.4224" layer="27" display="off"/>
-<attribute name="VALUE" x="-126.9746" y="-214.63" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="FUSE_40A" library="fuse" library_urn="urn:adsk.eagle:library:233" package="SH22,5A" package3d_urn="urn:adsk.eagle:package:14070/1" value="FUSESH22,5A" x="-127" y="-220.98" smashed="yes">
+<element name="FUSE_40A" library="fuse" library_urn="urn:adsk.eagle:library:233" package="SH22,5A" package3d_urn="urn:adsk.eagle:package:14070/1" value="FUSESH22,5A" x="-127" y="-220.98">
 <attribute name="MF" value="" x="-127" y="-220.98" size="1.4224" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-127" y="-220.98" size="1.4224" layer="27" display="off"/>
-<attribute name="NAME" x="-139.7" y="-228.6" size="1.778" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="-127" y="-220.98" size="1.4224" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-127" y="-220.98" size="1.4224" layer="27" display="off"/>
-<attribute name="VALUE" x="-126.9746" y="-228.6" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="F3" library="fuse" library_urn="urn:adsk.eagle:library:233" package="SH22,5A" package3d_urn="urn:adsk.eagle:package:14070/1" value="FUSESH22,5A" x="-127" y="-234.95" smashed="yes">
+<element name="F3" library="fuse" library_urn="urn:adsk.eagle:library:233" package="SH22,5A" package3d_urn="urn:adsk.eagle:package:14070/1" value="FUSESH22,5A" x="-127" y="-234.95">
 <attribute name="MF" value="" x="-127" y="-234.95" size="1.4224" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-127" y="-234.95" size="1.4224" layer="27" display="off"/>
-<attribute name="NAME" x="-139.7" y="-242.57" size="1.778" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="-127" y="-234.95" size="1.4224" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-127" y="-234.95" size="1.4224" layer="27" display="off"/>
-<attribute name="VALUE" x="-126.9746" y="-242.57" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="MOTOR" library="master_library" package="SB50POWER_CLAW" package3d_urn="urn:adsk.eagle:package:2274131/1" value="MOTOR" x="-115.57" y="-261.62" smashed="yes">
-<attribute name="NAME" x="-121.92" y="-270.51" size="3.81" layer="21" rot="R90"/>
-</element>
-<element name="U$7" library="master_library" package="8-PIN-MOLEX" value="MOTORCONTROLBLOCK" x="-139.7" y="-303.53" smashed="yes">
-<attribute name="NAME" x="-127.538" y="-295.170334375" size="1.27" layer="25"/>
-</element>
-<element name="E_STOP2" library="switch" library_urn="urn:adsk.eagle:library:380" package="TL3XWO" package3d_urn="urn:adsk.eagle:package:27754/1" value="TL36WO" x="-148.59" y="-297.18" smashed="yes">
-<attribute name="NAME" x="-152.908" y="-301.752" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-142.24" y="-301.752" size="1.778" layer="27" rot="R90"/>
-</element>
-<element name="U$6" library="master_library" package="SB50POWER_CLAW" package3d_urn="urn:adsk.eagle:package:2274131/1" value="SB50_BLOCK" x="-130.81" y="-323.85" smashed="yes">
-<attribute name="NAME" x="-137.16" y="-332.74" size="3.81" layer="21" rot="R90"/>
-</element>
-<element name="U$8" library="master_library" package="SB50POWER_CLAW" package3d_urn="urn:adsk.eagle:package:2274131/1" value="SB50_BLOCK" x="-130.81" y="-360.68" smashed="yes">
-<attribute name="NAME" x="-137.16" y="-369.57" size="3.81" layer="21" rot="R90"/>
-</element>
-<element name="U$9" library="master_library" package="SB50POWER_CLAW" package3d_urn="urn:adsk.eagle:package:2274131/1" value="SB50_BLOCK" x="-130.81" y="-397.51" smashed="yes">
-<attribute name="NAME" x="-137.16" y="-406.4" size="3.81" layer="21" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -996,6 +893,11 @@ design rules under a new name.</description>
 <wire x1="-115.7478" y1="-220.98" x2="-138.2522" y2="-220.98" width="0" layer="19" extent="1-1"/>
 <wire x1="-115.7478" y1="-207.01" x2="-115.7478" y2="-220.98" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="N$35">
+<contactref element="K1" pad="2"/>
+<contactref element="S1" pad="3"/>
+<wire x1="-132.08" y1="-128.27" x2="-127" y2="-88.9" width="0" layer="19" extent="1-1"/>
+</signal>
 <signal name="FUSE_10A">
 <contactref element="E_STOP1" pad="2"/>
 <contactref element="F3" pad="2"/>
@@ -1009,12 +911,26 @@ design rules under a new name.</description>
 <wire x1="-135.89" y1="-154.94" x2="-110.49" y2="-82.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
+<contactref element="E_STOP" pad="1"/>
 <contactref element="K1" pad="4"/>
-<contactref element="E_STOP2" pad="1"/>
-<wire x1="-151.13" y1="-302.26" x2="-119.38" y2="-86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="-113.03" y1="-82.55" x2="-119.38" y2="-86.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="SP1" pad="2"/>
+</signal>
+<signal name="PDB_GND">
+<contactref element="SP1" pad="1"/>
+<contactref element="M1" pad="-"/>
+<contactref element="DZ1" pad="K1"/>
+<contactref element="DZ1" pad="K2"/>
+<contactref element="DZ1" pad="K3"/>
+<wire x1="-121.92" y1="-196.85" x2="-138.43" y2="-195.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-121.92" y1="-194.31" x2="-121.92" y2="-196.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-121.92" y1="-191.77" x2="-121.92" y2="-194.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-131.953" y1="-172.72" x2="-121.92" y2="-191.77" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="G1" pad="-"/>
 </signal>
 <signal name="N$2">
 <contactref element="DZ1" pad="A1"/>
@@ -1027,84 +943,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$9">
 <contactref element="DZ1" pad="A2"/>
-</signal>
-<signal name="N$11">
-<contactref element="E_STOP2" pad="2"/>
-<contactref element="E_STOP" pad="1"/>
-<wire x1="-113.03" y1="-82.55" x2="-148.59" y2="-302.26" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND">
-<contactref element="G1" pad="-"/>
-<contactref element="SP1" pad="1"/>
-<contactref element="M1" pad="-"/>
-<contactref element="DZ1" pad="K1"/>
-<contactref element="DZ1" pad="K2"/>
-<contactref element="DZ1" pad="K3"/>
-<contactref element="U$6" pad="NEG2"/>
-<contactref element="U$9" pad="NEG2"/>
-<wire x1="-148.08" y1="-391.16" x2="-148.08" y2="-317.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-138.43" y1="-195.58" x2="-148.08" y2="-317.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-121.92" y1="-196.85" x2="-138.43" y2="-195.58" width="0" layer="19" extent="1-1"/>
-<wire x1="-121.92" y1="-194.31" x2="-121.92" y2="-196.85" width="0" layer="19" extent="1-1"/>
-<wire x1="-121.92" y1="-191.77" x2="-121.92" y2="-194.31" width="0" layer="19" extent="1-1"/>
-<wire x1="-131.953" y1="-172.72" x2="-121.92" y2="-191.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-90.17" y1="-95.25" x2="-131.953" y2="-172.72" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PEDAL">
-<contactref element="U$7" pad="P5"/>
-</signal>
-<signal name="N$4">
-<contactref element="U$6" pad="NEG1"/>
-<contactref element="U$7" pad="P2"/>
-<wire x1="-133.952" y1="-290.37" x2="-153.16" y2="-310.64" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="U$6" pad="POS1"/>
-<contactref element="U$7" pad="P1"/>
-<wire x1="-137.452" y1="-290.37" x2="-153.16" y2="-330.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1">
-<contactref element="U$7" pad="P4"/>
-<contactref element="U$8" pad="NEG2"/>
-<wire x1="-126.952" y1="-290.37" x2="-148.08" y2="-354.33" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$6">
-<contactref element="U$7" pad="P3"/>
-<contactref element="U$8" pad="POS2"/>
-<wire x1="-148.08" y1="-373.89" x2="-130.452" y2="-290.37" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$13">
-<contactref element="U$8" pad="POS1"/>
-<contactref element="MOTOR" pad="POS3"/>
-<contactref element="MOTOR" pad="POS1"/>
-<contactref element="MOTOR" pad="POS2"/>
-<wire x1="-137.92" y1="-267.97" x2="-132.84" y2="-274.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-127.76" y1="-267.97" x2="-132.84" y2="-274.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-153.16" y1="-367.03" x2="-132.84" y2="-274.83" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$14">
-<contactref element="U$8" pad="NEG1"/>
-<contactref element="MOTOR" pad="NEG1"/>
-<contactref element="MOTOR" pad="NEG3"/>
-<contactref element="MOTOR" pad="NEG2"/>
-<wire x1="-132.84" y1="-255.27" x2="-153.16" y2="-347.47" width="0" layer="19" extent="1-1"/>
-<wire x1="-137.92" y1="-248.41" x2="-132.84" y2="-255.27" width="0" layer="19" extent="1-1"/>
-<wire x1="-127.76" y1="-248.41" x2="-132.84" y2="-255.27" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$15">
-<contactref element="U$9" pad="NEG1"/>
-</signal>
-<signal name="N$16">
-<contactref element="U$6" pad="POS2"/>
-<contactref element="U$9" pad="POS2"/>
-<contactref element="K1" pad="2"/>
-<contactref element="S1" pad="3"/>
-<wire x1="-148.08" y1="-410.72" x2="-148.08" y2="-337.06" width="0" layer="19" extent="1-1"/>
-<wire x1="-132.08" y1="-128.27" x2="-148.08" y2="-337.06" width="0" layer="19" extent="1-1"/>
-<wire x1="-127" y1="-88.9" x2="-132.08" y2="-128.27" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$17">
-<contactref element="U$9" pad="POS1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
