@@ -7346,9 +7346,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="88.26915625" y="104.12221875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K" x="30.311" y="106.854" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.3194" y="108.9794" size="1.27" layer="25" rot="SR0" align="bottom-right"/>
+<attribute name="NAME" x="29.3026" y="108.9794" size="1.27" layer="25" rot="SR0"/>
 <attribute name="SPICEPREFIX" value="R" x="30.311" y="106.854" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="31.3194" y="104.7286" size="1.27" layer="27" rot="SR0" align="top-right"/>
+<attribute name="VALUE" x="27.771" y="107.489" size="1.27" layer="27" rot="R270"/>
 <attribute name="VALUE" x="27.771" y="107.489" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="REAR" library="nxp_60" package="SOT669" value="PSMN039-100YS" x="128.48" y="113.932" smashed="yes" rot="R270">
