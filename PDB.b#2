@@ -7660,8 +7660,8 @@ design rules under a new name.</description>
 <via x="104.14" y="43.78" extent="1-16" drill="0.69"/>
 <wire x1="92.477" y1="43.197" x2="93.28" y2="44" width="0.6096" layer="1"/>
 <via x="93.28" y="44" extent="1-16" drill="0.69"/>
-<wire x1="59.931" y1="39.951" x2="62.34" y2="42.36" width="0.6096" layer="1"/>
-<via x="62.34" y="42.36" extent="1-16" drill="0.69"/>
+<wire x1="57.758" y1="41.418" x2="58.7" y2="42.36" width="0.6096" layer="1"/>
+<via x="58.7" y="42.36" extent="1-16" drill="0.69"/>
 <wire x1="34.569" y1="114.568" x2="33.528" y2="114.568" width="0.6096" layer="1"/>
 <via x="33.02" y="114.06" extent="1-16" drill="0.69"/>
 <wire x1="34.569" y1="115.837" x2="34.569" y2="114.568" width="0.6096" layer="1"/>
@@ -7740,13 +7740,13 @@ design rules under a new name.</description>
 <wire x1="105.18" y1="103.317" x2="105.18" y2="101.78" width="0.6096" layer="1"/>
 <wire x1="105.18" y1="103.317" x2="105.245" y2="103.382" width="0.6096" layer="1"/>
 <wire x1="105.18" y1="101.78" x2="104.28" y2="100.88" width="0.6096" layer="1"/>
-<wire x1="57.758" y1="39.951" x2="59.931" y2="39.951" width="0.6096" layer="1"/>
 <wire x1="84.34" y1="73.98" x2="85.06" y2="73.98" width="1.016" layer="1"/>
 <wire x1="87.24" y1="76.1" x2="87.24" y2="74.02" width="1.016" layer="1"/>
 <wire x1="66.588" y1="50.748" x2="64.12" y2="48.28" width="0.6096" layer="1"/>
 <wire x1="92.477" y1="42.015" x2="92.477" y2="43.197" width="0.6096" layer="1"/>
 <wire x1="108.454" y1="51.634" x2="107.76" y2="50.94" width="0.6096" layer="1"/>
 <wire x1="108.454" y1="51.634" x2="108.454" y2="53.82" width="0.6096" layer="1"/>
+<wire x1="57.758" y1="39.951" x2="57.758" y2="41.418" width="0.6096" layer="1"/>
 </signal>
 <signal name="VDD">
 <contactref element="VDD_IN" pad="RED"/>
