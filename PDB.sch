@@ -24325,7 +24325,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="JP1" gate="-1" x="157.48" y="198.12"/>
 <instance part="JP1" gate="-2" x="167.64" y="205.74"/>
 <instance part="JP1" gate="-3" x="178.054" y="198.374"/>
-<instance part="U$4" gate="G$1" x="20.32" y="48.26" rot="R270"/>
+<instance part="U$4" gate="G$1" x="19.812" y="48.514" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -24550,7 +24550,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="20.32" y1="66.04" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
 <label x="17.78" y="71.12" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$4" gate="G$1" pin="IN"/>
-<wire x1="20.72" y1="56.86" x2="20.32" y2="56.86" width="0.1524" layer="91"/>
+<wire x1="20.212" y1="57.114" x2="20.32" y2="56.86" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="56.86" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
 <junction x="20.32" y="66.04"/>
 </segment>
@@ -25214,7 +25214,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="D2" gate="1" pin="C"/>
 <wire x1="20.32" y1="28.525" x2="20.32" y2="31.065" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="OUT"/>
-<wire x1="20.72" y1="39.26" x2="20.32" y2="39.26" width="0.1524" layer="91"/>
+<wire x1="20.212" y1="39.514" x2="20.32" y2="39.26" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="39.26" x2="20.32" y2="31.065" width="0.1524" layer="91"/>
 <junction x="20.32" y="31.065"/>
 </segment>

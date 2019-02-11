@@ -24171,7 +24171,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="VALUE" x="-68.58" y="-41.91" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="CONTROL_IN" gate="G$1" x="35.56" y="106.68"/>
-<instance part="SPI_OUT" gate="G$1" x="115.085" y="106.68"/>
+<instance part="SPI_OUT" gate="G$1" x="97.305" y="106.68"/>
 <instance part="LIGHTS_OUT" gate="G$1" x="145.565" y="106.68"/>
 <instance part="CLK_SELECT" gate="1" x="123.992225" y="200.431134375" smashed="yes">
 <attribute name="NAME" x="132.882225" y="205.511134375" size="1.778" layer="95" rot="R180"/>
@@ -24345,8 +24345,8 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </segment>
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$6"/>
-<wire x1="122.705" y1="93.98" x2="125.245" y2="93.98" width="0.1524" layer="91"/>
-<label x="125.245" y="93.98" size="1.778" layer="95"/>
+<wire x1="104.925" y1="93.98" x2="107.465" y2="93.98" width="0.1524" layer="91"/>
+<label x="107.465" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LIGHTS_OUT" gate="G$1" pin="P$8"/>
@@ -24489,11 +24489,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="-33.02" y1="-33.02" x2="-35.56" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-38.1" y="-33.02" size="1.016" layer="95"/>
 <pinref part="ADD1_" gate="1" pin="S"/>
-</segment>
-<segment>
-<pinref part="SPI_OUT" gate="G$1" pin="P$1"/>
-<wire x1="122.705" y1="119.38" x2="125.245" y2="119.38" width="0.1524" layer="91"/>
-<label x="125.245" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="BRAKE_SENSOR_OVERRIDE" gate="1" pin="1"/>
@@ -24810,29 +24805,29 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <net name="SCL_SPI" class="0">
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$5"/>
-<wire x1="122.705" y1="99.06" x2="125.245" y2="99.06" width="0.1524" layer="91"/>
-<label x="125.245" y="99.06" size="1.778" layer="95"/>
+<wire x1="104.925" y1="99.06" x2="107.465" y2="99.06" width="0.1524" layer="91"/>
+<label x="107.465" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_SPI" class="0">
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$4"/>
-<wire x1="122.705" y1="104.14" x2="125.245" y2="104.14" width="0.1524" layer="91"/>
-<label x="125.245" y="104.14" size="1.778" layer="95"/>
+<wire x1="104.925" y1="104.14" x2="107.465" y2="104.14" width="0.1524" layer="91"/>
+<label x="107.465" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO_SPI" class="0">
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$2"/>
-<wire x1="122.705" y1="114.3" x2="125.245" y2="114.3" width="0.1524" layer="91"/>
-<label x="125.245" y="114.3" size="1.778" layer="95"/>
+<wire x1="104.925" y1="114.3" x2="107.465" y2="114.3" width="0.1524" layer="91"/>
+<label x="107.465" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI_SPI" class="0">
 <segment>
 <pinref part="SPI_OUT" gate="G$1" pin="P$3"/>
-<wire x1="122.705" y1="109.22" x2="125.245" y2="109.22" width="0.1524" layer="91"/>
-<label x="125.245" y="109.22" size="1.778" layer="95"/>
+<wire x1="104.925" y1="109.22" x2="107.465" y2="109.22" width="0.1524" layer="91"/>
+<label x="107.465" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="µC_ADD_2" class="0">
@@ -25039,6 +25034,11 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="U$2" gate="TSR-1-2450$1" pin="OUT"/>
 <wire x1="50.8" y1="193.04" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
 <label x="53.34" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SPI_OUT" gate="G$1" pin="P$1"/>
+<wire x1="104.925" y1="119.38" x2="107.465" y2="119.38" width="0.1524" layer="91"/>
+<label x="107.465" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">

@@ -24281,8 +24281,8 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="R25" gate="G$1" x="-1.985" y="184.02"/>
 <instance part="µC_A1" gate="G$1" x="-11.945" y="192.81" rot="R90"/>
 <instance part="µC_A2" gate="G$1" x="-11.945" y="184.02" rot="R90"/>
-<instance part="SUPPLY20" gate="GND" x="5.97559375" y="192.839840625" rot="R90"/>
-<instance part="SUPPLY23" gate="GND" x="6.99159375" y="184.049840625" rot="R90"/>
+<instance part="SUPPLY20" gate="GND" x="8.51559375" y="192.839840625" rot="R90"/>
+<instance part="SUPPLY23" gate="GND" x="7.49959375" y="184.049840625" rot="R90"/>
 <instance part="U$1" gate="G$1" x="-25.4" y="167.64" rot="R180"/>
 <instance part="U$2" gate="TSR-1-2450$1" x="43.18" y="193.04"/>
 <instance part="U$3" gate="G$1" x="42.926" y="171.45"/>
@@ -24412,13 +24412,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 <wire x1="3.095" y1="192.81" x2="3.603" y2="192.839840625" width="0.1524" layer="91"/>
-<wire x1="3.603" y1="192.839840625" x2="3.43559375" y2="192.839840625" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R25" gate="G$1" pin="2"/>
-<pinref part="SUPPLY23" gate="GND" pin="GND"/>
-<wire x1="3.095" y1="184.02" x2="4.873" y2="184.049840625" width="0.1524" layer="91"/>
-<wire x1="4.873" y1="184.049840625" x2="4.45159375" y2="184.049840625" width="0.1524" layer="91"/>
+<wire x1="3.603" y1="192.839840625" x2="5.97559375" y2="192.839840625" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
@@ -24444,6 +24438,12 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="JP1" gate="-1" pin="2"/>
 <wire x1="160.02" y1="195.58" x2="160.02" y2="191.008" width="0.1524" layer="91"/>
 <label x="160.02" y="185.42" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="SUPPLY23" gate="GND" pin="GND"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="4.95959375" y1="184.049840625" x2="4.95959375" y2="184.02" width="0.1524" layer="91"/>
+<wire x1="4.95959375" y1="184.02" x2="3.095" y2="184.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">
