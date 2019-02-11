@@ -23921,6 +23921,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <part name="SPI_OUT" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device="" value="8-PIN-MOLEX-RA-FEMALE"/>
 <part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP3QE" device="" package3d_urn="urn:adsk.eagle:package:15460/1"/>
 <part name="U$4" library="master_library" deviceset="1410-L1" device=""/>
+<part name="U$2" library="master_library" deviceset="1410-L1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24244,6 +24245,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="JP1" gate="-2" x="167.64" y="205.74"/>
 <instance part="JP1" gate="-3" x="178.054" y="198.374"/>
 <instance part="U$4" gate="G$1" x="19.812" y="48.514" rot="R270"/>
+<instance part="U$2" gate="G$1" x="249.686" y="115.212"/>
 </instances>
 <busses>
 </busses>
