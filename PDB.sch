@@ -21870,8 +21870,6 @@ Source: &lt;a href="http://www.recom-international.com/pdf/Innoline/R-78xx-1.0.p
 </package>
 <package name="1410-L!">
 <rectangle x1="0" y1="0" x2="25" y2="13" layer="21"/>
-<rectangle x1="5.8" y1="8.9" x2="8" y2="10.9" layer="20"/>
-<rectangle x1="22" y1="5.5" x2="24" y2="7.5" layer="20"/>
 <pad name="P$1" x="6.925" y="9.903" drill="2" shape="square"/>
 <pad name="P$2" x="23" y="6.5" drill="2" shape="square"/>
 </package>
@@ -23712,40 +23710,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="JP2" urn="urn:adsk.eagle:footprint:15390/1" library_version="1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-3.81" y1="-1.016" x2="-3.81" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="3.556" y1="1.27" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.016" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.556" y1="-1.27" x2="1.524" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.016" x2="1.524" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.556" y1="-1.27" x2="3.81" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="3.556" y1="1.27" x2="3.81" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="1.016" x2="3.81" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="1.27" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="1.27" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="1.27" x2="-1.27" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="1.016" x2="-3.556" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="1.27" x2="-3.556" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-1.27" x2="1.27" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.016" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-1.27" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-1.016" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-1.27" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-1.27" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="0.9144" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
-<text x="-3.556" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
-<text x="0" y="-2.667" size="0.9906" layer="21" ratio="12">2</text>
-<text x="2.54" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>
-<text x="-3.556" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-2.8448" y1="-0.3048" x2="-2.2352" y2="0.3048" layer="51"/>
-<rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
-<rectangle x1="2.2352" y1="-0.3048" x2="2.8448" y2="0.3048" layer="51"/>
-</package>
 <package name="JP3Q" urn="urn:adsk.eagle:footprint:15393/1" library_version="1">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
 <wire x1="-3.81" y1="-2.159" x2="-3.81" y2="2.159" width="0.1524" layer="21"/>
@@ -23788,12 +23752,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </package>
 </packages>
 <packages3d>
-<package3d name="JP2" urn="urn:adsk.eagle:package:15452/1" type="box" library_version="1">
-<description>JUMPER</description>
-<packageinstances>
-<packageinstance name="JP2"/>
-</packageinstances>
-</package3d>
 <package3d name="JP3Q" urn="urn:adsk.eagle:package:15460/1" type="box" library_version="1">
 <description>JUMPER</description>
 <packageinstances>
@@ -23802,23 +23760,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="JP3E" urn="urn:adsk.eagle:symbol:15389/1" library_version="1">
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-3.175" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="-3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-3.175" y1="0.635" x2="-3.175" y2="0" width="0.4064" layer="94"/>
-<text x="-3.81" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="3" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
 <symbol name="JP2E" urn="urn:adsk.eagle:symbol:15391/1" library_version="1">
 <wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
@@ -23835,27 +23776,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JP2E" urn="urn:adsk.eagle:component:15482/1" prefix="JP" uservalue="yes" library_version="1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="JP3E" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JP2">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-<connect gate="1" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15452/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="JP3QE" urn="urn:adsk.eagle:component:15491/1" prefix="JP" uservalue="yes" library_version="1">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
 <gates>
@@ -23981,7 +23901,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <part name="ADD2_" library="switch" deviceset="M9040P" device=""/>
 <part name="SPI_IN" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device="" value="8-PIN-MOLEX-RA-FEMALE"/>
 <part name="LIGHTS" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device=""/>
-<part name="BRAKE_SENSOR_OVERRIDE" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
 <part name="POWER" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R7" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1" value="220"/>
 <part name="R8" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1" value="220"/>
@@ -23997,8 +23916,8 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <part name="LED_ADD1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LED_ADD2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="U$1" library="master_library" deviceset="JST-PH_5-PIN_HEADER" device=""/>
-<part name="U$2" library="master_library" deviceset="TRACO-TSR-1-2450" device=""/>
-<part name="U$3" library="master_library" deviceset="LM2940" device="LM" package3d_urn="urn:adsk.eagle:package:8814566/1"/>
+<part name="TRACO" library="master_library" deviceset="TRACO-TSR-1-2450" device=""/>
+<part name="LM2940" library="master_library" deviceset="LM2940" device="LM" package3d_urn="urn:adsk.eagle:package:8814566/1"/>
 <part name="SPI_OUT" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device="" value="8-PIN-MOLEX-RA-FEMALE"/>
 <part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP3QE" device="" package3d_urn="urn:adsk.eagle:package:15460/1"/>
 <part name="U$4" library="master_library" deviceset="1410-L1" device=""/>
@@ -24281,10 +24200,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </instance>
 <instance part="SPI_IN" gate="G$1" x="38.1" y="119.38"/>
 <instance part="LIGHTS" gate="G$1" x="145.565" y="106.68"/>
-<instance part="BRAKE_SENSOR_OVERRIDE" gate="1" x="127" y="-33.02" smashed="yes">
-<attribute name="NAME" x="145.265" y="-27.94" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="132.715" y="-33.02" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="POWER" gate="G$1" x="241.3" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="237.744" y="149.352" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="235.585" y="149.352" size="1.778" layer="96" rot="R270"/>
@@ -24322,8 +24237,8 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="LED_ADD1" gate="G$1" x="-11.945" y="192.81" rot="R90"/>
 <instance part="LED_ADD2" gate="G$1" x="-11.945" y="184.02" rot="R90"/>
 <instance part="U$1" gate="G$1" x="-25.4" y="167.64" rot="R180"/>
-<instance part="U$2" gate="TSR-1-2450$1" x="43.18" y="193.04"/>
-<instance part="U$3" gate="G$1" x="42.926" y="156.21"/>
+<instance part="TRACO" gate="TSR-1-2450$1" x="43.18" y="193.04"/>
+<instance part="LM2940" gate="G$1" x="42.926" y="156.21"/>
 <instance part="SPI_OUT" gate="G$1" x="93.98" y="106.68"/>
 <instance part="JP1" gate="-1" x="157.48" y="198.12"/>
 <instance part="JP1" gate="-2" x="167.64" y="205.74"/>
@@ -24448,17 +24363,17 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="127" y1="-11.221121875" x2="127" y2="-9.47141875" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="LM2940" gate="G$1" pin="GND"/>
 <wire x1="35.306" y1="157.48" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
 <label x="27.94" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND2"/>
+<pinref part="LM2940" gate="G$1" pin="GND2"/>
 <wire x1="35.306" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
 <label x="27.94" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="TSR-1-2450$1" pin="GND"/>
+<pinref part="TRACO" gate="TSR-1-2450$1" pin="GND"/>
 <wire x1="43.18" y1="185.42" x2="43.18" y2="182.88" width="0.1524" layer="91"/>
 <label x="38.1" y="182.88" size="1.778" layer="95"/>
 </segment>
@@ -24559,17 +24474,12 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="ADD1_" gate="1" pin="S"/>
 </segment>
 <segment>
-<pinref part="BRAKE_SENSOR_OVERRIDE" gate="1" pin="1"/>
-<wire x1="124.46" y1="-35.56" x2="124.46" y2="-38.1" width="0.1524" layer="91"/>
-<label x="124.46" y="-40.64" size="1.016" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="VIN"/>
+<pinref part="LM2940" gate="G$1" pin="VIN"/>
 <wire x1="35.306" y1="160.02" x2="33.02" y2="160.02" width="0.1524" layer="91"/>
 <label x="27.94" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="TSR-1-2450$1" pin="IN"/>
+<pinref part="TRACO" gate="TSR-1-2450$1" pin="IN"/>
 <wire x1="35.56" y1="193.04" x2="33.02" y2="193.04" width="0.1524" layer="91"/>
 <label x="27.94" y="193.04" size="1.778" layer="95"/>
 </segment>
@@ -24644,13 +24554,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="LIGHTS" gate="G$1" pin="P$5"/>
 <wire x1="153.185" y1="99.06" x2="155.725" y2="99.06" width="0.1524" layer="91"/>
 <label x="155.725" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BRAKE_SNS_IN" class="0">
-<segment>
-<pinref part="BRAKE_SENSOR_OVERRIDE" gate="1" pin="3"/>
-<wire x1="129.54" y1="-35.56" x2="129.54" y2="-38.1" width="0.1524" layer="91"/>
-<label x="129.54" y="-48.26" size="1.016" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="H3" class="0">
@@ -24937,11 +24840,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </net>
 <net name="BRAKE_SNS_OUT" class="0">
 <segment>
-<pinref part="BRAKE_SENSOR_OVERRIDE" gate="1" pin="2"/>
-<wire x1="127" y1="-35.56" x2="127" y2="-38.1" width="0.1524" layer="91"/>
-<label x="127" y="-48.26" size="1.016" layer="95" rot="R90"/>
-</segment>
-<segment>
 <wire x1="124.46" y1="5.08" x2="121.92" y2="5.08" width="0.1524" layer="91"/>
 <label x="111.76" y="2.54" size="1.778" layer="95"/>
 <pinref part="BRAKE" gate="G$1" pin="G"/>
@@ -25064,7 +24962,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </net>
 <net name="10V_SAFE" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="OUT"/>
+<pinref part="LM2940" gate="G$1" pin="OUT"/>
 <wire x1="50.546" y1="157.48" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
 <label x="53.34" y="157.48" size="1.778" layer="95"/>
 </segment>
@@ -25089,7 +24987,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </net>
 <net name="5V_REG" class="0">
 <segment>
-<pinref part="U$2" gate="TSR-1-2450$1" pin="OUT"/>
+<pinref part="TRACO" gate="TSR-1-2450$1" pin="OUT"/>
 <wire x1="50.8" y1="193.04" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
 <label x="53.34" y="193.04" size="1.778" layer="95"/>
 </segment>
@@ -25169,12 +25067,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="VDD_IN1" gate="G$1" pin="V+"/>
 <wire x1="195.58" y1="127" x2="198.12" y2="127" width="0.1524" layer="91"/>
 <label x="205.74" y="127" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="SPI_IN" gate="G$1" pin="P$8"/>
-<wire x1="45.72" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
