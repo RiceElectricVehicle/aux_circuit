@@ -24294,7 +24294,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="VALUE" x="252.095" y="144.145" size="1.778" layer="96"/>
 </instance>
 <instance part="555_CLK_LED" gate="G$1" x="210.76091875" y="183.861025" smashed="yes">
-<attribute name="NAME" x="201.61691875" y="179.289025" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="205.17291875" y="180.305025" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="216.47591875" y="179.289025" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R17" gate="G$1" x="205.732840625" y="174.47440625" smashed="yes" rot="R180">
@@ -24304,9 +24304,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="SUPPLY17" gate="GND" x="199.382840625" y="171.93440625">
 <attribute name="VALUE" x="197.477840625" y="168.75940625" size="1.778" layer="96"/>
 </instance>
-<instance part="EXT_CLK_LED" gate="G$1" x="221.27491875" y="182.437025" smashed="yes">
-<attribute name="NAME" x="233.23591875" y="182.945025" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="226.98991875" y="177.865025" size="1.778" layer="96" rot="R90"/>
+<instance part="EXT_CLK_LED" gate="G$1" x="221.27491875" y="183.707025" smashed="yes">
+<attribute name="NAME" x="228.15591875" y="181.675025" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="226.98991875" y="179.135025" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R23" gate="G$1" x="226.329840625" y="174.82840625" smashed="yes">
 <attribute name="NAME" x="224.066165625" y="171.93824375" size="1.778" layer="95" rot="SR0"/>
@@ -24909,7 +24909,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="JP2" gate="1" pin="3"/>
 <wire x1="218.44" y1="200.66" x2="221.27491875" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="EXT_CLK_LED" gate="G$1" pin="A"/>
-<wire x1="221.27491875" y1="200.66" x2="221.27491875" y2="184.977025" width="0.1524" layer="91"/>
+<wire x1="221.27491875" y1="200.66" x2="221.27491875" y2="186.247025" width="0.1524" layer="91"/>
 <label x="223.52" y="190.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -24995,7 +24995,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="EXT_CLK_LED" gate="G$1" pin="C"/>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="221.249840625" y1="174.82840625" x2="221.27491875" y2="177.357025" width="0.1524" layer="91"/>
+<wire x1="221.249840625" y1="174.82840625" x2="221.27491875" y2="178.627025" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">

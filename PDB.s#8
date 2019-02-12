@@ -24001,6 +24001,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <part name="U$4" library="master_library" deviceset="1410-L1" device=""/>
 <part name="U$2" library="master_library" deviceset="1410-L1" device=""/>
 <part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
+<part name="JP3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP3QE" device="" package3d_urn="urn:adsk.eagle:package:15460/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -24025,7 +24026,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <text x="129.54" y="73.66" size="3.81" layer="95">Brake</text>
 <text x="165.1" y="73.66" size="3.81" layer="95">Headlights</text>
 <text x="203.2" y="73.66" size="3.81" layer="95">Rear lights</text>
-<text x="190.5" y="106.68" size="5.08" layer="94">GND Headers</text>
+<text x="182.88" y="106.68" size="5.08" layer="94">GND Headers</text>
 <text x="81.955" y="134.81" size="5.08" layer="94">Output Connectors</text>
 <wire x1="63.62" y1="144.44" x2="63.62" y2="196.64" width="0.3048" layer="94"/>
 <wire x1="63.62" y1="196.64" x2="128.42" y2="196.64" width="0.3048" layer="94"/>
@@ -24324,7 +24325,10 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="JP1" gate="-3" x="178.054" y="198.374"/>
 <instance part="U$4" gate="G$1" x="19.812" y="48.514" rot="R270"/>
 <instance part="U$2" gate="G$1" x="249.686" y="115.212"/>
-<instance part="JP2" gate="1" x="2.54" y="195.58"/>
+<instance part="JP2" gate="1" x="251.46" y="104.14"/>
+<instance part="JP3" gate="-1" x="271.78" y="104.14"/>
+<instance part="JP3" gate="-2" x="281.94" y="104.14"/>
+<instance part="JP3" gate="-3" x="292.1" y="104.14"/>
 </instances>
 <busses>
 </busses>
@@ -24460,8 +24464,18 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </segment>
 <segment>
 <pinref part="JP2" gate="1" pin="2"/>
-<wire x1="2.54" y1="193.04" x2="2.54" y2="187.96" width="0.1524" layer="91"/>
-<label x="2.54" y="182.88" size="1.778" layer="95" rot="R90"/>
+<wire x1="251.46" y1="101.6" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
+<label x="251.46" y="91.44" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="-2" pin="1"/>
+<wire x1="281.94" y1="101.6" x2="281.94" y2="99.06" width="0.1524" layer="91"/>
+<label x="281.94" y="93.98" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="-2" pin="2"/>
+<wire x1="284.48" y1="101.6" x2="284.48" y2="99.06" width="0.1524" layer="91"/>
+<label x="284.48" y="93.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -25042,9 +25056,19 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </segment>
 <segment>
 <pinref part="JP2" gate="1" pin="3"/>
-<wire x1="5.08" y1="193.04" x2="10.16" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="193.04" x2="10.16" y2="187.96" width="0.1524" layer="91"/>
-<label x="11.938" y="183.642" size="1.778" layer="95" rot="R90"/>
+<wire x1="254" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="101.6" x2="259.08" y2="96.52" width="0.1524" layer="91"/>
+<label x="260.858" y="92.202" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="-3" pin="1"/>
+<wire x1="292.1" y1="101.6" x2="292.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="292.1" y="88.9" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="-3" pin="2"/>
+<wire x1="294.64" y1="101.6" x2="294.64" y2="99.06" width="0.1524" layer="91"/>
+<label x="294.64" y="88.9" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="10V_SAFE" class="0">
@@ -25208,9 +25232,19 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </segment>
 <segment>
 <pinref part="JP2" gate="1" pin="1"/>
-<wire x1="0" y1="193.04" x2="-5.08" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="193.04" x2="-5.08" y2="187.96" width="0.1524" layer="91"/>
-<label x="-5.08" y="180.34" size="1.778" layer="95" rot="R90"/>
+<wire x1="248.92" y1="101.6" x2="243.84" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="101.6" x2="243.84" y2="96.52" width="0.1524" layer="91"/>
+<label x="243.84" y="88.9" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="-1" pin="1"/>
+<wire x1="271.78" y1="101.6" x2="271.78" y2="99.06" width="0.1524" layer="91"/>
+<label x="271.78" y="86.36" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="-1" pin="2"/>
+<wire x1="274.32" y1="101.6" x2="274.32" y2="99.06" width="0.1524" layer="91"/>
+<label x="274.32" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
