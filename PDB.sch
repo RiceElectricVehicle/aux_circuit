@@ -24012,7 +24012,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <text x="81.22" y="191.04" size="3.81" layer="94">GPIO BUS</text>
 <text x="83.02" y="219.12" size="3.81" layer="94">TRACO SPI Power</text>
 <text x="-115.5" y="138.06" size="3.81" layer="94">555 Voltage Reg</text>
-<text x="152.8" y="214.2" size="3.81" layer="94">CLK Jumper</text>
+<text x="150.26" y="198.96" size="3.81" layer="94">CLK Jumper</text>
 <text x="17.2" y="140" size="3.81" layer="94">SPI BUS</text>
 </plain>
 <instances>
@@ -24269,24 +24269,24 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="SUPPLY6" gate="GND" x="254" y="147.32">
 <attribute name="VALUE" x="252.095" y="144.145" size="1.778" layer="96"/>
 </instance>
-<instance part="555_CLK_LED" gate="G$1" x="210.76091875" y="183.861025" smashed="yes">
-<attribute name="NAME" x="205.17291875" y="180.305025" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="216.47591875" y="179.289025" size="1.778" layer="96" rot="R90"/>
+<instance part="555_CLK_LED" gate="G$1" x="159.96091875" y="173.701025" smashed="yes">
+<attribute name="NAME" x="154.37291875" y="170.145025" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="165.67591875" y="169.129025" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R17" gate="G$1" x="205.732840625" y="174.47440625" smashed="yes" rot="R180">
-<attribute name="NAME" x="207.996515625" y="177.36456875" size="1.778" layer="95" rot="SR180"/>
-<attribute name="VALUE" x="208.53504375" y="172.94846875" size="1.778" layer="96" rot="R180"/>
+<instance part="R17" gate="G$1" x="154.932840625" y="164.31440625" smashed="yes" rot="R180">
+<attribute name="NAME" x="157.196515625" y="167.20456875" size="1.778" layer="95" rot="SR180"/>
+<attribute name="VALUE" x="157.73504375" y="162.78846875" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY17" gate="GND" x="199.382840625" y="171.93440625">
-<attribute name="VALUE" x="197.477840625" y="168.75940625" size="1.778" layer="96"/>
+<instance part="SUPPLY17" gate="GND" x="148.582840625" y="161.77440625">
+<attribute name="VALUE" x="146.677840625" y="158.59940625" size="1.778" layer="96"/>
 </instance>
-<instance part="EXT_CLK_LED" gate="G$1" x="221.27491875" y="183.707025" smashed="yes">
-<attribute name="NAME" x="228.15591875" y="181.675025" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="226.98991875" y="179.135025" size="1.778" layer="96" rot="R90"/>
+<instance part="EXT_CLK_LED" gate="G$1" x="170.47491875" y="173.547025" smashed="yes">
+<attribute name="NAME" x="177.35591875" y="171.515025" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.18991875" y="168.975025" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R23" gate="G$1" x="226.329840625" y="174.82840625" smashed="yes">
-<attribute name="NAME" x="224.066165625" y="171.93824375" size="1.778" layer="95" rot="SR0"/>
-<attribute name="VALUE" x="223.5276375" y="176.35434375" size="1.778" layer="96"/>
+<instance part="R23" gate="G$1" x="175.529840625" y="164.66840625" smashed="yes">
+<attribute name="NAME" x="173.266165625" y="161.77824375" size="1.778" layer="95" rot="SR0"/>
+<attribute name="VALUE" x="172.7276375" y="166.19434375" size="1.778" layer="96"/>
 </instance>
 <instance part="R24" gate="G$1" x="107.235" y="182.65"/>
 <instance part="R25" gate="G$1" x="107.235" y="173.86"/>
@@ -24297,9 +24297,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="LM2940" gate="G$1" x="-100.33" y="108.966" rot="R90"/>
 <instance part="SPI_OUT" gate="G$1" x="93.98" y="114.3"/>
 <instance part="U$4" gate="G$1" x="19.812" y="48.514" rot="R270"/>
-<instance part="JP2" gate="1" x="215.9" y="203.2"/>
-<instance part="SUPPLY5" gate="GND" x="236.466840625" y="171.93440625">
-<attribute name="VALUE" x="234.561840625" y="168.75940625" size="1.778" layer="96"/>
+<instance part="JP2" gate="1" x="165.1" y="193.04"/>
+<instance part="SUPPLY5" gate="GND" x="185.666840625" y="161.77440625">
+<attribute name="VALUE" x="183.761840625" y="158.59940625" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="A" x="254" y="111.76" rot="R90"/>
 </instances>
@@ -24407,9 +24407,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="200.652840625" y1="174.47440625" x2="200.144840625" y2="174.47440625" width="0.1524" layer="91"/>
-<wire x1="200.144840625" y1="174.47440625" x2="199.382840625" y2="174.47440625" width="0.1524" layer="91"/>
-<label x="193.04" y="165.1" size="1.778" layer="95"/>
+<wire x1="149.852840625" y1="164.31440625" x2="149.344840625" y2="164.31440625" width="0.1524" layer="91"/>
+<wire x1="149.344840625" y1="164.31440625" x2="148.582840625" y2="164.31440625" width="0.1524" layer="91"/>
+<label x="142.24" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
@@ -24434,8 +24434,8 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="236.466840625" y1="174.47440625" x2="231.409840625" y2="174.47440625" width="0.1524" layer="91"/>
-<wire x1="231.409840625" y1="174.47440625" x2="231.409840625" y2="174.82840625" width="0.1524" layer="91"/>
+<wire x1="185.666840625" y1="164.31440625" x2="180.609840625" y2="164.31440625" width="0.1524" layer="91"/>
+<wire x1="180.609840625" y1="164.31440625" x2="180.609840625" y2="164.66840625" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="VDD_IN" gate="G$1" pin="GND"/>
@@ -24705,9 +24705,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="JP2" gate="1" pin="1"/>
 <pinref part="555_CLK_LED" gate="G$1" pin="A"/>
-<wire x1="213.36" y1="200.66" x2="213.36" y2="186.401025" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="186.401025" x2="210.76091875" y2="186.401025" width="0.1524" layer="91"/>
-<label x="210.82" y="187.96" size="1.778" layer="95" rot="R90"/>
+<wire x1="162.56" y1="190.5" x2="162.56" y2="176.241025" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="176.241025" x2="159.96091875" y2="176.241025" width="0.1524" layer="91"/>
+<label x="160.02" y="177.8" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="H7" class="0">
@@ -24880,10 +24880,10 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </segment>
 <segment>
 <pinref part="JP2" gate="1" pin="3"/>
-<wire x1="218.44" y1="200.66" x2="221.27491875" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="190.5" x2="170.47491875" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="EXT_CLK_LED" gate="G$1" pin="A"/>
-<wire x1="221.27491875" y1="200.66" x2="221.27491875" y2="186.247025" width="0.1524" layer="91"/>
-<label x="223.52" y="190.5" size="1.778" layer="95" rot="R90"/>
+<wire x1="170.47491875" y1="190.5" x2="170.47491875" y2="176.087025" width="0.1524" layer="91"/>
+<label x="172.72" y="180.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -24899,8 +24899,8 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </segment>
 <segment>
 <pinref part="JP2" gate="1" pin="2"/>
-<wire x1="215.9" y1="200.66" x2="215.9" y2="195.58" width="0.1524" layer="91"/>
-<label x="214.122" y="192.786" size="1.778" layer="95"/>
+<wire x1="165.1" y1="190.5" x2="165.1" y2="185.42" width="0.1524" layer="91"/>
+<label x="163.322" y="182.626" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BRAKE_SNS_OUT" class="0">
@@ -24961,14 +24961,14 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="555_CLK_LED" gate="G$1" pin="C"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="210.812840625" y1="174.47440625" x2="210.76091875" y2="178.781025" width="0.1524" layer="91"/>
+<wire x1="160.012840625" y1="164.31440625" x2="159.96091875" y2="168.621025" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="EXT_CLK_LED" gate="G$1" pin="C"/>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="221.249840625" y1="174.82840625" x2="221.27491875" y2="178.627025" width="0.1524" layer="91"/>
+<wire x1="170.449840625" y1="164.66840625" x2="170.47491875" y2="168.467025" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
