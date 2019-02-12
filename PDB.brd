@@ -7532,9 +7532,9 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="24.71" y="91.078" size="1" layer="37"/>
 <attribute name="VALUE" x="24.8878" y="97.1994" size="0.0254" layer="27" rot="SR0"/>
 </element>
-<element name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13Y" package3d_urn="urn:adsk.eagle:package:27947/1" value="PTR1PAD1-13Y" x="-7.686" y="87.903" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="-8.956" y="84.093" size="1" layer="37"/>
-<attribute name="VALUE" x="-8.7782" y="90.2144" size="0.0254" layer="27" rot="SR0"/>
+<element name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13Y" package3d_urn="urn:adsk.eagle:package:27947/1" value="PTR1PAD1-13Y" x="30.314" y="95.203" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="29.044" y="91.393" size="1" layer="37"/>
+<attribute name="VALUE" x="29.2218" y="97.5144" size="0.0254" layer="27" rot="SR0"/>
 </element>
 <element name="ADD1_" library="switch" package="M9040P" value="" x="59.168" y="81.999" smashed="yes">
 <attribute name="LABEL" value="" x="55.6755" y="73.744" size="1.016" layer="25" ratio="18"/>
@@ -7769,7 +7769,7 @@ design rules under a new name.</description>
 <wire x1="31.992" y1="108.667" x2="27.88" y2="108.58" width="0" layer="19" extent="1-1"/>
 <wire x1="38.82" y1="107.78" x2="34.3" y2="109.08" width="0" layer="19" extent="1-1"/>
 <wire x1="14.763" y1="116.207" x2="23.717" y2="108.634" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.686" y1="87.903" x2="11.768" y2="71.946" width="0" layer="19" extent="1-1"/>
+<wire x1="30.314" y1="95.203" x2="11.768" y2="71.946" width="0" layer="19" extent="1-1"/>
 <wire x1="64.14" y1="71.22" x2="64.04" y2="71.12" width="0.6096" layer="1"/>
 </signal>
 <signal name="VDD">

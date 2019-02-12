@@ -182,8 +182,8 @@
 <text x="34.486" y="102.915" size="1.27" layer="25">GND</text>
 <text x="46.588" y="119.834" size="1.4224" layer="25">GND</text>
 <text x="-1.903" y="0.04" size="2.1844" layer="25">Control Input</text>
-<text x="77.432" y="87.764" size="2.1844" layer="25">ADD 2</text>
-<text x="61.044" y="88.244" size="2.1844" layer="25">ADD 1</text>
+<text x="74.912" y="72.884" size="2.1844" layer="25">ADD 2</text>
+<text x="56.644" y="72.744" size="2.1844" layer="25">ADD 1</text>
 <text x="136.796" y="111.5" size="2.1844" layer="25">Brake Light</text>
 <text x="19.011" y="88.685" size="1.016" layer="25">EXT</text>
 <text x="23.006" y="119.184" size="1.016" layer="25">555</text>
