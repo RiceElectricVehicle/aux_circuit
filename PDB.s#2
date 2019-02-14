@@ -23006,12 +23006,12 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <part name="555_CLK_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R3225" package3d_urn="urn:adsk.eagle:package:26073/1" value="470"/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="EXT_CLK_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="_EXT_CLK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100"/>
 <part name="R24" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1" value="710"/>
 <part name="R25" library="master_library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:2274104/1" value="710"/>
-<part name="LED_ADD1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="LED_ADD2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="_ADD1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="_ADD2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="U$1" library="master_library" deviceset="JST-PH_5-PIN_HEADER" device=""/>
 <part name="TRACO" library="master_library" deviceset="TRACO-TSR-1-2450" device=""/>
 <part name="LM2940" library="master_library" deviceset="LM2940" device="LM" package3d_urn="urn:adsk.eagle:package:8814566/1"/>
@@ -23426,7 +23426,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="VALUE" x="-40.774159375" y="156.94840625" size="1.778" layer="96" rot="SR0"/>
 <attribute name="VALUE" x="-41.282159375" y="153.51940625" size="1.778" layer="96"/>
 </instance>
-<instance part="EXT_CLK_LED" gate="G$1" x="-17.48508125" y="173.547025" smashed="yes">
+<instance part="_EXT_CLK" gate="G$1" x="-17.48508125" y="173.547025" smashed="yes">
 <attribute name="NAME" x="-20.99028125" y="173.801025" size="1.778" layer="95" rot="SR0"/>
 <attribute name="VALUE" x="-11.77008125" y="168.975025" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -23442,11 +23442,11 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="NAME" x="58.8734" y="118.7166" size="1.778" layer="95" rot="SR0"/>
 <attribute name="VALUE" x="58.8734" y="116.6846" size="1.778" layer="96" rot="SR0"/>
 </instance>
-<instance part="LED_ADD1" gate="G$1" x="51.555" y="124.23" smashed="yes" rot="R90">
+<instance part="_ADD1" gate="G$1" x="51.555" y="124.23" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.428" y="125.754" size="1.778" layer="95" rot="SR0"/>
 <attribute name="VALUE" x="56.127" y="129.945" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED_ADD2" gate="G$1" x="51.555" y="115.44" smashed="yes" rot="R90">
+<instance part="_ADD2" gate="G$1" x="51.555" y="115.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.428" y="116.964" size="1.778" layer="95" rot="SR0"/>
 <attribute name="VALUE" x="56.127" y="121.155" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -23999,7 +23999,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <label x="53.594" y="98.806" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LED_ADD2" gate="G$1" pin="A"/>
+<pinref part="_ADD2" gate="G$1" pin="A"/>
 <wire x1="49.015" y1="115.44" x2="49.015" y2="116.84" width="0.1524" layer="91"/>
 <label x="35.56" y="114.3" size="1.778" layer="95"/>
 </segment>
@@ -24016,7 +24016,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <label x="53.34" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LED_ADD1" gate="G$1" pin="A"/>
+<pinref part="_ADD1" gate="G$1" pin="A"/>
 <wire x1="49.015" y1="124.23" x2="49.015" y2="121.92" width="0.1524" layer="91"/>
 <label x="35.56" y="121.92" size="1.778" layer="95"/>
 </segment>
@@ -24041,7 +24041,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="JP2" gate="1" pin="3"/>
 <wire x1="-20.32" y1="180.34" x2="-17.48508125" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="EXT_CLK_LED" gate="G$1" pin="A"/>
+<pinref part="_EXT_CLK" gate="G$1" pin="A"/>
 <wire x1="-17.48508125" y1="180.34" x2="-17.48508125" y2="176.087025" width="0.1524" layer="91"/>
 <label x="-15.24" y="170.18" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -24122,21 +24122,21 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="EXT_CLK_LED" gate="G$1" pin="C"/>
+<pinref part="_EXT_CLK" gate="G$1" pin="C"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="-17.510159375" y1="164.66840625" x2="-17.48508125" y2="168.467025" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="LED_ADD1" gate="G$1" pin="C"/>
+<pinref part="_ADD1" gate="G$1" pin="C"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="56.635" y1="124.23" x2="56.435" y2="124.23" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="LED_ADD2" gate="G$1" pin="C"/>
+<pinref part="_ADD2" gate="G$1" pin="C"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="56.635" y1="115.44" x2="56.435" y2="115.44" width="0.1524" layer="91"/>
 </segment>
@@ -24185,6 +24185,11 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="SPI_OUT" gate="G$1" pin="P$7"/>
 <wire x1="172.72" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <label x="177.8" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="VDD_IN1" gate="G$1" pin="V+"/>
+<wire x1="30.48" y1="167.64" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
+<label x="40.64" y="167.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="/CS" class="0">
@@ -24252,11 +24257,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="SPI_IN" gate="G$1" pin="P$7"/>
 <wire x1="124.46" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 <label x="129.54" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="VDD_IN1" gate="G$1" pin="V+"/>
-<wire x1="30.48" y1="167.64" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
-<label x="40.64" y="167.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$10" class="0">
