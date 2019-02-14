@@ -23016,7 +23016,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <part name="LM2940" library="master_library" deviceset="LM2940" device="LM" package3d_urn="urn:adsk.eagle:package:8814566/1"/>
 <part name="SPI_OUT" library="master_library" deviceset="8-PIN-MOLEX-RA-FEMALE" device="" value="8-PIN-MOLEX-RA-FEMALE"/>
 <part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
-<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -23030,7 +23029,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <plain>
 <wire x1="-104.14" y1="81.28" x2="-104.14" y2="144.78" width="0.6096" layer="94"/>
 <wire x1="-104.14" y1="144.78" x2="22.86" y2="144.78" width="0.6096" layer="94"/>
-<text x="-48.26" y="137.16" size="5.08" layer="94">555 Timer</text>
+<text x="-40.64" y="132.08" size="5.08" layer="94">555 Timer</text>
 <text x="73.66" y="187.96" size="5.08" layer="94">12V IN</text>
 <text x="12.7" y="187.96" size="5.08" layer="94">BRAKE_SNS</text>
 <wire x1="-104.14" y1="0" x2="-104.14" y2="-30.48" width="0.6096" layer="94"/>
@@ -23053,7 +23052,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="87.78" y1="88.56" x2="88.38" y2="88.56" width="0.3048" layer="94"/>
 <text x="35.5" y="132.62" size="3.81" layer="94">GPIO BUS</text>
 <text x="-92.24" y="186.1" size="3.81" layer="94">TRACO SPI Power</text>
-<text x="-100.26" y="138.06" size="3.81" layer="94">555 Voltage Reg</text>
+<text x="-100.26" y="138.06" size="3.81" layer="94">TI Voltage Regulator</text>
 <text x="-37.7" y="188.8" size="3.81" layer="94">CLK Jumper</text>
 <text x="95.94" y="134.92" size="3.81" layer="94">SPI BUS</text>
 <wire x1="-104.14" y1="2.54" x2="-104.14" y2="78.74" width="0.6096" layer="94"/>
@@ -23132,7 +23131,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="NAME" x="139.573" y="53.594" size="1.778" layer="94" rot="SR0"/>
 </instance>
 <instance part="SUPPLY35" gate="G$1" x="134.62" y="63.5" smashed="yes"/>
-<instance part="SUPPLY36" gate="GND" x="134.62" y="12.7" smashed="yes"/>
+<instance part="SUPPLY36" gate="GND" x="134.62" y="10.16" smashed="yes"/>
 <instance part="HEAD" gate="G$1" x="162.56" y="27.94" smashed="yes">
 <attribute name="NAME" x="167.396034375" y="35.814" size="1.778" layer="95" font="vector" rot="SR0"/>
 </instance>
@@ -23188,7 +23187,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="SUPPLY8" gate="GND" x="-78.74" y="12.7" smashed="yes"/>
 <instance part="SUPPLY9" gate="GND" x="-35.56" y="13.285" smashed="yes"/>
 <instance part="SUPPLY10" gate="GND" x="5.08" y="13.87" smashed="yes"/>
-<instance part="SUPPLY14" gate="GND" x="119.38" y="12.908878125" smashed="yes"/>
+<instance part="SUPPLY14" gate="GND" x="119.38" y="10.368878125" smashed="yes"/>
 <instance part="D1" gate="G$1" x="17.78" y="63.5" smashed="yes">
 <attribute name="VALUE" x="19.177" y="61.976" size="1.778" layer="96" rot="SR180"/>
 <attribute name="NAME" x="16.002" y="65.405" size="1.778" layer="95"/>
@@ -23274,7 +23273,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="NAME" x="160.5814" y="17.19858125" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="165.382" y="17.19858125" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY21" gate="GND" x="162.059109375" y="13.446846875" smashed="yes"/>
+<instance part="SUPPLY21" gate="GND" x="162.059109375" y="10.906846875" smashed="yes"/>
 <instance part="SUPPLY22" gate="GND" x="200.66" y="11.3952125" smashed="yes"/>
 <instance part="FRONT" gate="1" x="71.12" y="-12.7" smashed="yes" rot="R270">
 <attribute name="VALUE" x="73.66" y="-8.89" size="1.778" layer="96"/>
@@ -23396,9 +23395,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="NAME" x="38.1673625" y="33.7566" size="1.778" layer="95" rot="SR0"/>
 <attribute name="VALUE" x="38.1673625" y="31.7246" size="1.778" layer="96" rot="SR0"/>
 </instance>
-<instance part="R8" gate="G$1" x="81.28" y="28.0358625" smashed="yes">
-<attribute name="NAME" x="78.6384" y="31.3124625" size="1.778" layer="95" rot="SR0"/>
-<attribute name="VALUE" x="78.6384" y="29.2804625" size="1.778" layer="96" rot="SR0"/>
+<instance part="R8" gate="G$1" x="78.74" y="28.0358625" smashed="yes">
+<attribute name="NAME" x="76.0984" y="31.3124625" size="1.778" layer="95" rot="SR0"/>
+<attribute name="VALUE" x="76.0984" y="29.2804625" size="1.778" layer="96" rot="SR0"/>
 </instance>
 <instance part="R9" gate="G$1" x="88.9" y="182.88" smashed="yes">
 <attribute name="NAME" x="86.2584" y="186.1566" size="1.778" layer="95" rot="SR0"/>
@@ -23428,9 +23427,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="NAME" x="-15.071759375" y="167.94500625" size="1.778" layer="95" rot="SR0"/>
 <attribute name="VALUE" x="-15.071759375" y="165.91300625" size="1.778" layer="96" rot="SR0"/>
 </instance>
-<instance part="R24" gate="G$1" x="61.515" y="124.23" smashed="yes">
-<attribute name="NAME" x="58.8734" y="127.5066" size="1.778" layer="95" rot="SR0"/>
-<attribute name="VALUE" x="58.8734" y="125.4746" size="1.778" layer="96" rot="SR0"/>
+<instance part="R24" gate="G$1" x="64.055" y="124.23" smashed="yes">
+<attribute name="NAME" x="61.4134" y="127.5066" size="1.778" layer="95" rot="SR0"/>
+<attribute name="VALUE" x="61.4134" y="125.4746" size="1.778" layer="96" rot="SR0"/>
 </instance>
 <instance part="R25" gate="G$1" x="61.515" y="115.44" smashed="yes">
 <attribute name="NAME" x="58.8734" y="118.7166" size="1.778" layer="95" rot="SR0"/>
@@ -23468,18 +23467,14 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="NAME" x="-26.2382" y="185.7502" size="1.778" layer="95" rot="SR0"/>
 <attribute name="VALUE" x="-17.145" y="182.88" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY5" gate="GND" x="-2.293159375" y="161.77440625" smashed="yes">
-<attribute name="VALUE" x="-3.690159375" y="162.02840625" size="1.778" layer="96" rot="SR0"/>
-<attribute name="VALUE" x="-4.198159375" y="158.59940625" size="1.778" layer="96"/>
-</instance>
 <instance part="JP1" gate="A" x="137.16" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="131.8768" y="157.1752" size="1.778" layer="95" rot="SR0"/>
 <attribute name="VALUE" x="142.24" y="159.385" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY12" gate="GND" x="48.26" y="13.285" smashed="yes"/>
-<instance part="SUPPLY13" gate="GND" x="63.5" y="13.285" smashed="yes"/>
+<instance part="SUPPLY13" gate="GND" x="63.5" y="10.745" smashed="yes"/>
 <instance part="SUPPLY18" gate="GND" x="86.36" y="13.285" smashed="yes"/>
-<instance part="SUPPLY20" gate="GND" x="101.6" y="13.285" smashed="yes"/>
+<instance part="SUPPLY20" gate="GND" x="101.6" y="10.745" smashed="yes"/>
 <instance part="SUPPLY7" gate="GND" x="12.7" y="60.96"/>
 <instance part="R15" gate="G$1" x="-2.54" y="114.3" smashed="yes">
 <attribute name="VALUE" x="2.3114" y="115.7224" size="1.778" layer="96" rot="SR90"/>
@@ -23489,7 +23484,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="µC_GND2" class="0">
 <segment>
 <pinref part="ADD2" gate="G$1" pin="S"/>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
@@ -23509,6 +23504,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="BRAKE" gate="G$1" pin="S"/>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
+<wire x1="134.62" y1="12.7" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="HEAD" gate="G$1" pin="S"/>
@@ -23552,7 +23548,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="162.08" y1="15.92858125" x2="162.059109375" y2="15.986846875" width="0.1524" layer="91"/>
+<wire x1="162.08" y1="15.92858125" x2="162.059109375" y2="13.446846875" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
@@ -23591,7 +23587,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="15.448878125" x2="119.38" y2="15.92858125" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="12.908878125" x2="119.38" y2="15.92858125" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LM2940" gate="G$1" pin="GND"/>
@@ -23609,12 +23605,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <label x="-76.2" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="-2.293159375" y1="164.31440625" x2="-7.350159375" y2="164.31440625" width="0.1524" layer="91"/>
-<wire x1="-7.350159375" y1="164.31440625" x2="-7.350159375" y2="164.66840625" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="VDD_IN" gate="G$1" pin="GND"/>
 <wire x1="83.82" y1="160.02" x2="78.74" y2="160.02" width="0.1524" layer="91"/>
 <label x="78.74" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -23630,12 +23620,12 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </segment>
 <segment>
 <pinref part="HAZ_R" gate="G$1" pin="S"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="15.825" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="13.285" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="HAZ_L" gate="G$1" pin="S"/>
-<wire x1="63.5" y1="15.24" x2="63.5" y2="15.825" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="15.24" x2="63.5" y2="13.285" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -23646,6 +23636,16 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="12.7" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LIGHTS" gate="G$1" pin="P$7"/>
+<wire x1="221.765" y1="96.52" x2="223.52" y2="96.52" width="0.1524" layer="91"/>
+<label x="223.52" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LIGHTS" gate="G$1" pin="P$6"/>
+<wire x1="221.765" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
+<label x="223.52" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -23714,6 +23714,11 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="SUPPLY19" gate="G$1" pin="VDD"/>
 <pinref part="ADD2_OUT" gate="G$1" pin="V+"/>
 <wire x1="-58.42" y1="60.96" x2="-58.42" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SPI_OUT" gate="G$1" pin="P$8"/>
+<wire x1="172.72" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
+<label x="177.8" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -23816,7 +23821,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <label x="74.014771875" y="27.963965625" size="1.778" layer="95"/>
-<wire x1="76.2" y1="28.0358625" x2="79.76455625" y2="27.963965625" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="28.0358625" x2="74.68455625" y2="27.963965625" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="H4" class="0">
@@ -24085,7 +24090,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <junction x="86.36" y="27.94"/>
 <pinref part="TP6" gate="G$1" pin="TP"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="28.0358625" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="28.0358625" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="25.985" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
 </segment>
@@ -24126,7 +24131,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="_ADD1" gate="G$1" pin="C"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="56.635" y1="124.23" x2="56.435" y2="124.23" width="0.1524" layer="91"/>
+<wire x1="56.635" y1="124.23" x2="58.975" y2="124.23" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -24154,7 +24159,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="66.595" y1="124.23" x2="67.103" y2="124.259840625" width="0.1524" layer="91"/>
+<wire x1="69.135" y1="124.23" x2="67.103" y2="124.259840625" width="0.1524" layer="91"/>
 <wire x1="67.103" y1="124.259840625" x2="69.47559375" y2="124.259840625" width="0.1524" layer="91"/>
 <label x="69.85" y="124.206" size="1.778" layer="95"/>
 </segment>
@@ -24168,6 +24173,12 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="JP1" gate="A" pin="2"/>
 <wire x1="129.54" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
 <label x="114.3" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="-2.293159375" y1="164.31440625" x2="-7.350159375" y2="164.31440625" width="0.1524" layer="91"/>
+<wire x1="-7.350159375" y1="164.31440625" x2="-7.350159375" y2="164.66840625" width="0.1524" layer="91"/>
+<label x="-5.08" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V_REG" class="0">
@@ -24254,12 +24265,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <label x="129.54" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="SPI_OUT" gate="G$1" pin="P$8"/>
-<wire x1="172.72" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="10V_REG" class="0">
 <segment>
 <pinref part="LM2940" gate="G$1" pin="OUT"/>
@@ -24331,31 +24336,41 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,243.84,137.16,VDD_IN,V+,VDD,,,"/>
-<approved hash="104,1,-58.42,30.48,ADD2_OUT,V+,VDD,,,"/>
-<approved hash="104,1,-58.42,20.32,ADD2_OUT,GND,N$8,,,"/>
-<approved hash="104,1,-27.94,30.48,ADD1_OUT,V+,VDD,,,"/>
-<approved hash="104,1,-27.94,20.32,ADD1_OUT,GND,N$17,,,"/>
-<approved hash="104,1,15.24,27.94,WIPER_OUT,V+,VDD,,,"/>
-<approved hash="104,1,15.24,17.78,WIPER_OUT,GND,N$19,,,"/>
-<approved hash="104,1,63.5,30.48,HAZL_OUT,V+,VDD,,,"/>
-<approved hash="104,1,63.5,20.32,HAZL_OUT,GND,HAZ_L_SIG,,,"/>
-<approved hash="104,1,101.6,30.48,HAZR_OUT,V+,VDD,,,"/>
-<approved hash="104,1,101.6,20.32,HAZR_OUT,GND,HAZ_R_SIG,,,"/>
-<approved hash="104,1,137.16,30.48,BRAKE_OUT,V+,VDD,,,"/>
-<approved hash="104,1,137.16,20.32,BRAKE_OUT,GND,BRAKE_SIG,,,"/>
-<approved hash="104,1,177.8,30.48,HEADLIGHTS_OUT,V+,VDD,,,"/>
-<approved hash="104,1,177.8,20.32,HEADLIGHTS_OUT,GND,HEADLIGHT_SIG,,,"/>
-<approved hash="104,1,215.9,30.48,REARLIGHTS_OUT,V+,VDD,,,"/>
-<approved hash="104,1,215.9,20.32,REARLIGHTS_OUT,GND,REARLIGHT_SIG,,,"/>
-<approved hash="104,1,195.58,127,VDD_IN1,V+,BRAKE_SNS_IN,,,"/>
-<approved hash="104,1,195.58,137.16,VDD_IN1,GND,SNS_VOLTAGE,,,"/>
-<approved hash="104,1,-27.94,99.06,555,V+,VDD,,,"/>
-<approved hash="113,1,54.3445,-34.5846,HAZ_LEFT,,,,,"/>
-<approved hash="113,1,90.7525,-34.5846,HAZ_RIGHT,,,,,"/>
-<approved hash="113,1,167.872,-34.5846,HEADLIGHTS,,,,,"/>
-<approved hash="113,1,-27.94,-36.5438,ADD1_,,,,,"/>
-<approved hash="113,1,-66.04,-36.5438,ADD2_,,,,,"/>
+<approved hash="104,1,83.82,170.18,VDD_IN,V+,VDD,,,"/>
+<approved hash="104,1,-58.42,50.8,ADD2_OUT,V+,VDD,,,"/>
+<approved hash="104,1,-58.42,40.64,ADD2_OUT,GND,N$8,,,"/>
+<approved hash="104,1,-20.32,50.8,ADD1_OUT,V+,VDD,,,"/>
+<approved hash="104,1,-20.32,40.64,ADD1_OUT,GND,N$17,,,"/>
+<approved hash="104,1,20.32,51.385,WIPER_OUT,V+,VDD,,,"/>
+<approved hash="104,1,20.32,41.225,WIPER_OUT,GND,N$19,,,"/>
+<approved hash="104,1,63.5,50.8,HAZL_OUT,V+,VDD,,,"/>
+<approved hash="104,1,63.5,40.64,HAZL_OUT,GND,HAZ_L_SIG,,,"/>
+<approved hash="104,1,101.6,50.8,HAZR_OUT,V+,VDD,,,"/>
+<approved hash="104,1,101.6,40.64,HAZR_OUT,GND,HAZ_R_SIG,,,"/>
+<approved hash="104,1,134.62,50.8,BRAKE_OUT,V+,VDD,,,"/>
+<approved hash="104,1,134.62,40.64,BRAKE_OUT,GND,BRAKE_SIG,,,"/>
+<approved hash="104,1,177.8,50.8,HEADLIGHTS_OUT,V+,VDD,,,"/>
+<approved hash="104,1,177.8,40.64,HEADLIGHTS_OUT,GND,HEADLIGHT_SIG,,,"/>
+<approved hash="104,1,215.9,50.8,REARLIGHTS_OUT,V+,VDD,,,"/>
+<approved hash="104,1,215.9,40.64,REARLIGHTS_OUT,GND,REARLIGHT_SIG,,,"/>
+<approved hash="104,1,30.48,167.64,VDD_IN1,V+,5V_REG,,,"/>
+<approved hash="104,1,30.48,177.8,VDD_IN1,GND,BRAKE_SNS_OUT,,,"/>
+<approved hash="104,1,-20.32,99.06,555,V+,10V_REG,,,"/>
+<approved hash="106,1,124.46,96.52,µC_5V,,,,,"/>
+<approved hash="113,1,-22.86,-12.2326,WIPER,,,,,"/>
+<approved hash="113,1,5.08,-12.2326,LEFT,,,,,"/>
+<approved hash="113,1,33.02,-12.2326,RIGHT,,,,,"/>
+<approved hash="113,1,111.76,-11.7246,BACK,,,,,"/>
+<approved hash="113,1,71.12,-12.2326,FRONT,,,,,"/>
+<approved hash="113,1,-58.42,-12.9835,ADD1_,,,,,"/>
+<approved hash="113,1,-86.36,-12.9835,ADD2_,,,,,"/>
+<approved hash="113,1,84.6896,179.07,POWER,,,,,"/>
+<approved hash="113,1,-37.9982,167.351,555_CLK_LED,,,,,"/>
+<approved hash="113,1,-14.6261,172.277,_EXT_CLK,,,,,"/>
+<approved hash="113,1,52.825,124.52,_ADD1,,,,,"/>
+<approved hash="113,1,52.825,115.73,_ADD2,,,,,"/>
+<approved hash="113,1,-22.86,182.166,JP2,,,,,"/>
+<approved hash="113,1,137.16,156.284,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
