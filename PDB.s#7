@@ -23395,9 +23395,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="NAME" x="38.1673625" y="33.7566" size="1.778" layer="95" rot="SR0"/>
 <attribute name="VALUE" x="38.1673625" y="31.7246" size="1.778" layer="96" rot="SR0"/>
 </instance>
-<instance part="R8" gate="G$1" x="81.28" y="28.0358625" smashed="yes">
-<attribute name="NAME" x="78.6384" y="31.3124625" size="1.778" layer="95" rot="SR0"/>
-<attribute name="VALUE" x="78.6384" y="29.2804625" size="1.778" layer="96" rot="SR0"/>
+<instance part="R8" gate="G$1" x="78.74" y="28.0358625" smashed="yes">
+<attribute name="NAME" x="76.0984" y="31.3124625" size="1.778" layer="95" rot="SR0"/>
+<attribute name="VALUE" x="76.0984" y="29.2804625" size="1.778" layer="96" rot="SR0"/>
 </instance>
 <instance part="R9" gate="G$1" x="88.9" y="182.88" smashed="yes">
 <attribute name="NAME" x="86.2584" y="186.1566" size="1.778" layer="95" rot="SR0"/>
@@ -23427,9 +23427,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <attribute name="NAME" x="-15.071759375" y="167.94500625" size="1.778" layer="95" rot="SR0"/>
 <attribute name="VALUE" x="-15.071759375" y="165.91300625" size="1.778" layer="96" rot="SR0"/>
 </instance>
-<instance part="R24" gate="G$1" x="61.515" y="124.23" smashed="yes">
-<attribute name="NAME" x="58.8734" y="127.5066" size="1.778" layer="95" rot="SR0"/>
-<attribute name="VALUE" x="58.8734" y="125.4746" size="1.778" layer="96" rot="SR0"/>
+<instance part="R24" gate="G$1" x="64.055" y="124.23" smashed="yes">
+<attribute name="NAME" x="61.4134" y="127.5066" size="1.778" layer="95" rot="SR0"/>
+<attribute name="VALUE" x="61.4134" y="125.4746" size="1.778" layer="96" rot="SR0"/>
 </instance>
 <instance part="R25" gate="G$1" x="61.515" y="115.44" smashed="yes">
 <attribute name="NAME" x="58.8734" y="118.7166" size="1.778" layer="95" rot="SR0"/>
@@ -23484,7 +23484,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="µC_GND2" class="0">
 <segment>
 <pinref part="ADD2" gate="G$1" pin="S"/>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
@@ -23637,6 +23637,16 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="12.7" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="LIGHTS" gate="G$1" pin="P$7"/>
+<wire x1="221.765" y1="96.52" x2="223.52" y2="96.52" width="0.1524" layer="91"/>
+<label x="223.52" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LIGHTS" gate="G$1" pin="P$6"/>
+<wire x1="221.765" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
+<label x="223.52" y="101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
@@ -23704,6 +23714,11 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="SUPPLY19" gate="G$1" pin="VDD"/>
 <pinref part="ADD2_OUT" gate="G$1" pin="V+"/>
 <wire x1="-58.42" y1="60.96" x2="-58.42" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SPI_OUT" gate="G$1" pin="P$8"/>
+<wire x1="172.72" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
+<label x="177.8" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -23806,7 +23821,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <label x="74.014771875" y="27.963965625" size="1.778" layer="95"/>
-<wire x1="76.2" y1="28.0358625" x2="79.76455625" y2="27.963965625" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="28.0358625" x2="74.68455625" y2="27.963965625" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="H4" class="0">
@@ -24075,7 +24090,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <junction x="86.36" y="27.94"/>
 <pinref part="TP6" gate="G$1" pin="TP"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="28.0358625" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="28.0358625" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="25.985" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
 </segment>
@@ -24116,7 +24131,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="_ADD1" gate="G$1" pin="C"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="56.635" y1="124.23" x2="56.435" y2="124.23" width="0.1524" layer="91"/>
+<wire x1="56.635" y1="124.23" x2="58.975" y2="124.23" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -24144,7 +24159,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="66.595" y1="124.23" x2="67.103" y2="124.259840625" width="0.1524" layer="91"/>
+<wire x1="69.135" y1="124.23" x2="67.103" y2="124.259840625" width="0.1524" layer="91"/>
 <wire x1="67.103" y1="124.259840625" x2="69.47559375" y2="124.259840625" width="0.1524" layer="91"/>
 <label x="69.85" y="124.206" size="1.778" layer="95"/>
 </segment>
