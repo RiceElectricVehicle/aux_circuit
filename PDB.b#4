@@ -4140,6 +4140,7 @@ GNDs</text>
 <text x="121" y="95.6" size="0.8128" layer="25">10uF</text>
 <text x="20.9" y="116.1" size="0.8128" layer="25">47uF</text>
 <text x="28.7" y="89.6" size="0.8128" layer="25">22uF</text>
+<text x="111.6" y="99.9" size="0.8128" layer="25" rot="R90">0.47uF</text>
 </plain>
 <libraries>
 <library name="powerpoles">
@@ -7489,6 +7490,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="122.3" y="97.6" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="120.3016" y="98.7354" size="1.27" layer="27" rot="SR0"/>
 </element>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47uF" x="113" y="101.5" smashed="yes" rot="R270">
+<attribute name="SPICEPREFIX" value="C" x="113" y="101.5" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="111.991596875" y="103.625403125" size="1.27" layer="27" rot="SR0"/>
+</element>
 </elements>
 <signals>
 <signal name="VDD">
@@ -7529,7 +7534,8 @@ design rules under a new name.</description>
 <vertex x="18.7" y="74.4"/>
 <vertex x="5.8" y="74.4"/>
 </polygon>
-<wire x1="118.236340625" y1="101.57038125" x2="108.5" y2="108.461690625" width="1.27" layer="1"/>
+<wire x1="118.236340625" y1="101.57038125" x2="114.279484375" y2="104.371015625" width="1.27" layer="1"/>
+<wire x1="114.279484375" y1="104.371015625" x2="108.5" y2="108.461690625" width="1.27" layer="1"/>
 <wire x1="108.5" y1="108.461690625" x2="108.5" y2="114" width="1.27" layer="1"/>
 <wire x1="108.5" y1="114" x2="108.4" y2="114.1" width="1.27" layer="1"/>
 <wire x1="108.4" y1="114.1" x2="106" y2="114.1" width="1.27" layer="1"/>
@@ -7543,6 +7549,9 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="P$1"/>
 <contactref element="U$2" pad="P$2"/>
 <contactref element="C6" pad="1"/>
+<contactref element="C8" pad="1"/>
+<wire x1="113" y1="102.45" x2="114.279484375" y2="103.729484375" width="0.6096" layer="1"/>
+<wire x1="114.279484375" y1="103.729484375" x2="114.279484375" y2="104.371015625" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="ADD2" pad="3"/>
@@ -7761,15 +7770,17 @@ design rules under a new name.</description>
 <contactref element="555" pad="2"/>
 <contactref element="555" pad="6"/>
 <wire x1="38.143621875" y1="97.635378125" x2="38.1436" y2="97.5566" width="0.6096" layer="1"/>
-<wire x1="15.888" y1="104.907" x2="24.833" y2="104.907" width="0.508" layer="16"/>
+<wire x1="18.388" y1="104.907" x2="24.833" y2="104.907" width="0.508" layer="16"/>
 <wire x1="24.833" y1="104.907" x2="26.032" y2="103.708" width="0.508" layer="16"/>
 <wire x1="26.032" y1="103.708" x2="31.112" y2="103.708" width="0.508" layer="16"/>
 <wire x1="31.112" y1="103.708" x2="33.652" y2="101.168" width="0.508" layer="16"/>
 <wire x1="33.652" y1="101.168" x2="34.611" y2="101.168" width="0.508" layer="1"/>
 <wire x1="34.611" y1="101.168" x2="38.143621875" y2="97.635378125" width="0.508" layer="1"/>
-<wire x1="20.863" y1="103.807" x2="16.988" y2="103.807" width="0.6096" layer="1"/>
-<wire x1="16.988" y1="103.807" x2="12.888" y2="107.907" width="0.6096" layer="1"/>
-<wire x1="15.888" y1="104.907" x2="12.888" y2="107.907" width="0.508" layer="16"/>
+<wire x1="20.863" y1="103.807" x2="17.688" y2="103.807" width="0.6096" layer="1"/>
+<wire x1="17.688" y1="103.807" x2="13.588" y2="107.907" width="0.6096" layer="1"/>
+<wire x1="18.388" y1="104.907" x2="15.388" y2="107.907" width="0.508" layer="16"/>
+<wire x1="15.388" y1="107.907" x2="12.888" y2="107.907" width="0.508" layer="16"/>
+<wire x1="13.588" y1="107.907" x2="12.888" y2="107.907" width="0.6096" layer="1"/>
 </signal>
 <signal name="µC_ADD_2">
 <contactref element="ADD2_" pad="1"/>
@@ -8178,6 +8189,11 @@ design rules under a new name.</description>
 <wire x1="121.35" y1="100.99" x2="120.78" y2="101.56" width="0.8128" layer="1"/>
 <wire x1="31.45" y1="117.8" x2="33.5068" y2="115.7432" width="0.8128" layer="1"/>
 <wire x1="33.5068" y1="115.7432" x2="33.5068" y2="112.8" width="0.8128" layer="1"/>
+<contactref element="C8" pad="2"/>
+<wire x1="112.9896" y1="100.5396" x2="108.97645625" y2="100.5396" width="0.6096" layer="1"/>
+<wire x1="108.97645625" y1="100.5396" x2="108.114" y2="101.40205625" width="0.6096" layer="1"/>
+<wire x1="108.114" y1="101.40205625" x2="108.114" y2="101.403" width="0.6096" layer="1"/>
+<wire x1="113" y1="100.55" x2="112.9896" y2="100.5396" width="1.016" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

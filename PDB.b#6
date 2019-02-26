@@ -7489,6 +7489,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="122.3" y="97.6" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="120.3016" y="98.7354" size="1.27" layer="27" rot="SR0"/>
 </element>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47uF" x="113" y="101.5" smashed="yes" rot="R270">
+<attribute name="SPICEPREFIX" value="C" x="113" y="101.5" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="111.991596875" y="103.625403125" size="1.27" layer="27" rot="SR0"/>
+</element>
 </elements>
 <signals>
 <signal name="VDD">
@@ -7529,7 +7533,8 @@ design rules under a new name.</description>
 <vertex x="18.7" y="74.4"/>
 <vertex x="5.8" y="74.4"/>
 </polygon>
-<wire x1="118.236340625" y1="101.57038125" x2="108.5" y2="108.461690625" width="1.27" layer="1"/>
+<wire x1="118.236340625" y1="101.57038125" x2="114.279484375" y2="104.371015625" width="1.27" layer="1"/>
+<wire x1="114.279484375" y1="104.371015625" x2="108.5" y2="108.461690625" width="1.27" layer="1"/>
 <wire x1="108.5" y1="108.461690625" x2="108.5" y2="114" width="1.27" layer="1"/>
 <wire x1="108.5" y1="114" x2="108.4" y2="114.1" width="1.27" layer="1"/>
 <wire x1="108.4" y1="114.1" x2="106" y2="114.1" width="1.27" layer="1"/>
@@ -7543,6 +7548,9 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="P$1"/>
 <contactref element="U$2" pad="P$2"/>
 <contactref element="C6" pad="1"/>
+<contactref element="C8" pad="1"/>
+<wire x1="113" y1="102.45" x2="114.279484375" y2="103.729484375" width="0.6096" layer="1"/>
+<wire x1="114.279484375" y1="103.729484375" x2="114.279484375" y2="104.371015625" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="ADD2" pad="3"/>
@@ -7960,10 +7968,10 @@ design rules under a new name.</description>
 <wire x1="126.92" y1="105.16" x2="123.32" y2="101.56" width="1.016" layer="1"/>
 <wire x1="120.244" y1="126.576" x2="120.944" y2="126.576" width="1.016" layer="1"/>
 <contactref element="C7" pad="1"/>
-<wire x1="123.25" y1="97.6" x2="123.25" y2="101.49" width="0.8128" layer="1"/>
+<wire x1="123.25" y1="97.6" x2="123.25" y2="101.49" width="1.016" layer="1"/>
 <wire x1="123.25" y1="101.49" x2="123.32" y2="101.56" width="0.8128" layer="1"/>
-<wire x1="123.25" y1="97.6" x2="123.25" y2="95.99" width="0.8128" layer="1"/>
-<wire x1="123.25" y1="95.99" x2="121.5042" y2="94.2442" width="0.8128" layer="1"/>
+<wire x1="123.25" y1="97.6" x2="123.25" y2="95.99" width="1.016" layer="1"/>
+<wire x1="123.25" y1="95.99" x2="121.5042" y2="94.2442" width="1.016" layer="1"/>
 </signal>
 <signal name="/CS">
 <contactref element="SPI_IN" pad="P2"/>
@@ -8178,6 +8186,11 @@ design rules under a new name.</description>
 <wire x1="121.35" y1="100.99" x2="120.78" y2="101.56" width="0.8128" layer="1"/>
 <wire x1="31.45" y1="117.8" x2="33.5068" y2="115.7432" width="0.8128" layer="1"/>
 <wire x1="33.5068" y1="115.7432" x2="33.5068" y2="112.8" width="0.8128" layer="1"/>
+<contactref element="C8" pad="2"/>
+<wire x1="112.9896" y1="100.5396" x2="108.97645625" y2="100.5396" width="0.6096" layer="1"/>
+<wire x1="108.97645625" y1="100.5396" x2="108.114" y2="101.40205625" width="0.6096" layer="1"/>
+<wire x1="108.114" y1="101.40205625" x2="108.114" y2="101.403" width="0.6096" layer="1"/>
+<wire x1="113" y1="100.55" x2="112.9896" y2="100.5396" width="1.016" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
