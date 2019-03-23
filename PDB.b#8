@@ -7592,13 +7592,17 @@ design rules under a new name.</description>
 <contactref element="BRAKE" pad="3"/>
 <contactref element="BRAKE_OUT" pad="BLACK"/>
 <contactref element="LIGHTS" pad="P1"/>
-<wire x1="104.031" y1="130.57" x2="96.462" y2="130.57" width="0.8128" layer="1"/>
+<wire x1="104.231" y1="130.37" x2="92.762" y2="130.37" width="0.8128" layer="1"/>
 <wire x1="87.172" y1="131.5" x2="87.172" y2="135.6" width="0.8128" layer="1"/>
 <wire x1="87.172" y1="135.6" x2="76.78" y2="135.6" width="0.8128" layer="1"/>
-<wire x1="96.462" y1="130.57" x2="92.282" y2="126.39" width="0.8128" layer="1"/>
-<wire x1="116.809" y1="117.792" x2="104.031" y2="130.57" width="0.8128" layer="1"/>
+<wire x1="92.762" y1="130.37" x2="92.282" y2="129.89" width="0.8128" layer="1"/>
+<wire x1="116.809" y1="117.792" x2="104.231" y2="130.37" width="0.8128" layer="1"/>
 <wire x1="76.78" y1="135.6" x2="74.816" y2="133.636" width="0.8128" layer="1"/>
-<wire x1="92.282" y1="126.39" x2="87.172" y2="131.5" width="0.8128" layer="1"/>
+<wire x1="88.282" y1="130.39" x2="87.172" y2="131.5" width="0.8128" layer="1"/>
+<wire x1="92.282" y1="129.49" x2="91.382" y2="130.39" width="0.8128" layer="1"/>
+<wire x1="92.282" y1="129.89" x2="92.282" y2="126.39" width="0.8128" layer="1"/>
+<wire x1="92.282" y1="126.39" x2="92.282" y2="129.49" width="0.8128" layer="1"/>
+<wire x1="91.382" y1="130.39" x2="88.282" y2="130.39" width="0.8128" layer="1"/>
 </signal>
 <signal name="HEADLIGHT_SIG">
 <contactref element="HEAD" pad="3"/>

@@ -19108,9 +19108,9 @@ Marquardt</description>
 <wire x1="3.6132" y1="-2.4892" x2="3.618" y2="-2.386" width="0.2032" layer="21"/>
 <wire x1="-3.6132" y1="-2.4892" x2="0" y2="-5.08" width="0.2032" layer="51"/>
 <wire x1="-3.5878" y1="2.5892" x2="-3.618" y2="2.386" width="0.2032" layer="21"/>
-<pad name="3" x="0" y="-4.249" drill="2.413" shape="long"/>
-<pad name="2" x="0" y="0" drill="2.413" shape="long"/>
-<pad name="1" x="0" y="4.249" drill="2.413" shape="long"/>
+<pad name="3" x="0" y="-4.249" drill="2.54" shape="octagon"/>
+<pad name="2" x="0" y="0" drill="2.54" shape="octagon"/>
+<pad name="1" x="0" y="4.249" drill="2.54" shape="octagon"/>
 <text x="-3.81" y="7.3025" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.2225" y="-0.3175" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-3.4925" y="-8.255" size="1.016" layer="25" ratio="18">&gt;LABEL</text>

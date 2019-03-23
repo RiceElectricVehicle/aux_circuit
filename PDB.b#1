@@ -3,7 +3,7 @@
 <eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="6" altunitdist="mil" altunit="mm"/>
@@ -7680,7 +7680,6 @@ design rules under a new name.</description>
 <wire x1="33.652" y1="103.708" x2="37.782" y2="103.708" width="0.508" layer="1"/>
 <wire x1="37.86" y1="103.63" x2="37.782" y2="103.708" width="0.6096" layer="1"/>
 <wire x1="38.03" y1="103.8" x2="37.86" y2="103.63" width="0.508" layer="1"/>
-<wire x1="60.06" y1="102.16" x2="59.8081" y2="101.9081" width="0.508" layer="1"/>
 <wire x1="37.86" y1="103.63" x2="37.86" y2="105.487" width="0.6096" layer="1"/>
 <wire x1="39.304" y1="106.931" x2="37.86" y2="105.487" width="0.6096" layer="1"/>
 <wire x1="38.03" y1="103.8" x2="42.8" y2="103.8" width="0.6096" layer="1"/>

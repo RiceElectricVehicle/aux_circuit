@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23520,12 +23520,17 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="SUPPLY13" gate="GND" x="63.5" y="10.745" smashed="yes"/>
 <instance part="SUPPLY18" gate="GND" x="86.36" y="13.285" smashed="yes"/>
 <instance part="SUPPLY20" gate="GND" x="101.6" y="10.745" smashed="yes"/>
-<instance part="SUPPLY7" gate="GND" x="12.7" y="60.96"/>
+<instance part="SUPPLY7" gate="GND" x="12.7" y="60.96" smashed="yes">
+<attribute name="VALUE" x="10.795" y="57.785" size="1.778" layer="96"/>
+</instance>
 <instance part="R15" gate="G$1" x="-2.54" y="114.3" smashed="yes">
 <attribute name="VALUE" x="2.3114" y="115.7224" size="1.778" layer="96" rot="SR90"/>
 <attribute name="NAME" x="-6.35" y="115.7986" size="1.778" layer="95"/>
 </instance>
-<instance part="U$2" gate="G$1" x="82.296" y="169.164"/>
+<instance part="U$2" gate="G$1" x="82.296" y="169.164" smashed="yes">
+<attribute name="NAME" x="84.201" y="172.339" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="83.566" y="166.37" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
 <instance part="C5" gate="G$1" x="-83.82" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="-84.996" y="121.666" size="1.778" layer="95" font="vector" rot="SR0"/>
 <attribute name="VALUE" x="-84.996" y="114.554" size="1.778" layer="96" font="vector" rot="SR0"/>
@@ -23622,6 +23627,11 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="71.12" y1="170.18" x2="71.12" y2="170.064" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="170.064" x2="77.196" y2="170.064" width="0.1524" layer="91"/>
 <label x="66.04" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="POWER" gate="G$1" pin="A"/>
+<wire x1="81.28" y1="175.26" x2="78.74" y2="175.26" width="0.1524" layer="91"/>
+<label x="73.66" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">

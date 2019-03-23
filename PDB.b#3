@@ -7512,8 +7512,8 @@ design rules under a new name.</description>
 <contactref element="ADD2_OUT" pad="RED"/>
 <polygon width="0.3048" layer="1" isolate="0.254" rank="2">
 <vertex x="5.7" y="75.2"/>
-<vertex x="5.7" y="54.6"/>
-<vertex x="84.7" y="54.6"/>
+<vertex x="5.7" y="54.4"/>
+<vertex x="84.7" y="54.4"/>
 <vertex x="84.7" y="75.2"/>
 </polygon>
 <polygon width="0.3048" layer="1" isolate="0.254">
@@ -7581,9 +7581,9 @@ design rules under a new name.</description>
 <contactref element="HAZ_L" pad="3"/>
 <contactref element="HAZL_OUT" pad="BLACK"/>
 <contactref element="LIGHTS" pad="P2"/>
-<wire x1="76.276" y1="135.676" x2="25.148" y2="135.676" width="0.8128" layer="16"/>
-<wire x1="25.148" y1="135.676" x2="16.062" y2="126.59" width="0.8128" layer="16"/>
-<wire x1="78.316" y1="133.636" x2="76.276" y2="135.676" width="0.8128" layer="16"/>
+<wire x1="76.776" y1="135.176" x2="24.648" y2="135.176" width="0.8128" layer="16"/>
+<wire x1="24.648" y1="135.176" x2="16.062" y2="126.59" width="0.8128" layer="16"/>
+<wire x1="78.316" y1="133.636" x2="76.776" y2="135.176" width="0.8128" layer="16"/>
 <wire x1="43.01668125" y1="120.172" x2="22.48" y2="120.172" width="1.016" layer="1"/>
 <wire x1="22.48" y1="120.172" x2="16.062" y2="126.59" width="1.016" layer="1"/>
 <wire x1="46.01668125" y1="117.172" x2="43.01668125" y2="120.172" width="1.016" layer="1"/>
@@ -7593,11 +7593,11 @@ design rules under a new name.</description>
 <contactref element="BRAKE_OUT" pad="BLACK"/>
 <contactref element="LIGHTS" pad="P1"/>
 <wire x1="103.631" y1="130.37" x2="92.762" y2="130.37" width="0.8128" layer="1"/>
-<wire x1="90.672" y1="131.1" x2="90.672" y2="135.6" width="0.8128" layer="1"/>
-<wire x1="90.672" y1="135.6" x2="76.78" y2="135.6" width="0.8128" layer="1"/>
+<wire x1="90.672" y1="131.1" x2="90.672" y2="135.1" width="0.8128" layer="1"/>
+<wire x1="90.672" y1="135.1" x2="76.28" y2="135.1" width="0.8128" layer="1"/>
 <wire x1="92.762" y1="130.37" x2="92.282" y2="129.89" width="0.8128" layer="1"/>
 <wire x1="116.209" y1="117.792" x2="103.631" y2="130.37" width="0.8128" layer="1"/>
-<wire x1="76.78" y1="135.6" x2="74.816" y2="133.636" width="0.8128" layer="1"/>
+<wire x1="76.28" y1="135.1" x2="74.816" y2="133.636" width="0.8128" layer="1"/>
 <wire x1="92.282" y1="129.49" x2="90.672" y2="131.1" width="0.8128" layer="1"/>
 <wire x1="92.282" y1="129.89" x2="92.282" y2="126.39" width="0.8128" layer="1"/>
 <wire x1="92.282" y1="126.39" x2="92.282" y2="129.49" width="0.8128" layer="1"/>

@@ -24378,6 +24378,13 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <label x="223.52" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="POWER" gate="G$1" pin="A"/>
+<wire x1="73.66" y1="170.18" x2="73.66" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="175.26" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
